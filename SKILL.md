@@ -1,5 +1,8 @@
 ---
-name: daily-horoscope
+name: horoscope-daily
+clawhub-slug: horoscope-daily
+clawhub-owner: eamanc-lab
+homepage: https://github.com/eamanc-lab/horoscope-daily
 description: |
   生成十二星座运势预测。支持查询任意日期（今天、明天、指定日期）、任意周期（日/周/月），
   涵盖综合运势、爱情、事业、财运、健康五大维度，含幸运指数和开运建议。
@@ -94,7 +97,24 @@ metadata:
 
 ### Step 2: 加载星座知识
 
-阅读 [references/zodiac-traits.md](references/zodiac-traits.md) 获取该星座的完整特质数据：元素、模式、守护星、性格特质、优缺点、爱情/事业/财运倾向、星座兼容性。
+按需加载**对应星座**的特质文件（不要加载全部12个）：
+
+| 星座 | 文件路径 |
+|------|---------|
+| 白羊座 | [references/signs/aries.md](references/signs/aries.md) |
+| 金牛座 | [references/signs/taurus.md](references/signs/taurus.md) |
+| 双子座 | [references/signs/gemini.md](references/signs/gemini.md) |
+| 巨蟹座 | [references/signs/cancer.md](references/signs/cancer.md) |
+| 狮子座 | [references/signs/leo.md](references/signs/leo.md) |
+| 处女座 | [references/signs/virgo.md](references/signs/virgo.md) |
+| 天秤座 | [references/signs/libra.md](references/signs/libra.md) |
+| 天蝎座 | [references/signs/scorpio.md](references/signs/scorpio.md) |
+| 射手座 | [references/signs/sagittarius.md](references/signs/sagittarius.md) |
+| 摩羯座 | [references/signs/capricorn.md](references/signs/capricorn.md) |
+| 水瓶座 | [references/signs/aquarius.md](references/signs/aquarius.md) |
+| 双鱼座 | [references/signs/pisces.md](references/signs/pisces.md) |
+
+元素与模式速查表见 [references/zodiac-index.md](references/zodiac-index.md)（仅在需要跨星座对比或批量生成时加载）。
 
 ### Step 3: 生成运势
 
@@ -262,6 +282,26 @@ metadata:
 - **吠陀占星 (Vedic)** → `project-astrology-vedic`
 - **精确天文星盘计算** → 需要 Kerykeion 等天文引擎，本 skill 不做天文计算
 - **心理咨询/医疗建议** → 本 skill 仅供娱乐，不替代专业服务
+
+## 每日自动推送（进阶用法）
+
+可配合定时任务实现每日星座运势自动推送。设置步骤：
+
+1. **记录用户信息**：首次使用时，将用户的星座（或生日）保存到 memory，以便后续自动调用无需重复询问
+2. **创建定时任务**：通过 Claude Code 的 cron 能力，设置每日定时触发（如每天早上 8:00）
+3. **自动生成 + 推送**：定时任务触发后，自动读取用户星座信息 → 调用本 skill 生成当日运势 → 通过飞书/钉钉等渠道推送
+
+**示例定时任务配置**：
+
+```
+每天早上 8:00，读取我的星座信息，生成今日运势，发送到飞书群
+```
+
+**前置条件**：
+- 用户已告知星座或生日（保存在 memory 中）
+- 已配置消息推送渠道（如 feishu-lark skill 的 webhook）
+
+> 提示：首次使用时可以对用户说——"要不要我记住你的星座？以后可以设置每天自动推送运势给你。"
 
 ## 免责声明
 
