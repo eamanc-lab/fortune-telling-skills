@@ -1,6 +1,6 @@
 ---
 name: meihua-yishu
-clawhub-slug: meihua-yishu
+clawhub-slug: meihua-yishu-divination
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
