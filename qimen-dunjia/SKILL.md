@@ -1,5 +1,5 @@
 ---
-name: qimen-dunjia
+name: qimen-dunjia-oracle
 clawhub-slug: qimen-dunjia-oracle
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
