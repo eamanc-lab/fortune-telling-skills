@@ -1,55 +1,55 @@
-# ♍ 处女座 Virgo (8/23-9/22)
+# ♍ Virgo (8/23-9/22)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 土 Earth |
-| 模式 | 变动 Mutable |
-| 极性 | 阴 Negative |
-| 守护星 | 水星 Mercury ☿ |
-| 宫位 | 第六宫 |
-| 象征 | 处女 Virgin 👩 |
-| 诞生石 | 蓝宝石 Sapphire |
-| 幸运颜色 | 灰色、米色、淡黄色 |
-| 幸运数字 | 5、14、15、23、32 |
-| 幸运日 | 星期三 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Earth |
+| Modality | Mutable |
+| Polarity | Negative |
+| Ruling Planet | Mercury ☿ |
+| House | 6th House |
+| Symbol | Virgin 👩 |
+| Birthstone | Sapphire |
+| Lucky Colors | Gray, Beige, Pale Yellow |
+| Lucky Numbers | 5, 14, 15, 23, 32 |
+| Lucky Day | Wednesday |
 
-## 性格特征
+## Personality
 
-**核心特质**：善于分析(Analytical)、务实(Practical)、勤勉(Diligent)、有辨别力(Discriminating)、乐于助人(Helpful)、谦逊(Modest)
+**Core Traits**: Analytical, Practical, Diligent, Discriminating, Helpful, Modest
 
-**优点**：
-- 善于分析 Analytical
-- 务实 Practical
-- 勤勉 Diligent
-- 一丝不苟 Meticulous
-- 可靠 Reliable
+**Strengths**:
+- Analytical
+- Practical
+- Diligent
+- Meticulous
+- Reliable
 
-**缺点**：
-- 爱批评 Critical
-- 完美主义 Perfectionist
-- 过度担忧 Worrier
-- 挑剔 Fussy
-- 保守 Conservative
+**Weaknesses**:
+- Critical
+- Perfectionist
+- A worrier
+- Fussy
+- Conservative
 
-## 爱情倾向
+## Love Tendencies
 
-在感情中表现谨慎有方法，不轻易敞开心扉。会用实际行动而非言语表达爱意，一旦建立信任便是最忠实的伴侣，注重关系中的细节与品质。
+Virgo is careful and methodical in love — they don't open up easily. They show affection through thoughtful actions and attentive care rather than grand romantic gestures. Once trust is established, they become one of the most devoted and considerate partners in the zodiac, paying close attention to every detail of the relationship.
 
-## 事业倾向
+## Career Tendencies
 
-适合精确性要求高的工作——医疗、编辑、科研、会计。组织能力出众，能在混乱中理出头绪，注重细节和效率。
+Virgo is drawn to work that demands precision — medicine, editing, research, and accounting are all natural fits. Their organizational abilities are exceptional; they can bring order to chaos and never lose sight of the finer points that others miss.
 
-## 财运倾向
+## Finance Tendencies
 
-精打细算，是天生的财务管理者。对每一笔支出都心中有数，善于通过分析和对比找到最优解。
+A natural-born money manager who accounts for every dollar. Virgo approaches finances analytically, comparing options and running the numbers to find the smartest path forward.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 金牛座、摩羯座、处女座、天蝎座 |
-| 良好匹配 | 巨蟹座、双鱼座 |
-| 有挑战 | 双子座、射手座 |
-| 困难匹配 | 白羊座、狮子座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Taurus, Capricorn, Virgo, Scorpio |
+| Good Match | Cancer, Pisces |
+| Challenging | Gemini, Sagittarius |
+| Difficult Match | Aries, Leo |

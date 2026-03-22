@@ -1,55 +1,55 @@
-# ♌ 狮子座 Leo (7/23-8/22)
+# ♌ Leo (7/23-8/22)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 火 Fire |
-| 模式 | 固定 Fixed |
-| 极性 | 阳 Positive |
-| 守护星 | 太阳 Sun ☉ |
-| 宫位 | 第五宫 |
-| 象征 | 狮子 Lion 🦁 |
-| 诞生石 | 橄榄石 Peridot |
-| 幸运颜色 | 金色、黄色、橙色 |
-| 幸运数字 | 1、3、10、19 |
-| 幸运日 | 星期日 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Fire |
+| Modality | Fixed |
+| Polarity | Positive |
+| Ruling Planet | Sun ☉ |
+| House | 5th House |
+| Symbol | Lion 🦁 |
+| Birthstone | Peridot |
+| Lucky Colors | Gold, Yellow, Orange |
+| Lucky Numbers | 1, 3, 10, 19 |
+| Lucky Day | Sunday |
 
-## 性格特征
+## Personality
 
-**核心特质**：慷慨(Generous)、热心(Warm-hearted)、创造力强(Creative)、热情(Enthusiastic)、有尊严(Dignified)、有魅力(Charismatic)
+**Core Traits**: Generous, Warm-hearted, Creative, Enthusiastic, Dignified, Charismatic
 
-**优点**：
-- 自信 Confident
-- 创造力强 Creative
-- 慷慨大方 Generous
-- 忠诚 Loyal
-- 鼓励他人 Encouraging
+**Strengths**:
+- Confident
+- Creative
+- Generous
+- Loyal
+- Encouraging
 
-**缺点**：
-- 傲慢 Arrogant
-- 固执 Stubborn
-- 以自我为中心 Self-centered
-- 强势 Domineering
-- 戏剧化 Melodramatic
+**Weaknesses**:
+- Arrogant
+- Stubborn
+- Self-centered
+- Domineering
+- Melodramatic
 
-## 爱情倾向
+## Love Tendencies
 
-热情而真挚，表达感受明确流畅，需要伴侣提供充分的关注和赞美。期望被像皇室般对待，同时也会给予伴侣同等的王室级待遇，若感到被忽视会深感受伤。
+Leo loves passionately and without pretense — they say what they feel and mean what they say. They need a partner who showers them with attention and genuine appreciation. Expect to be treated like royalty, because that's exactly how Leo will treat you in return. Feeling overlooked, however, cuts them deeply.
 
-## 事业倾向
+## Career Tendencies
 
-精力充沛、雄心勃勃、充满创意，最适合领导职位。表演娱乐、管理教育和政治等能充分展现艺术才华和领导力的工作最为理想。
+High-energy, ambitious, and brimming with creative ideas, Leo was made to lead. Performing arts, management, education, and politics — any stage that lets them express their talent and command a room — are where they naturally shine.
 
-## 财运倾向
+## Finance Tendencies
 
-金钱来得容易，但花费不够谨慎。极其慷慨，常在朋友困难时慷慨解囊，虽然不总是明智之举，但能让他们感到满足和自豪。
+Money tends to come easily to Leo, though it goes just as quickly. They are famously generous, often the first to reach for the check when a friend is in need. It's not always the most financially strategic move, but it brings them genuine joy and a sense of pride.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 白羊座、射手座、狮子座、天秤座 |
-| 良好匹配 | 双子座、水瓶座 |
-| 有挑战 | 金牛座、天蝎座 |
-| 困难匹配 | 处女座、摩羯座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Aries, Sagittarius, Leo, Libra |
+| Good Match | Gemini, Aquarius |
+| Challenging | Taurus, Scorpio |
+| Difficult Match | Virgo, Capricorn |

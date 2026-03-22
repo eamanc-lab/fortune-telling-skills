@@ -4,11 +4,13 @@ clawhub-slug: tarot-reading
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  塔罗牌占卜解读工具，属于 fortune-telling-skills 运势测算套件。基于 Rider-Waite-Smith 体系，
-  支持 78 张牌（大小阿尔卡纳）的正逆位解读，提供三牌阵、凯尔特十字、关系牌阵等多种牌阵。
-  通过随机抽牌模拟 + LLM 深度解读，为具体问题提供象征层面的洞察与行动建议。
-  触发词：塔罗、tarot、占卜、抽牌、牌阵、塔罗占卜、帮我抽一张牌、塔罗解读。
-  不适用于：星座运势、八字命理、数字命理 → 建议使用 fortune-hub 选择对应领域 Skill。
+  A tarot reading and interpretation tool, part of the fortune-telling-skills suite.
+  Based on the Rider-Waite-Smith system, it supports upright and reversed readings for all 78 cards
+  (Major and Minor Arcana), with spreads including Three-Card, Celtic Cross, Relationship, and more.
+  Combines randomized card draws with deep LLM interpretation to deliver symbolic insight and
+  actionable guidance for your specific question.
+  Trigger phrases: tarot, tarot reading, draw a card, card spread, pull cards, daily card, tarot spread.
+  Not suitable for: astrology, numerology, BaZi → use fortune-hub to navigate to the right skill.
 license: MIT
 compatibility:
   platforms:
@@ -21,299 +23,299 @@ metadata:
   tags: ["tarot", "divination", "塔罗", "占卜", "fortune-telling"]
 ---
 
-# 塔罗牌占卜解读器
+# Tarot Reading Interpreter
 
-基于 Rider-Waite-Smith 体系，从 78 张完整牌库随机抽牌，结合牌面含义、位置含义与用户问题，提供象征层面的深度解读与行动建议。
+Based on the Rider-Waite-Smith system, this skill draws randomly from a complete 78-card deck and delivers a deep symbolic reading that weaves together card meanings, positional context, and your specific question — offering both insight and actionable guidance.
 
-## 快速开始
+## Quick Start
 
 ```
-"帮我抽一张塔罗牌"
-"塔罗占卜，我想问感情方面的问题"
-"用凯尔特十字牌阵帮我看看事业"
-"我最近在犹豫要不要换工作，帮我抽三张牌"
-"每日一牌"
+"Draw me a tarot card"
+"Tarot reading — I have a question about love"
+"Read my career with a Celtic Cross spread"
+"I'm torn about whether to change jobs — pull three cards for me"
+"Daily card"
 ```
 
-**完整示例**（三牌阵）：
+**Full Example** (Three-Card Spread):
 
-输入：`我最近在纠结要不要跟男友分开，帮我抽三张牌`
+Input: `I'm struggling with whether to break up with my boyfriend — can you pull three cards?`
 
-输出：
+Output:
 
-> # 🃏 塔罗三牌阵 — 感情抉择
+> # 🃏 Three-Card Tarot Spread — A Decision in Love
 >
-> ## 牌面
+> ## Cards Drawn
 >
-> | 位置 | 牌 | 方向 |
-> |------|-----|------|
-> | 过去 | 权杖三 | 正位 🔥 |
-> | 现在 | 月亮 | 逆位 🌙 |
-> | 未来 | 金币侍从 | 正位 🪙 |
+> | Position | Card | Orientation |
+> |----------|------|-------------|
+> | Past | Three of Wands | Upright 🔥 |
+> | Present | The Moon | Reversed 🌙 |
+> | Future | Page of Pentacles | Upright 🪙 |
 >
-> ## 逐牌解读
+> ## Card-by-Card Reading
 >
-> ### 过去：权杖三 正位
-> 权杖三正位描绘一个人站在山顶望向远方——这段关系曾给你带来真实的期待与冒险感。你们共同规划过方向，那份热情与启程的勇气是真实存在的。
+> ### Past: Three of Wands — Upright
+> The Three of Wands upright shows someone standing on a hilltop, gazing out toward the horizon — this relationship once carried real hope and a spirit of adventure. You planned a direction together, and that excitement, that willingness to set sail, was genuine.
 >
-> ### 现在：月亮 逆位
-> 月亮逆位暗示迷雾正在消散。过去那些让你难以看清的混乱、不安全感或模糊信号，此刻开始浮出水面。你已经在直面内心一直回避的答案。
+> ### Present: The Moon — Reversed
+> The Moon reversed suggests the fog is beginning to lift. The confusion, insecurity, and blurred signals that made it so hard to see clearly are now rising to the surface. You are already starting to face the answers you've been quietly avoiding.
 >
-> ### 未来：金币侍从 正位
-> 金币侍从象征在物质与现实层面踏实起步。不论你作出何种选择，牌面指向一段更接地气、以自我成长为中心的新阶段——你会带着实际的行动力走向下一步。
+> ### Future: Page of Pentacles — Upright
+> The Page of Pentacles represents grounded, practical new beginnings in the material world. Whatever choice you make, the cards point toward a next chapter centered on self-growth and real, actionable steps — a version of you who moves forward with both feet on the ground.
 >
-> ## 综合解读
-> 三张牌勾勒出一条从"充满期待的出发"到"困惑与真相交织的当下"，再到"清醒后踏实前行"的轨迹。月亮逆位不是坏兆头，而是你终于愿意诚实面对自己感受的时刻。金币侍从在终点等待的，是一个更清醒、更务实的你。
+> ## Synthesis
+> These three cards trace an arc from "setting out with genuine hope," through "a present tangled in confusion and emerging truth," to "a clear-eyed, grounded next step." The Moon reversed is not a warning — it's the moment you finally become honest with yourself. The Page of Pentacles waiting at the end is a steadier, wiser you.
 >
-> ## 行动建议
-> - 给自己一段不受外界干扰的安静时间，把心里真实的感受写下来，不必给出结论
-> - 观察这段关系中你「付出」与「接收」的比例，数据往往比感觉更诚实
+> ## Action Steps
+> - Give yourself uninterrupted quiet time to write down what you truly feel — no conclusions required
+> - Observe the ratio of what you give versus what you receive in this relationship; the data is often more honest than the feeling
 >
 > ---
-> *塔罗牌提供的是象征层面的洞察，最终的选择权始终在你手中。*
+> *Tarot offers insight at the level of symbol and meaning. The choice is always, and entirely, yours.*
 
 ## User Context
 
-塔罗占卜**不需要**用户的生日等个人信息，每次都是即时占卜。
+Tarot readings do **not** require personal information like birthdays — every reading is in the moment.
 
-**读取**：执行前依次检查：
-1. 本目录 `MEMORY.md` — 是否有用户的占卜偏好（如偏好的牌阵、常问的主题）
-2. 同仓库 `fortune-hub/MEMORY.md`（如果存在）— 不需要基础档案字段，仅检查是否有相关偏好记录
+**Read**: Before running a reading, check in order:
+1. This skill's `MEMORY.md` — any stored user preferences (e.g., preferred spread, common topics)
+2. The same repo's `fortune-hub/MEMORY.md` (if it exists) — no need for basic profile fields, just check for relevant preferences
 
-如有可用偏好数据，直接融入本次解读，不再重复询问。
+If preference data is available, incorporate it naturally. Do not ask again.
 
-**写入**：仅在用户**主动要求**记住偏好时写入本目录的 `MEMORY.md`：
-
-```markdown
-# 用户信息
-
-## 占卜偏好
-- 偏好牌阵：凯尔特十字
-- 常问主题：感情、事业
-```
-
-不是必须的，纯可选。
-
-**更新**：用户主动要求修改偏好时更新对应字段。
-
-## 工作流程
-
-### Step 1: 解析用户意图
-
-从用户输入中识别：
-
-| 参数 | 解析规则 | 默认值 |
-|------|---------|--------|
-| 问题/主题 | 用户明确说出或引导询问 | 通用（无特定问题也可） |
-| 牌阵 | 用户指定或根据问题推荐 | 三牌阵 |
-| 牌数 | 由牌阵决定 | 3 |
-
-**牌阵推荐规则**：
-
-| 场景 | 推荐牌阵 | 牌数 |
-|------|---------|------|
-| 每日指引 / 简单问题 | 单牌 | 1 |
-| 是非判断 / 快速问题 / 未指定 | 三牌阵（过去-现在-未来） | 3 |
-| 感情 / 关系问题 | 关系牌阵 | 5 |
-| 深度分析 / 复杂局面 | 凯尔特十字 | 10 |
-| 二选一 / 决策 | 三牌阵变体（选项A-选项B-建议） | 3 |
-
-如果用户没有指定牌阵也没有具体问题，询问：
-
-> "你想了解哪方面？感情、事业、财运，还是其他？也可以直接说'每日一牌' ✨"
-
-### Step 2: 抽牌
-
-加载牌库参考 [references/major-arcana.md](references/major-arcana.md) 和 [references/minor-arcana.md](references/minor-arcana.md)。
-
-**抽牌规则**：
-1. 从 78 张牌中随机抽取牌阵所需数量，不重复
-2. 每张牌独立随机决定正位 / 逆位（各 50% 概率）
-3. 将牌放置到牌阵对应位置
-
-**抽牌过程需有仪式感**，展示格式：
-
-```
-🃏 洗牌中...
-
-抽到的牌：
-位置 1（过去）：权杖三 正位 🔥
-位置 2（现在）：月亮 逆位 🌙
-位置 3（未来）：金币侍从 正位 🪙
-```
-
-### Step 3: 逐牌解读
-
-加载牌阵规则 [references/spreads.md](references/spreads.md) 和解读规则 [references/interpretation-rules.md](references/interpretation-rules.md)。
-
-每张牌的解读结合三个维度：
-
-1. **牌面含义**：正位 / 逆位的关键词和深层含义
-2. **位置含义**：该牌在牌阵中的位置代表什么
-3. **问题关联**：如何与用户的具体问题产生联系
-
-### Step 4: 综合解读
-
-分析牌面之间的互动关系：
-
-- **元素互动**：火+风相助、火+水冲突等元素组合的整体能量
-- **数字重复**：多张同数字牌 = 该主题被强调
-- **大小阿尔卡纳比例**：大牌多 → 重大转变；小牌多 → 日常事件
-- **花色主导**：权杖多 → 行动为主；圣杯多 → 情感为主；宝剑多 → 思维/冲突；金币多 → 物质/现实
-- **整体故事线**：将所有牌串联成一个连贯叙事
-
-### Step 5: 行动建议
-
-基于综合解读，给出 2-3 条具体、可执行的行动建议。
-
-## 输出格式
-
-### 单牌
+**Write**: Only write to this skill's `MEMORY.md` when the user **explicitly asks** to save a preference:
 
 ```markdown
-# 🃏 每日一牌
+# User Info
 
-## {牌名} {正位/逆位} {元素图标}
-
-[牌面核心含义 2-3 句]
-
-### 今日启示
-[结合牌义给出的今日方向 2-3 句]
-
-> 💡 行动建议：[一句具体可执行的建议]
+## Reading Preferences
+- Preferred spread: Celtic Cross
+- Common topics: love, career
 ```
 
-### 三牌阵
+Entirely optional.
+
+**Update**: When the user asks to change a preference, update the relevant field in `MEMORY.md`.
+
+## Workflow
+
+### Step 1: Parse User Intent
+
+Identify from the user's input:
+
+| Parameter | Parsing Rule | Default |
+|-----------|-------------|---------|
+| Question / Topic | Stated explicitly, or ask to clarify | General (no specific question is fine) |
+| Spread | User-specified, or recommended based on question | Three-Card |
+| Card Count | Determined by spread | 3 |
+
+**Spread Recommendation Rules**:
+
+| Scenario | Recommended Spread | Cards |
+|----------|--------------------|-------|
+| Daily guidance / simple question | Single Card | 1 |
+| Yes/no / quick question / unspecified | Three-Card (Past–Present–Future) | 3 |
+| Love / relationship question | Relationship Spread | 5 |
+| Deep dive / complex situation | Celtic Cross | 10 |
+| Two options / decision | Three-Card variant (Option A–Option B–Advice) | 3 |
+
+If the user hasn't specified a spread or a clear question, ask:
+
+> "What area would you like to explore? Love, career, finances — or something else entirely? You can also just say 'daily card' ✨"
+
+### Step 2: Draw Cards
+
+Load the card reference files [references/major-arcana.md](references/major-arcana.md) and [references/minor-arcana.md](references/minor-arcana.md).
+
+**Drawing Rules**:
+1. Draw the required number of cards randomly from the full 78-card deck — no repeats
+2. Determine upright or reversed independently for each card (50/50 probability)
+3. Place each card in its assigned position in the spread
+
+**The draw should feel ceremonial.** Display format:
+
+```
+🃏 Shuffling...
+
+Cards drawn:
+Position 1 (Past): Three of Wands — Upright 🔥
+Position 2 (Present): The Moon — Reversed 🌙
+Position 3 (Future): Page of Pentacles — Upright 🪙
+```
+
+### Step 3: Card-by-Card Reading
+
+Load [references/spreads.md](references/spreads.md) and [references/interpretation-rules.md](references/interpretation-rules.md).
+
+Each card reading integrates three dimensions:
+
+1. **Card Meaning**: Upright / reversed keywords and deeper symbolism
+2. **Positional Meaning**: What this position represents within the spread
+3. **Question Connection**: How the card speaks to the querent's specific situation
+
+### Step 4: Synthesis
+
+Analyze how the cards interact with one another:
+
+- **Elemental Interaction**: Fire + Air (supportive), Fire + Water (conflicting), etc. — the overall energetic tone
+- **Repeated Numbers**: Multiple cards sharing a number = that theme is being emphasized
+- **Major vs. Minor Arcana Ratio**: Mostly Major → significant life shift; Mostly Minor → everyday, manageable matters
+- **Dominant Suit**: Mostly Wands → action is key; Mostly Cups → emotions are at the center; Mostly Swords → thought and conflict; Mostly Pentacles → the material and the practical
+- **Overall Narrative**: Weave all cards into a single, coherent story
+
+### Step 5: Action Steps
+
+Based on the synthesis, offer 2–3 specific, actionable steps.
+
+## Output Format
+
+### Single Card
 
 ```markdown
-# 🃏 塔罗三牌阵 — {问题/主题}
+# 🃏 Daily Card
 
-## 牌面
+## {Card Name} — {Upright/Reversed} {element icon}
 
-| 位置 | 牌 | 方向 |
-|------|-----|------|
-| 过去 | {牌名} | {正位/逆位} |
-| 现在 | {牌名} | {正位/逆位} |
-| 未来 | {牌名} | {正位/逆位} |
+[Core card meaning — 2–3 sentences]
 
-## 逐牌解读
+### Today's Insight
+[Direction for the day based on the card — 2–3 sentences]
 
-### 过去：{牌名} {正位/逆位}
-[2-3 句，结合位置和问题]
+> 💡 Action Step: [One concrete, specific suggestion]
+```
 
-### 现在：{牌名} {正位/逆位}
-[2-3 句]
+### Three-Card Spread
 
-### 未来：{牌名} {正位/逆位}
-[2-3 句]
+```markdown
+# 🃏 Three-Card Tarot Spread — {Question / Topic}
 
-## 综合解读
-[3-4 句，串联三张牌的整体叙事]
+## Cards Drawn
 
-## 行动建议
-- [建议 1]
-- [建议 2]
+| Position | Card | Orientation |
+|----------|------|-------------|
+| Past | {Card Name} | {Upright/Reversed} |
+| Present | {Card Name} | {Upright/Reversed} |
+| Future | {Card Name} | {Upright/Reversed} |
+
+## Card-by-Card Reading
+
+### Past: {Card Name} — {Upright/Reversed}
+[2–3 sentences connecting positional meaning to the question]
+
+### Present: {Card Name} — {Upright/Reversed}
+[2–3 sentences]
+
+### Future: {Card Name} — {Upright/Reversed}
+[2–3 sentences]
+
+## Synthesis
+[3–4 sentences weaving the three cards into an overall narrative]
+
+## Action Steps
+- [Step 1]
+- [Step 2]
 
 ---
-*塔罗牌提供的是象征层面的洞察，最终的选择权始终在你手中。*
+*Tarot offers insight at the level of symbol and meaning. The choice is always, and entirely, yours.*
 ```
 
-### 凯尔特十字（10 张）
+### Celtic Cross (10 Cards)
 
 ```markdown
-# 🃏 凯尔特十字牌阵 — {问题/主题}
+# 🃏 Celtic Cross Spread — {Question / Topic}
 
-## 牌面
+## Cards Drawn
 
-| 位置 | 含义 | 牌 | 方向 |
-|------|------|-----|------|
-| 1 | 当前处境（核心） | {牌名} | {正位/逆位} |
-| 2 | 交叉影响（障碍/助力） | {牌名} | {正位/逆位} |
-| 3 | 根基（潜意识/过去基础） | {牌名} | {正位/逆位} |
-| 4 | 近期过去 | {牌名} | {正位/逆位} |
-| 5 | 可能的最高结果 | {牌名} | {正位/逆位} |
-| 6 | 近期未来 | {牌名} | {正位/逆位} |
-| 7 | 自我看法（你的态度） | {牌名} | {正位/逆位} |
-| 8 | 外部环境（他人/周围影响） | {牌名} | {正位/逆位} |
-| 9 | 希望与恐惧 | {牌名} | {正位/逆位} |
-| 10 | 最终结果 | {牌名} | {正位/逆位} |
+| Position | Meaning | Card | Orientation |
+|----------|---------|------|-------------|
+| 1 | Present Situation (Core) | {Card Name} | {Upright/Reversed} |
+| 2 | Crossing Influence (Challenge / Aid) | {Card Name} | {Upright/Reversed} |
+| 3 | Foundation (Subconscious / Root) | {Card Name} | {Upright/Reversed} |
+| 4 | Recent Past | {Card Name} | {Upright/Reversed} |
+| 5 | Possible Best Outcome | {Card Name} | {Upright/Reversed} |
+| 6 | Near Future | {Card Name} | {Upright/Reversed} |
+| 7 | Self-Perception (Your Attitude) | {Card Name} | {Upright/Reversed} |
+| 8 | External Environment (Others / Surroundings) | {Card Name} | {Upright/Reversed} |
+| 9 | Hopes and Fears | {Card Name} | {Upright/Reversed} |
+| 10 | Final Outcome | {Card Name} | {Upright/Reversed} |
 
-## 逐牌解读
+## Card-by-Card Reading
 
-[10 个位置逐一解读，每个位置 2-3 句，结合位置含义与牌面]
+[All 10 positions read individually — 2–3 sentences each, integrating positional meaning and the card]
 
-## 综合解读
-[5-6 句深度叙事，涵盖整体趋势、关键转折点、需要关注的张力]
+## Synthesis
+[5–6 sentences of deep narrative — overall trajectory, key turning points, tensions worth watching]
 
-## 行动建议
-- [建议 1]
-- [建议 2]
-- [建议 3]
+## Action Steps
+- [Step 1]
+- [Step 2]
+- [Step 3]
 
 ---
-*塔罗牌提供的是象征层面的洞察，最终的选择权始终在你手中。*
+*Tarot offers insight at the level of symbol and meaning. The choice is always, and entirely, yours.*
 ```
 
-## 生成规则
+## Generation Rules
 
-### 抽牌随机性
+### Randomness
 
-- 必须从 78 张完整牌库中随机抽取，**不可人为选择"合适"的牌**
-- 正逆位独立随机，不刻意平衡正逆比例
-- 同一次牌阵内不重复抽取同一张牌
+- Cards must be drawn randomly from the full 78-card deck — **never hand-pick "appropriate" cards**
+- Upright/reversed is determined independently at random; do not artificially balance the ratio
+- No card may appear more than once in a single spread
 
-### 表达风格
+### Tone & Style
 
-默认使用**象征叙事型**——兼具神秘感和实用性：
+Default to **symbolic-narrative** — both evocative and grounded:
 
-- 用邀请式表达："这张牌邀请你思考..."、"牌面暗示..."
-- 正反兼顾："虽然这个阶段可能感到困惑，但月亮逆位同时意味着迷雾正在消散"
-- 牌面→生活桥接：从象征语言过渡到具体情境
-- 尊重自由意志："牌面展示的是当前能量的流向，最终的选择权始终在你手中"
+- Use invitational language: "This card invites you to consider...", "The card suggests..."
+- Hold both sides: "While this phase may feel disorienting, The Moon reversed also signals that the fog is beginning to clear"
+- Bridge symbol to life: move from symbolic language into concrete, lived experience
+- Honor free will: "The cards reflect the current flow of energy — the choice is always, and entirely, yours"
 
-**禁用表达清单**：
+**Prohibited Expressions**:
 
-| 禁止使用 | 替换为 |
-|---------|-------|
-| ❌ "你注定会..." | ✅ "牌面显示...的趋势" |
-| ❌ "死神牌意味着死亡" | ✅ "死神牌象征旧阶段的结束和新篇章的开始" |
-| ❌ "塔牌代表灾难来了" | ✅ "塔牌暗示某些不再服务于你的结构正在被重新调整" |
-| ❌ "你必须听从牌的指示" | ✅ "牌面提供了一个反思的视角" |
+| Never Say | Say Instead |
+|-----------|-------------|
+| ❌ "You are destined to..." | ✅ "The cards suggest a tendency toward..." |
+| ❌ "The Death card means you will die" | ✅ "Death symbolizes the end of one chapter and the birth of the next" |
+| ❌ "The Tower means disaster is coming" | ✅ "The Tower suggests that structures no longer serving you are being cleared away" |
+| ❌ "You must follow what the cards say" | ✅ "The cards offer one perspective worth reflecting on" |
 
-绝对禁止：恐吓性语言、宿命论断言、死亡/疾病预测、推销消灾服务。
+Absolutely prohibited: fear-based language, fatalistic declarations, predictions of death or illness, upselling of spiritual services.
 
-### 特殊牌面处理
+### Special Card Handling
 
-| 牌 | 处理原则 |
-|----|---------|
-| 死神（XIII） | 始终强调"蜕变与新生"，不涉及实际死亡 |
-| 塔（XVI） | 强调"必要的打破旧结构"，不制造恐慌 |
-| 恶魔（XV） | 强调"觉察束缚"，引导自我反思 |
-| 十号宝剑 | 承认痛苦但强调"触底意味着转机" |
+| Card | Handling Principle |
+|------|-------------------|
+| Death (XIII) | Always emphasize "transformation and rebirth" — never literal death |
+| The Tower (XVI) | Emphasize "necessary dismantling of old structures" — do not induce panic |
+| The Devil (XV) | Emphasize "recognizing what binds you" — guide toward self-reflection |
+| Ten of Swords | Acknowledge the pain, then emphasize "hitting bottom means the turn is coming" |
 
-## 错误处理
+## Error Handling
 
-| 场景 | 处理方式 |
-|------|---------|
-| 用户不知道问什么 | "没有特定问题也可以！试试'每日一牌'，看看今天宇宙想告诉你什么 ✨" |
-| 用户要求重新抽牌（不满意结果） | "塔罗讲究第一次抽到的牌最有意义。不过你可以换个角度提问，我们再来一次 🃏" |
-| 用户问星座/八字/数字命理 | "这个问题更适合其他领域的 Skill，建议使用 fortune-hub 选择对应领域" |
-| 用户担心负面牌 | "塔罗牌没有绝对的'坏牌'。每张牌都有它的智慧，即使是看起来严厉的牌也在指引你走向成长" |
-| 用户问健康/生死相关 | "塔罗不适合也不应该用于医疗诊断。如有健康疑虑，请咨询专业医生 🏥" |
+| Scenario | Response |
+|----------|----------|
+| User doesn't know what to ask | "No specific question? That's totally fine! Try a 'daily card' and see what the universe wants to say today ✨" |
+| User wants to redraw (unhappy with results) | "In tarot, the first cards drawn carry the most meaning. But if you'd like to reframe your question, we can do another reading 🃏" |
+| User asks about astrology / BaZi / numerology | "That question is better served by a different skill — try fortune-hub to find the right one" |
+| User is worried about a negative card | "There are no truly 'bad' cards in tarot. Every card carries wisdom — even the challenging ones are pointing you toward growth" |
+| User asks about health / life or death | "Tarot is not appropriate for medical guidance and should never be used that way. If you have health concerns, please consult a qualified medical professional 🏥" |
 
-## 不适用场景
+## When Not to Use This Skill
 
-以下情况请**不要**调用本 Skill：
+Do **not** invoke this skill for:
 
-- **星座运势** → horoscope-daily
-- **数字命理** → numerology-fortune
-- **八字/紫微/风水** → 建议使用 fortune-hub 选择对应领域 Skill
-- **医疗/法律/财务专业建议** → 本 Skill 仅供自我探索，不替代专业服务
+- **Astrology / horoscopes** → horoscope-daily
+- **Numerology** → numerology-fortune
+- **BaZi / Zi Wei Dou Shu / Feng Shui** → use fortune-hub to navigate to the right skill
+- **Medical / legal / financial professional advice** → this skill is for self-exploration only and does not replace professional services
 
-## 原子化设计
+## Atomic Design
 
-本 Skill 仅负责「塔罗牌占卜解读」这一个原子化能力。不包含星座运势、八字命理、数字命理、梅花易数等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
+This skill handles one and only one capability: **tarot card reading and interpretation**. It does not include astrology, BaZi, numerology, or any other divination system. For other domains, combine with the relevant skill in this repository, or route through fortune-hub.
 
-## 免责声明
+## Disclaimer
 
-塔罗牌解读基于象征学传统，提供的是反思和自我探索的视角，不构成任何预测或专业建议。最终的决定权始终在你手中。
+Tarot readings are rooted in symbolic tradition and offer a lens for reflection and self-exploration — not prediction or professional advice. The decision is always, and entirely, yours.

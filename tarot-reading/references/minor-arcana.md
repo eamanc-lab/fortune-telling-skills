@@ -1,132 +1,132 @@
-# 小阿尔卡纳（Minor Arcana）
+# Minor Arcana
 
-56 张牌，分 4 个花色，每花色 14 张（Ace~10 + 侍从/骑士/王后/国王）。
+56 cards, divided into 4 suits, each containing 14 cards (Ace through 10 + Page / Knight / Queen / King).
 
-## 目录
+## Table of Contents
 
-- [花色与元素](#花色与元素)
-- [权杖 Wands](#权杖-wands-)
-- [圣杯 Cups](#圣杯-cups-)
-- [宝剑 Swords](#宝剑-swords-)
-- [金币 Pentacles](#金币-pentacles-)
+- [Suits & Elements](#suits--elements)
+- [Wands 🔥](#wands-)
+- [Cups 💧](#cups-)
+- [Swords 🌬️](#swords-️)
+- [Pentacles 🪙](#pentacles-)
 
-## 花色与元素
+## Suits & Elements
 
-| 花色 | 元素 | 领域 | 关键词 |
-|------|------|------|--------|
-| 权杖 Wands | 火 🔥 | 激情、行动、意志 | 创意、冒险、能量、野心 |
-| 圣杯 Cups | 水 💧 | 情感、关系、直觉 | 爱情、友谊、灵性、内心 |
-| 宝剑 Swords | 风 🌬️ | 思维、沟通、冲突 | 逻辑、真相、斗争、决断 |
-| 金币 Pentacles | 土 🪙 | 物质、身体、资源 | 财富、健康、工作、稳定 |
-
----
-
-## 权杖 Wands 🔥
-
-火元素，代表意志、热情、创造力与行动力。权杖牌问的往往是：你真正想要什么？你愿意为之燃烧吗？
-
-| 牌 | 正位关键词 | 逆位关键词 |
-|----|-----------|-----------|
-| Ace | 创造灵感、意志力、新开始 | 缺乏能量、激情消退、延迟 |
-| 2 | 规划决策、远见、进步 | 恐惧改变、犹豫不决、计划不当 |
-| 3 | 远见扩张、领导力、探索 | 障碍、延迟、视野受限 |
-| 4 | 社群庆祝、家庭和谐、里程碑 | 缺乏支持、短暂不稳、家庭冲突 |
-| 5 | 竞争对抗、冲突较量、挑战 | 避免冲突、尊重差异、内在矛盾 |
-| 6 | 胜利荣耀、公众认可、进步 | 过度骄傲、缺乏认可、跌落 |
-| 7 | 坚持防御、维持控制、毅力 | 放弃、信心崩塌、不堪重负 |
-| 8 | 快速行动、迅速决定、势不可挡 | 恐慌、等待、被迫减速 |
-| 9 | 韧性毅力、最后防线、坚守 | 疲惫不堪、质疑动机、偏执 |
-| 10 | 责任重担、成就背后的压力 | 无法委托、压力过大、倦怠 |
-| 侍从 Page | 探索发现、兴奋、自由精神 | 缺乏方向、拖延、制造冲突 |
-| 骑士 Knight | 行动冒险、无畏追求、热情 | 愤怒冲动、鲁莽行事、散漫 |
-| 王后 Queen | 勇气决心、快乐自信、魅力 | 自私嫉妒、不安全感、控制欲 |
-| 国王 King | 大局观、领导力、远见卓识 | 冲动霸道、期望不切实际 |
-
-**花色注记**：
-- **Ace 权杖**：原始火焰，是一个冲动、一个灵感的诞生瞬间，还未成形却充满潜力。
-- **10 权杖**：权杖之旅的终点——你扛起了所有，但要小心：成就与压垮只有一线之隔。
-- **王后权杖**：火元素中最圆熟的女性能量，热情中带着笃定，是那种能感染整个房间的存在。
+| Suit | Element | Domain | Keywords |
+|------|---------|--------|----------|
+| Wands | Fire 🔥 | passion, action, will | creativity, adventure, energy, ambition |
+| Cups | Water 💧 | emotion, relationships, intuition | love, friendship, spirituality, inner life |
+| Swords | Air 🌬️ | thought, communication, conflict | logic, truth, struggle, decision |
+| Pentacles | Earth 🪙 | material world, body, resources | wealth, health, work, stability |
 
 ---
 
-## 圣杯 Cups 💧
+## Wands 🔥
 
-水元素，代表情感、关系、直觉与灵性体验。圣杯牌问的往往是：你真正感受到了什么？你的内心在告诉你什么？
+The fire element — representing will, passion, creativity, and the drive to act. Wands cards often ask: what do you truly want? And are you willing to burn for it?
 
-| 牌 | 正位关键词 | 逆位关键词 |
-|----|-----------|-----------|
-| Ace | 新感情、灵性觉醒、直觉 | 情感失落、创造力阻塞、空虚 |
-| 2 | 伙伴联结、统一、吸引力 | 失衡、沟通破裂、关系紧张 |
-| 3 | 友谊欢聚、社群、庆祝 | 过度纵享、八卦是非、孤立 |
-| 4 | 沉思冷漠、不满、内在审视 | 突然觉醒、选择快乐、接受 |
-| 5 | 失去悲伤、自怜、遗憾 | 接受现实、继续前行、找到平静 |
-| 6 | 怀旧治愈、童年回忆、善意 | 向前走、离家独立、活在当下 |
-| 7 | 幻想选择、白日梦、诱惑 | 缺乏目标、转移注意、回归现实 |
-| 8 | 离开放下、幻灭、寻找更深 | 逃避恐惧、害怕改变、犹豫 |
-| 9 | 满足享受、愿望成真、富足 | 缺乏内在喜悦、贪心、自满 |
-| 10 | 幸福美满、家庭和乐、情感圆满 | 梦想破碎、家庭分裂、失和 |
-| 侍从 Page | 惊喜消息、梦想家、敏感 | 情感不成熟、不安全、失望 |
-| 骑士 Knight | 跟随内心、理想主义、浪漫 | 情绪化、失望、不切实际 |
-| 王后 Queen | 慈悲温柔、安慰、情感智慧 | 殉道、不安全感、情感依赖 |
-| 国王 King | 慈悲掌控、情感平衡、外交 | 冷漠、情绪化、坏建议 |
+| Card | Upright Keywords | Reversed Keywords |
+|------|-----------------|------------------|
+| Ace | creative spark, willpower, new beginnings | lack of energy, fading passion, delay |
+| 2 | planning, foresight, progress | fear of change, indecision, poor planning |
+| 3 | expansion, leadership, exploration | obstacles, delays, limited vision |
+| 4 | community celebration, home harmony, milestone | lack of support, brief instability, domestic conflict |
+| 5 | competition, conflict, challenge | avoiding confrontation, respecting differences, inner tension |
+| 6 | victory, public recognition, progress | arrogance, lack of acknowledgment, a fall from grace |
+| 7 | holding your ground, perseverance, resilience | giving up, shattered confidence, overwhelmed |
+| 8 | swift action, rapid decisions, unstoppable momentum | panic, delays, forced slowdown |
+| 9 | resilience, last stand, tenacity | exhaustion, questioning your purpose, paranoia |
+| 10 | burden of success, responsibility, pressure | inability to delegate, burnout, overwhelmed |
+| Page | exploration, excitement, free spirit | lack of direction, procrastination, stirring up drama |
+| Knight | bold action, fearless pursuit, passion | anger, recklessness, scattered energy |
+| Queen | courage, joyful confidence, charisma | selfishness, jealousy, insecurity, controlling behavior |
+| King | big-picture vision, leadership, far-sightedness | impulsiveness, domineering, unrealistic expectations |
 
-**花色注记**：
-- **4 圣杯**：内省的疲倦，那只从云中伸出的手给了一个新选项，但主角两臂交叉，浑然未觉。
-- **5 圣杯**：三个圣杯倒了，但身后还有两个是满的——悲伤是真实的，但不是全部的真相。
-- **8 圣杯**：一个人选择在夜晚离开已经建立的一切，去寻找更有深度的东西。这需要极大的勇气。
-
----
-
-## 宝剑 Swords 🌬️
-
-风元素，代表思维、语言、冲突与真相。宝剑牌往往涉及痛苦，因为思想与真相可以刺穿幻象，有时会带来伤痛。
-
-| 牌 | 正位关键词 | 逆位关键词 |
-|----|-----------|-----------|
-| Ace | 突破清晰、真相、新思维 | 困惑混乱、残暴、思维阻塞 |
-| 2 | 艰难选择、犹豫僵局、平衡 | 两害取轻、信息过载、逃避 |
-| 3 | 心碎痛苦、悲伤、分离 | 恢复原谅、继续前行、释放 |
-| 4 | 休息恢复、沉思、充电 | 不安倦怠、被迫行动、焦虑 |
-| 5 | 不择手段、赢在代价、冲突 | 残留怨恨、和解、放下争斗 |
-| 6 | 过渡离开、继续前行、平静 | 情感包袱、未解决问题、困住 |
-| 7 | 欺骗策略、诡计、隐藏意图 | 坦白、重新思考、良心发现 |
-| 8 | 囚禁困境、自我限制、受害 | 自我接受、新视角、突破限制 |
-| 9 | 焦虑绝望、噩梦、过度忧虑 | 希望、寻求帮助、走出黑暗 |
-| 10 | 失败崩溃、终局、极度痛苦 | 触底反弹、不可能更糟、重新开始 |
-| 侍从 Page | 好奇探索、思维活跃、求知 | 欺骗操控、空谈、冷嘲热讽 |
-| 骑士 Knight | 果断雄心、直接、行动迅速 | 无礼粗暴、无同理心、鲁莽 |
-| 王后 Queen | 独立清晰、直言不讳、智慧 | 冷酷、过度批判、感情压制 |
-| 国王 King | 清晰思维、权威、真理公正 | 安静暴政、误用权力、冷酷 |
-
-**花色注记**：
-- **3 宝剑**：三把剑刺穿心脏，雨云背景。这是最直白的痛苦之牌，但承认心碎本身就是疗愈的开始。
-- **8 宝剑**：被蒙眼绑缚的人站在剑林中，但绑绳其实并不紧，地面也没有陷阱。囚笼往往在头脑中。
-- **10 宝剑**：十把剑插在背上，已是最坏的状态——但天边透出黎明的一线光，从这里只能向上。
+**Suit Notes**:
+- **Ace of Wands**: The raw flame — the birth of an impulse or inspiration, not yet formed but crackling with potential.
+- **Ten of Wands**: The final station of the Wands journey — you've taken on everything, and the line between accomplishment and collapse is thin.
+- **Queen of Wands**: The most mature feminine fire energy in the deck — passionate and certain all at once, the kind of presence that lights up an entire room.
 
 ---
 
-## 金币 Pentacles 🪙
+## Cups 💧
 
-土元素，代表物质世界、身体、金钱、工作与资源。金币牌关注的是有形的现实：你如何在这个世界中稳固自己？
+The water element — representing emotion, relationships, intuition, and the inner life. Cups cards often ask: what are you truly feeling? What is your heart telling you?
 
-| 牌 | 正位关键词 | 逆位关键词 |
-|----|-----------|-----------|
-| Ace | 新机会、繁荣、物质显化 | 错失机会、缺乏计划、贪心 |
-| 2 | 平衡适应、优先排序、灵活 | 失衡、过度投入、顾此失彼 |
-| 3 | 团队合作、学习、技艺精进 | 缺乏团队精神、平庸、敷衍 |
-| 4 | 安全保守、储蓄、稳固基础 | 吝啬、物质主义、过度控制 |
-| 5 | 贫困困难、不安全感、损失 | 恢复改善、转机、走出低谷 |
-| 6 | 慷慨施与、平衡分享、善意 | 债务、自私、单向付出 |
-| 7 | 耐心等待、长期投资、评估 | 缺乏远见、回报有限、急于求成 |
-| 8 | 技艺精进、专注努力、工匠精神 | 缺乏专注、完美主义、重复无意义 |
-| 9 | 富足独立、自给自足、享受成果 | 过度依赖物质、不安全感、孤立 |
-| 10 | 遗产传承、家族财富、圆满 | 财务失败、家族争端、孤独 |
-| 侍从 Page | 抱负学习、新技能、脚踏实地 | 缺乏进步、拖延、不切实际 |
-| 骑士 Knight | 效率可靠、勤奋、稳步前进 | 无聊、过度完美主义、停滞 |
-| 王后 Queen | 实际安全、滋养、富足生活 | 自我忽视、过度牺牲、不安全 |
-| 国王 King | 富足纪律、安全感、领导力 | 贪婪、控制欲、沉迷物质 |
+| Card | Upright Keywords | Reversed Keywords |
+|------|-----------------|------------------|
+| Ace | new love, spiritual awakening, intuition | emotional loss, creative blockage, emptiness |
+| 2 | partnership, union, attraction | imbalance, communication breakdown, tension |
+| 3 | friendship, community, celebration | overindulgence, gossip, isolation |
+| 4 | contemplation, dissatisfaction, inner review | sudden awakening, choosing joy, acceptance |
+| 5 | loss, grief, self-pity, regret | accepting reality, moving on, finding peace |
+| 6 | nostalgia, healing, childhood memories, goodwill | moving forward, leaving home, living in the present |
+| 7 | fantasy, daydreaming, temptation, too many choices | lack of focus, escapism, coming back to earth |
+| 8 | walking away, disillusionment, seeking something deeper | fear of change, clinging to what no longer serves, hesitation |
+| 9 | contentment, wishes fulfilled, satisfaction | lack of inner joy, greed, complacency |
+| 10 | bliss, family harmony, emotional fulfillment | broken dream, family rift, discord |
+| Page | unexpected news, dreamer, sensitivity | emotional immaturity, insecurity, disappointment |
+| Knight | following your heart, idealism, romance | emotional overwhelm, disillusionment, unrealistic |
+| Queen | compassion, comfort, emotional wisdom | martyrdom, insecurity, emotional dependency |
+| King | compassionate leadership, emotional balance, diplomacy | detachment, moodiness, poor counsel |
 
-**花色注记**：
-- **5 金币**：两人在冬夜中行走，经过一扇亮灯的教堂窗户却未进入。困境往往遮蔽了近在眼前的帮助。
-- **8 金币**：工匠专注地敲打金币，一枚已完成挂在墙上，更多在地上等待。这是刻意练习的能量。
-- **国王金币**：坐在葡萄藤和财富之中，但他的目光平静而不贪婪——他知道真正的富足来自纪律，不来自占有。
+**Suit Notes**:
+- **Four of Cups**: Inward fatigue. A hand extends from a cloud, offering a new cup — but the figure sits with arms crossed, entirely unaware.
+- **Five of Cups**: Three cups have spilled, but two behind him are still full. The grief is real — but it is not the whole truth.
+- **Eight of Cups**: Someone chooses to leave everything they've built, slipping away in the night to seek something with more depth. It takes tremendous courage.
+
+---
+
+## Swords 🌬️
+
+The air element — representing thought, language, conflict, and truth. Swords cards often involve pain, because the mind and the truth can pierce through illusion — and that sometimes hurts.
+
+| Card | Upright Keywords | Reversed Keywords |
+|------|-----------------|------------------|
+| Ace | breakthrough, clarity, truth, a new way of thinking | confusion, mental block, destructive thought |
+| 2 | difficult choice, stalemate, uneasy balance | choosing the lesser evil, information overload, avoidance |
+| 3 | heartbreak, grief, separation | recovery, forgiveness, moving forward, release |
+| 4 | rest, recuperation, contemplation, recharging | restlessness, forced action, anxiety |
+| 5 | winning at a cost, conflict, ruthlessness | lingering resentment, reconciliation, letting go of the fight |
+| 6 | transition, moving on, calm after the storm | emotional baggage, unresolved issues, feeling stuck |
+| 7 | deception, strategy, hidden intentions | coming clean, rethinking, a guilty conscience |
+| 8 | entrapment, self-imposed limitation, victim mentality | self-acceptance, a new perspective, breaking free |
+| 9 | anxiety, despair, nightmares, excessive worry | hope, reaching out for help, emerging from the darkness |
+| 10 | defeat, collapse, painful ending, hitting rock bottom | bouncing back, can't get worse, a fresh start |
+| Page | curiosity, active mind, thirst for knowledge | deception, empty talk, sarcasm |
+| Knight | decisiveness, ambition, directness, swift action | rudeness, lack of empathy, recklessness |
+| Queen | independence, clarity, outspokenness, sharp wisdom | coldness, hypercriticism, emotional suppression |
+| King | clear thinking, authority, truth, fairness | quiet tyranny, abuse of power, cold-heartedness |
+
+**Suit Notes**:
+- **Three of Swords**: Three swords pierce a heart against a backdrop of rain clouds. The most direct pain card in the deck — and naming heartbreak is already the beginning of healing.
+- **Eight of Swords**: A blindfolded figure stands bound in a forest of swords — yet the bindings are loose, the ground is clear of traps. The prison is most often in the mind.
+- **Ten of Swords**: Ten swords in the back. The worst has already happened — but at the horizon, the faintest line of dawn is breaking. From here, there is only up.
+
+---
+
+## Pentacles 🪙
+
+The earth element — representing the material world, the body, money, work, and resources. Pentacles ask: how are you grounding yourself in the real world? How are you building something that lasts?
+
+| Card | Upright Keywords | Reversed Keywords |
+|------|-----------------|------------------|
+| Ace | new opportunity, prosperity, material manifestation | missed opportunity, lack of planning, greed |
+| 2 | balance, adaptability, prioritization, flexibility | imbalance, overcommitment, juggling too much |
+| 3 | teamwork, learning, mastery, skilled craftsmanship | lack of teamwork, mediocrity, cutting corners |
+| 4 | security, saving, consolidating, building a stable base | hoarding, materialism, over-controlling |
+| 5 | hardship, insecurity, loss, poverty consciousness | recovery, improvement, a turning point, emerging from difficulty |
+| 6 | generosity, balanced giving and receiving, goodwill | debt, selfishness, one-sided exchange |
+| 7 | patience, long-term investment, assessment | lack of foresight, limited returns, impatience |
+| 8 | skill-building, dedication, craftsmanship, deliberate practice | lack of focus, perfectionism, meaningless repetition |
+| 9 | abundance, independence, self-sufficiency, enjoying the harvest | over-reliance on material things, insecurity, isolation |
+| 10 | legacy, family wealth, lasting fulfillment | financial failure, family dispute, loneliness |
+| Page | ambition, learning new skills, practicality | lack of progress, procrastination, impracticality |
+| Knight | efficiency, reliability, diligence, steady progress | dullness, perfectionism, stagnation |
+| Queen | practical security, nurturing, abundant living | self-neglect, over-sacrifice, insecurity |
+| King | disciplined abundance, security, leadership | greed, control, obsession with material gain |
+
+**Suit Notes**:
+- **Five of Pentacles**: Two figures trudge through a winter night, passing a lit church window but not going in. Hardship often blinds us to help that is closer than we think.
+- **Eight of Pentacles**: A craftsman bends intently over his work, one finished coin hanging on the wall, more waiting on the ground. This is the energy of deliberate, devoted practice.
+- **King of Pentacles**: He sits amid grapevines and accumulated wealth, yet his gaze is steady and ungrasping — he knows that true abundance comes from discipline, not from possession.

@@ -1,55 +1,55 @@
-# ♐ 射手座 Sagittarius (11/22-12/21)
+# ♐ Sagittarius (11/22-12/21)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 火 Fire |
-| 模式 | 变动 Mutable |
-| 极性 | 阳 Positive |
-| 守护星 | 木星 Jupiter ♃ |
-| 宫位 | 第九宫 |
-| 象征 | 弓箭手 Archer 🏹 |
-| 诞生石 | 绿松石 Turquoise |
-| 幸运颜色 | 紫色、深蓝色 |
-| 幸运数字 | 3、7、9、12、21 |
-| 幸运日 | 星期四 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Fire |
+| Modality | Mutable |
+| Polarity | Positive |
+| Ruling Planet | Jupiter ♃ |
+| House | 9th House |
+| Symbol | Archer 🏹 |
+| Birthstone | Turquoise |
+| Lucky Colors | Purple, Dark Blue |
+| Lucky Numbers | 3, 7, 9, 12, 21 |
+| Lucky Day | Thursday |
 
-## 性格特征
+## Personality
 
-**核心特质**：慷慨(Generous)、理想主义(Idealistic)、幽默(Humorous)、自由奔放(Free-spirited)、冒险(Adventurous)、哲思(Philosophical)
+**Core Traits**: Generous, Idealistic, Humorous, Free-spirited, Adventurous, Philosophical
 
-**优点**：
-- 慷慨 Generous
-- 理想主义 Idealistic
-- 幽默 Humorous
-- 诚实 Honest
-- 开放 Open-minded
+**Strengths**:
+- Generous
+- Idealistic
+- Humorous
+- Honest
+- Open-minded
 
-**缺点**：
-- 承诺困难 Commitment-phobic
-- 粗心 Careless
-- 不讲策略 Tactless
-- 不耐烦 Impatient
-- 过度自信 Overconfident
+**Weaknesses**:
+- Commitment-phobic
+- Careless
+- Tactless
+- Impatient
+- Overconfident
 
-## 爱情倾向
+## Love Tendencies
 
-热爱自由和冒险，对感情充满热情但害怕被束缚。需要一个能与他们一起探索世界的伴侣，重视精神层面的契合和共同成长。
+Sagittarius loves adventure and has enormous enthusiasm for romance, but fears being tied down. They need a partner willing to explore the world alongside them — someone who shares their thirst for growth and values the journey as much as the destination. Spiritual and philosophical compatibility matters deeply.
 
-## 事业倾向
+## Career Tendencies
 
-适合涉及旅行、教育、哲学、出版的工作。是天生的探险家和传道者，需要足够大的舞台和行动自由。
+Travel, education, philosophy, and publishing are all natural vocations for Sagittarius. They're born explorers and big-picture thinkers who need a wide open stage and the freedom to move.
 
-## 财运倾向
+## Finance Tendencies
 
-投资风格冒险，敢于承担高风险。赚钱能力不差但花钱也大方，对金钱的态度乐观但有时过于轻率。
+Sagittarius takes financial risks others wouldn't dare to, with an optimistic belief that it'll work out. They earn well but also spend generously, and their approach to money is more carefree than cautious — occasionally to their own detriment.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 白羊座、狮子座、射手座、水瓶座 |
-| 良好匹配 | 天秤座、双子座 |
-| 有挑战 | 处女座、双鱼座 |
-| 困难匹配 | 金牛座、巨蟹座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Aries, Leo, Sagittarius, Aquarius |
+| Good Match | Libra, Gemini |
+| Challenging | Virgo, Pisces |
+| Difficult Match | Taurus, Cancer |

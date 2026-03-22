@@ -1,52 +1,52 @@
-# 塔罗牌阵参考
+# Tarot Spread Reference
 
-## 目录
+## Table of Contents
 
-- [单牌（Single Card）](#单牌single-card)
-- [三牌阵（Three-Card Spread）](#三牌阵three-card-spread)
-- [凯尔特十字（Celtic Cross）—— 10 张牌](#凯尔特十字celtic-cross-10-张牌)
-- [关系牌阵 —— 5 张牌](#关系牌阵--5-张牌)
-- [马蹄形牌阵 —— 7 张牌](#马蹄形牌阵--7-张牌)
-- [牌阵选择指南](#牌阵选择指南)
+- [Single Card](#single-card)
+- [Three-Card Spread](#three-card-spread)
+- [Celtic Cross — 10 Cards](#celtic-cross--10-cards)
+- [Relationship Spread — 5 Cards](#relationship-spread--5-cards)
+- [Horseshoe Spread — 7 Cards](#horseshoe-spread--7-cards)
+- [Spread Selection Guide](#spread-selection-guide)
 
-## 单牌（Single Card）
+## Single Card
 
-最简单的牌阵，抽一张牌。
+The simplest spread — one card drawn.
 
-**适用场景**：每日指引、简单是非问题、快速灵感
+**Best for**: daily guidance, simple yes/no questions, a quick flash of inspiration
 
-**解读要点**：聚焦牌面核心含义，不需要位置关联。
-
----
-
-## 三牌阵（Three-Card Spread）
-
-3 张牌，最常用的基础牌阵。
-
-**标准版本**：
-
-| 位置 | 含义 |
-|------|------|
-| 1（左） | 过去 — 导致当前情况的背景或根源 |
-| 2（中） | 现在 — 当前的核心状况 |
-| 3（右） | 未来 — 如果保持当前路径的可能发展 |
-
-**变体**：
-
-| 变体名 | 位置 1 | 位置 2 | 位置 3 |
-|--------|--------|--------|--------|
-| 身心灵 | 身体/物质 | 心智/思维 | 灵魂/灵性 |
-| 情况分析 | 情况 | 挑战 | 建议 |
-| 选择 | 选项 A | 选项 B | 建议 |
-| 关系 | 你的感受 | 对方的感受 | 关系方向 |
+**Reading focus**: Concentrate on the card's core meaning; no positional context required.
 
 ---
 
-## 凯尔特十字（Celtic Cross）—— 10 张牌
+## Three-Card Spread
 
-最经典、最全面的牌阵。
+3 cards — the most widely used foundational spread.
 
-**布局**：
+**Standard Layout**:
+
+| Position | Meaning |
+|----------|---------|
+| 1 (Left) | Past — the background or root cause leading to the current situation |
+| 2 (Center) | Present — the core of what is happening right now |
+| 3 (Right) | Future — the likely development if you continue on this path |
+
+**Variations**:
+
+| Variation | Position 1 | Position 2 | Position 3 |
+|-----------|------------|------------|------------|
+| Mind / Body / Spirit | Body / Material | Mind / Thought | Spirit / Soul |
+| Situation Analysis | Situation | Challenge | Advice |
+| Decision | Option A | Option B | Guidance |
+| Relationship | Your feelings | Their feelings | Direction of the relationship |
+
+---
+
+## Celtic Cross — 10 Cards
+
+The most classic and comprehensive spread in tarot.
+
+**Layout**:
 
 ```
           [5]
@@ -58,64 +58,64 @@
                     [7]
 ```
 
-| 位置 | 名称 | 含义 |
-|------|------|------|
-| 1 | 当下情境 | 问题核心，设定整体基调 |
-| 2 | 交叉牌 | 挑战/障碍/影响因素（横放在 1 上） |
-| 3 | 根源 | 远因/问题根基/潜意识 |
-| 4 | 近过去 | 导致当下的近期事件 |
-| 5 | 意识目标 | 理想结果/有意识的期望 |
-| 6 | 近未来 | 即将发生的事 |
-| 7 | 自我态度 | 问卜者对问题的内在态度 |
-| 8 | 外在环境 | 他人/环境的影响 |
-| 9 | 希望与恐惧 | 深层渴望或隐藏担忧 |
-| 10 | 最终结果 | 如果保持当前路径的可能结果 |
+| Position | Name | Meaning |
+|----------|------|---------|
+| 1 | Present Situation | The heart of the matter — sets the overall tone |
+| 2 | Crossing Card | The challenge, obstacle, or key influence (laid across Position 1) |
+| 3 | Foundation | The distant root / subconscious basis of the situation |
+| 4 | Recent Past | What has just happened that brought you here |
+| 5 | Conscious Goal | Your ideal outcome / what you're consciously hoping for |
+| 6 | Near Future | What is about to unfold |
+| 7 | Your Attitude | Your inner stance toward the situation |
+| 8 | External Environment | The influence of others and your surroundings |
+| 9 | Hopes and Fears | Your deepest longing or hidden concern |
+| 10 | Final Outcome | The likely result if you continue on your current path |
 
-**解读顺序建议**：
-1. 先看 1+2（核心+挑战）建立主题
-2. 再看 3+4（根源+近过去）理解来龙去脉
-3. 然后 5+6（目标+近未来）看方向
-4. 最后 7+8+9+10（态度+环境+希望恐惧+结果）做综合判断
-
----
-
-## 关系牌阵 —— 5 张牌
-
-**适用场景**：感情问题、合作关系、人际冲突
-
-| 位置 | 含义 |
-|------|------|
-| 1 | 你的感受/立场 |
-| 2 | 对方的感受/立场 |
-| 3 | 关系的基础/连接 |
-| 4 | 当前的挑战/阻碍 |
-| 5 | 关系的潜力/方向 |
+**Suggested Reading Order**:
+1. Start with 1+2 (core + challenge) to establish the central theme
+2. Move to 3+4 (foundation + recent past) to understand how you got here
+3. Then 5+6 (goal + near future) to see where things are heading
+4. Finally 7+8+9+10 (attitude + environment + hopes/fears + outcome) for synthesis
 
 ---
 
-## 马蹄形牌阵 —— 7 张牌
+## Relationship Spread — 5 Cards
 
-**适用场景**：需要比三牌阵更详细但不需要凯尔特十字那么深入
+**Best for**: love questions, partnerships, interpersonal conflict
 
-| 位置 | 含义 |
-|------|------|
-| 1 | 过去影响 |
-| 2 | 当前状况 |
-| 3 | 隐藏影响 |
-| 4 | 障碍 |
-| 5 | 外在影响 |
-| 6 | 建议行动 |
-| 7 | 可能结果 |
+| Position | Meaning |
+|----------|---------|
+| 1 | Your feelings / perspective |
+| 2 | Their feelings / perspective |
+| 3 | The foundation / bond between you |
+| 4 | The current challenge / obstacle |
+| 5 | The potential / direction of the relationship |
 
 ---
 
-## 牌阵选择指南
+## Horseshoe Spread — 7 Cards
 
-| 问题类型 | 推荐牌阵 | 理由 |
-|---------|---------|------|
-| 每日指引 | 单牌 | 快速、聚焦 |
-| 简单问题 | 三牌阵 | 基础但有结构 |
-| 感情关系 | 关系牌阵 | 双方视角+关系动态 |
-| 复杂决策 | 马蹄形 | 中等深度，含隐藏影响 |
-| 深度分析 | 凯尔特十字 | 最全面，10 个维度 |
-| 二选一 | 三牌阵变体（选择） | 直观对比 |
+**Best for**: when you need more depth than a Three-Card but don't need the full Celtic Cross
+
+| Position | Meaning |
+|----------|---------|
+| 1 | Past influences |
+| 2 | Present situation |
+| 3 | Hidden influences |
+| 4 | Obstacles |
+| 5 | External influences |
+| 6 | Suggested action |
+| 7 | Possible outcome |
+
+---
+
+## Spread Selection Guide
+
+| Type of Question | Recommended Spread | Why |
+|-----------------|-------------------|-----|
+| Daily guidance | Single Card | Fast, focused |
+| Simple question | Three-Card | Basic but structured |
+| Love / relationship | Relationship Spread | Both perspectives + relational dynamic |
+| Complex decision | Horseshoe | Moderate depth, includes hidden influences |
+| Deep dive | Celtic Cross | Most comprehensive — 10 dimensions |
+| Two options | Three-Card variant (Decision) | Direct side-by-side comparison |

@@ -1,21 +1,21 @@
-# 数字命理计算规则
+# Numerology Calculation Rules
 
-## 目录
+## Table of Contents
 
-- [一、字母-数字转换表（毕达哥拉斯体系）](#字母-数字转换表毕达哥拉斯体系)
-- [二、缩减规则](#缩减规则)
-- [三、五大核心数字](#五大核心数字)
-  - [1. 生命灵数](#1-生命灵数--生命路径数life-path-number)
-  - [2. 表达数](#2-表达数--命运数expression--destiny-number)
-  - [3. 灵魂冲动数](#3-灵魂冲动数--心之渴望数soul-urge--hearts-desire-number)
-  - [4. 人格数](#4-人格数personality-number)
-  - [5. 生日数](#5-生日数birthday-number)
-- [四、个人周期计算](#个人周期计算)
-  - [个人年](#个人年personal-year)
-  - [个人月](#个人月personal-month)
-  - [个人日](#个人日personal-day)
+- [I. Letter-to-Number Conversion Chart (Pythagorean System)](#letter-to-number-conversion-chart-pythagorean-system)
+- [II. Reduction Rules](#reduction-rules)
+- [III. The Five Core Numbers](#the-five-core-numbers)
+  - [1. Life Path Number](#1-life-path-number)
+  - [2. Expression Number](#2-expression-number--destiny-number)
+  - [3. Soul Urge Number](#3-soul-urge-number--hearts-desire-number)
+  - [4. Personality Number](#4-personality-number)
+  - [5. Birthday Number](#5-birthday-number)
+- [IV. Personal Cycle Calculations](#personal-cycle-calculations)
+  - [Personal Year](#personal-year)
+  - [Personal Month](#personal-month)
+  - [Personal Day](#personal-day)
 
-## 字母-数字转换表（毕达哥拉斯体系）
+## Letter-to-Number Conversion Chart (Pythagorean System)
 
 ```
 1  2  3  4  5  6  7  8  9
@@ -24,132 +24,132 @@ J  K  L  M  N  O  P  Q  R
 S  T  U  V  W  X  Y  Z
 ```
 
-**计算公式**：`(字母序号 - 1) % 9 + 1`，即 `(ord(letter) - ord('A')) % 9 + 1`
+**Formula**: `(letter position - 1) % 9 + 1`, i.e. `(ord(letter) - ord('A')) % 9 + 1`
 
-**元音字母**：A, E, I, O, U
+**Vowels**: A, E, I, O, U
 
-**Y 的特殊规则**：Y 在充当元音发音时算作元音（如 Yvonne 中的首字母 Y、Rhys 中的 Y），否则算辅音。当无法判断时，默认作为辅音处理。
+**Special rule for Y**: Y is treated as a vowel when it functions as one phonetically (e.g., the leading Y in "Yvonne," or the Y in "Rhys"). Otherwise, Y is treated as a consonant. When in doubt, default to consonant.
 
-## 缩减规则
+## Reduction Rules
 
-将任意正整数缩减至个位数（1~9），但**保留大师数**（11、22、33）不继续缩减。
-
-```
-缩减(n):
-  当 n > 9 且 n 不是 11、22、33 时：
-    n = 各位数字之和
-  返回 n
-```
-
-## 五大核心数字
-
-### 1. 生命灵数 / 生命路径数（Life Path Number）
-
-**来源**：出生日期
-**重要性**：最核心的数字，代表人生主题和使命
-
-**计算方法**：将出生年、月、日**分别缩减**后相加，再缩减。
-
-> 关键规则：年/月/日必须先各自缩减再相加，不能直接把所有数字加在一起（否则可能错过大师数）。
+Reduce any positive integer to a single digit (1–9), but **preserve Master Numbers** (11, 22, 33) — do not reduce them further.
 
 ```
-示例：1990年6月15日
-
-月：6 → 6
-日：15 → 1+5 = 6
-年：1990 → 1+9+9+0 = 19 → 1+9 = 10 → 1+0 = 1
-
-总和：6 + 6 + 1 = 13 → 1+3 = 4
-
-生命路径数 = 4
+reduce(n):
+  while n > 9 and n is not 11, 22, or 33:
+    n = sum of digits of n
+  return n
 ```
 
-### 2. 表达数 / 命运数（Expression / Destiny Number）
+## The Five Core Numbers
 
-**来源**：出生时的完整法定姓名的**所有字母**
-**含义**：天赋、才能和人生目标
+### 1. Life Path Number
 
-**计算方法**：将全名中每个字母转为数字，按名字分组求和缩减，再总和缩减。
+**Source**: Date of birth
+**Significance**: The most important number — represents your life's central theme and purpose
+
+**Calculation**: Reduce the birth year, month, and day **separately**, then add them together and reduce the sum.
+
+> Key rule: Year, month, and day must each be reduced individually before being added. Adding all digits together at once can cause you to miss a Master Number.
 
 ```
-示例：JOHN SMITH
+Example: June 15, 1990
+
+Month: 6 → 6
+Day: 15 → 1+5 = 6
+Year: 1990 → 1+9+9+0 = 19 → 1+9 = 10 → 1+0 = 1
+
+Sum: 6 + 6 + 1 = 13 → 1+3 = 4
+
+Life Path Number = 4
+```
+
+### 2. Expression Number / Destiny Number
+
+**Source**: **All letters** of the full legal name at birth
+**Meaning**: Natural talents, abilities, and life purpose
+
+**Calculation**: Convert each letter of the full name to its number value, reduce the sum for each name segment, then reduce the total.
+
+```
+Example: JOHN SMITH
 
 J=1 O=6 H=8 N=5 → 20 → 2
 S=1 M=4 I=9 T=2 H=8 → 24 → 6
 
-总和：2 + 6 = 8
+Total: 2 + 6 = 8
 
-表达数 = 8
+Expression Number = 8
 ```
 
-### 3. 灵魂冲动数 / 心之渴望数（Soul Urge / Heart's Desire Number）
+### 3. Soul Urge Number / Heart's Desire Number
 
-**来源**：全名中的**所有元音字母**
-**含义**：内心深处的渴望和动力
-
-```
-示例：JOHN SMITH
-
-元音：O(6) + I(9) = 15 → 1+5 = 6
-
-灵魂冲动数 = 6
-```
-
-### 4. 人格数（Personality Number）
-
-**来源**：全名中的**所有辅音字母**
-**含义**：外在形象和他人眼中的你
+**Source**: **All vowels** in the full name
+**Meaning**: Your deepest inner desires and motivations
 
 ```
-示例：JOHN SMITH
+Example: JOHN SMITH
 
-辅音：J(1) H(8) N(5) + S(1) M(4) T(2) H(8) = 29 → 2+9 = 11
+Vowels: O(6) + I(9) = 15 → 1+5 = 6
 
-人格数 = 11（大师数，不继续缩减）
+Soul Urge Number = 6
 ```
 
-**校验关系**：灵魂冲动数与人格数的原始总和 = 表达数的原始总和。
+### 4. Personality Number
 
-### 5. 生日数（Birthday Number）
-
-**来源**：出生日期中的"日"
-**含义**：特殊才能和天赋
+**Source**: **All consonants** in the full name
+**Meaning**: The outward impression you make — how others perceive you
 
 ```
-15日 → 1+5 = 6
-生日数 = 6
+Example: JOHN SMITH
+
+Consonants: J(1) H(8) N(5) + S(1) M(4) T(2) H(8) = 29 → 2+9 = 11
+
+Personality Number = 11 (Master Number — do not reduce further)
 ```
 
-11日 = 11，22日 = 22（保留大师数）。
+**Verification check**: The raw totals of Soul Urge + Personality = the raw total of the Expression Number.
 
-## 个人周期计算
+### 5. Birthday Number
 
-### 个人年（Personal Year）
-
-```
-个人年 = 缩减(缩减(出生月) + 缩减(出生日) + 缩减(当前年份各位之和))
-```
+**Source**: The "day" portion of the birth date
+**Meaning**: A special talent or gift
 
 ```
-示例：生日6月15日，2026年
-
-月：6
-日：1+5 = 6
-年：2+0+2+6 = 10 → 1
-
-个人年 = 6 + 6 + 1 = 13 → 4
+Day 15 → 1+5 = 6
+Birthday Number = 6
 ```
 
-个人年周期为 1~9 循环。
+Day 11 = 11, Day 22 = 22 (Master Numbers are preserved).
 
-### 个人月（Personal Month）
+## Personal Cycle Calculations
 
-```
-个人月 = 缩减(个人年数 + 当前月份)
-```
-
-### 个人日（Personal Day）
+### Personal Year
 
 ```
-个人日 = 缩减(个人月数 + 当前日期)
+Personal Year = reduce(reduce(birth month) + reduce(birth day) + reduce(sum of digits of current year))
+```
+
+```
+Example: Birthday June 15, year 2026
+
+Month: 6
+Day: 1+5 = 6
+Year: 2+0+2+6 = 10 → 1
+
+Personal Year = 6 + 6 + 1 = 13 → 4
+```
+
+Personal Year cycles in a repeating 1–9 sequence.
+
+### Personal Month
+
+```
+Personal Month = reduce(Personal Year number + current month)
+```
+
+### Personal Day
+
+```
+Personal Day = reduce(Personal Month number + current date)
 ```

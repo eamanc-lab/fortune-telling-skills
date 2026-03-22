@@ -1,55 +1,55 @@
-# ♓ 双鱼座 Pisces (2/19-3/20)
+# ♓ Pisces (2/19-3/20)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 水 Water |
-| 模式 | 变动 Mutable |
-| 极性 | 阴 Negative |
-| 守护星 | 海王星 Neptune ♆（传统：木星 Jupiter ♃） |
-| 宫位 | 第十二宫 |
-| 象征 | 鱼 Fish 🐟 |
-| 诞生石 | 海蓝宝石 Aquamarine |
-| 幸运颜色 | 淡紫色、海蓝色 |
-| 幸运数字 | 3、9、12、15、18、24 |
-| 幸运日 | 星期四 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Water |
+| Modality | Mutable |
+| Polarity | Negative |
+| Ruling Planet | Neptune ♆ (traditional: Jupiter ♃) |
+| House | 12th House |
+| Symbol | Fish 🐟 |
+| Birthstone | Aquamarine |
+| Lucky Colors | Lavender, Aqua Blue |
+| Lucky Numbers | 3, 9, 12, 15, 18, 24 |
+| Lucky Day | Thursday |
 
-## 性格特征
+## Personality
 
-**核心特质**：同情心强(Compassionate)、艺术气质(Artistic)、直觉强(Intuitive)、温柔(Gentle)、智慧(Wise)、灵性(Spiritual)
+**Core Traits**: Compassionate, Artistic, Intuitive, Gentle, Wise, Spiritual
 
-**优点**：
-- 同情心强 Compassionate
-- 艺术气质 Artistic
-- 直觉强 Intuitive
-- 温柔 Gentle
-- 智慧 Wise
+**Strengths**:
+- Compassionate
+- Artistic
+- Intuitive
+- Gentle
+- Wise
 
-**缺点**：
-- 恐惧 Fearful
-- 过度信任 Overly trusting
-- 悲伤 Sad
-- 逃避现实 Escapist
-- 自我牺牲 Self-sacrificing
+**Weaknesses**:
+- Fearful
+- Overly trusting
+- Prone to sadness
+- Escapist
+- Self-sacrificing
 
-## 爱情倾向
+## Love Tendencies
 
-渴望童话般的浪漫爱情，极易坠入爱河。情感丰富、体贴入微，倾向于把伴侣理想化。需要学会分辨真实的爱与幻想。
+Pisces dreams of fairy-tale love and falls easily and completely. They are among the most emotionally generous and attentive partners in the zodiac, with a tendency to place their beloved on a pedestal. Learning to distinguish real love from idealized fantasy is one of their most important relationship lessons.
 
-## 事业倾向
+## Career Tendencies
 
-适合创意和需要同理心的工作——音乐、绘画、写作、心理咨询、社会服务。有极强的直觉和感受力，在灵性/疗愈领域也表现出色。
+Creative and empathetic work is where Pisces shines — music, painting, writing, counseling, and social services all draw on their deep intuition and emotional intelligence. Healing and spiritual work are also natural callings.
 
-## 财运倾向
+## Finance Tendencies
 
-对金钱缺乏规划和概念，花钱跟着感觉走。往往慷慨到不利自身，需要更务实的理财策略和纪律。
+Financial planning doesn't come naturally to Pisces — spending often follows feeling rather than logic. Their generosity can sometimes extend to the point of self-sabotage. A more pragmatic approach to budgeting, paired with real discipline, makes a significant difference.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 巨蟹座、天蝎座、双鱼座、金牛座 |
-| 良好匹配 | 摩羯座、处女座 |
-| 有挑战 | 双子座、射手座 |
-| 困难匹配 | 白羊座、水瓶座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Cancer, Scorpio, Pisces, Taurus |
+| Good Match | Capricorn, Virgo |
+| Challenging | Gemini, Sagittarius |
+| Difficult Match | Aries, Aquarius |

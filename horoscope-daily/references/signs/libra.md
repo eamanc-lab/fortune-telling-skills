@@ -1,55 +1,55 @@
-# ♎ 天秤座 Libra (9/23-10/22)
+# ♎ Libra (9/23-10/22)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 风 Air |
-| 模式 | 开创 Cardinal |
-| 极性 | 阳 Positive |
-| 守护星 | 金星 Venus ♀ |
-| 宫位 | 第七宫 |
-| 象征 | 天秤 Scales ⚖️ |
-| 诞生石 | 蛋白石 Opal |
-| 幸运颜色 | 粉色、浅蓝色 |
-| 幸运数字 | 4、6、13、15、24 |
-| 幸运日 | 星期五 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Air |
+| Modality | Cardinal |
+| Polarity | Positive |
+| Ruling Planet | Venus ♀ |
+| House | 7th House |
+| Symbol | Scales ⚖️ |
+| Birthstone | Opal |
+| Lucky Colors | Pink, Light Blue |
+| Lucky Numbers | 4, 6, 13, 15, 24 |
+| Lucky Day | Friday |
 
-## 性格特征
+## Personality
 
-**核心特质**：公正(Fair-minded)、和谐(Harmonious)、社交能力强(Social)、优雅(Graceful)、有外交手腕(Diplomatic)、浪漫(Romantic)
+**Core Traits**: Fair-minded, Harmonious, Social, Graceful, Diplomatic, Romantic
 
-**优点**：
-- 公正 Fair-minded
-- 社交能力强 Social
-- 优雅 Graceful
-- 善于合作 Cooperative
-- 有外交手腕 Diplomatic
+**Strengths**:
+- Fair-minded
+- Social
+- Graceful
+- Cooperative
+- Diplomatic
 
-**缺点**：
-- 优柔寡断 Indecisive
-- 逃避冲突 Avoids confrontation
-- 自怜 Self-pitying
-- 随大流 Conformist
-- 讨好他人 People-pleasing
+**Weaknesses**:
+- Indecisive
+- Conflict-avoidant
+- Self-pitying
+- Conformist
+- People-pleasing
 
-## 爱情倾向
+## Love Tendencies
 
-为爱而生，渴望和谐美好的伴侣关系。善于营造浪漫氛围，需要智识匹配和审美共鸣的伴侣，但在择偶过程中可能因过于追求完美而犹豫不决。
+Libra was made for partnership — they crave connection, harmony, and a love that feels genuinely beautiful. They're natural at creating romantic atmospheres and need a partner who matches them intellectually and aesthetically. The search for the perfect match, however, can sometimes lead them to hesitate longer than necessary.
 
-## 事业倾向
+## Career Tendencies
 
-适合协调、谈判、审美相关工作——法律、外交、设计、公关。善于看到事物的多面性，是天生的中间人和调解者。
+Coordination, negotiation, and beauty are Libra's natural domains — law, diplomacy, design, and public relations fit them like a glove. They have an extraordinary ability to see all sides of a situation, making them gifted mediators and trusted collaborators.
 
-## 财运倾向
+## Finance Tendencies
 
-容易为美好事物消费，对精致生活有天然追求。需要理性的另一半或财务顾问来平衡审美欲望与预算。
+Beautiful things are a real temptation for Libra — they have a natural pull toward fine living. A grounded partner or a trusted financial advisor can help balance their aesthetic appetite with their actual budget.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 双子座、水瓶座、天秤座、狮子座 |
-| 良好匹配 | 白羊座、射手座 |
-| 有挑战 | 巨蟹座、摩羯座 |
-| 困难匹配 | 金牛座、天蝎座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Gemini, Aquarius, Libra, Leo |
+| Good Match | Aries, Sagittarius |
+| Challenging | Cancer, Capricorn |
+| Difficult Match | Taurus, Scorpio |

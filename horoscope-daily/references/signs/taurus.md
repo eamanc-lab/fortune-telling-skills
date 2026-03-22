@@ -1,55 +1,55 @@
-# ♉ 金牛座 Taurus (4/20-5/20)
+# ♉ Taurus (4/20-5/20)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 土 Earth |
-| 模式 | 固定 Fixed |
-| 极性 | 阴 Negative |
-| 守护星 | 金星 Venus ♀ |
-| 宫位 | 第二宫 |
-| 象征 | 公牛 Bull 🐂 |
-| 诞生石 | 祖母绿 Emerald |
-| 幸运颜色 | 绿色、粉红色 |
-| 幸运数字 | 2、6、9、12、24 |
-| 幸运日 | 星期一、星期五 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Earth |
+| Modality | Fixed |
+| Polarity | Negative |
+| Ruling Planet | Venus ♀ |
+| House | 2nd House |
+| Symbol | Bull 🐂 |
+| Birthstone | Emerald |
+| Lucky Colors | Green, Pink |
+| Lucky Numbers | 2, 6, 9, 12, 24 |
+| Lucky Days | Monday, Friday |
 
-## 性格特征
+## Personality
 
-**核心特质**：可靠(Reliable)、有耐心(Patient)、务实(Practical)、感性(Sensual)、固执(Stubborn)、专注(Devoted)
+**Core Traits**: Reliable, Patient, Practical, Sensual, Stubborn, Devoted
 
-**优点**：
-- 可靠 Reliable
-- 有耐心 Patient
-- 务实 Practical
-- 忠诚 Loyal
-- 负责任 Responsible
+**Strengths**:
+- Reliable
+- Patient
+- Practical
+- Loyal
+- Responsible
 
-**缺点**：
-- 固执 Stubborn
-- 占有欲强 Possessive
-- 物质主义 Materialistic
-- 自我放纵 Self-indulgent
-- 缺乏弹性 Inflexible
+**Weaknesses**:
+- Stubborn
+- Possessive
+- Materialistic
+- Self-indulgent
+- Inflexible
 
-## 爱情倾向
+## Love Tendencies
 
-极具感官敏锐性，需要时间建立安全感和信任环境。忠诚专一，偏好传统价值观，重视用物质行动表达爱意，一旦承诺便会长期坚守。
+Taurus is deeply sensory and needs time to build trust and feel truly secure before opening up. Once committed, they are fiercely loyal and devoted, preferring to show love through tangible gestures rather than grand declarations. When a Taurus makes a promise, they intend to keep it for the long haul.
 
-## 事业倾向
+## Career Tendencies
 
-可靠、勤劳、耐心且细致，一旦锁定目标就会坚持到底。适合农业、银行、艺术及烹饪相关工作，以稳定和实际为职业核心。
+Reliable, hardworking, patient, and thorough — once Taurus sets their sights on a goal, they don't let go. Agriculture, banking, the arts, and culinary work suit them well. Stability and tangible results are the foundation of their professional identity.
 
-## 财运倾向
+## Finance Tendencies
 
-财务管理严谨，账单按时支付，重视储蓄和养老规划。无论收入多少都能理性消费，积极积累物质财富。
+Taurus takes money seriously: bills paid on time, savings prioritized, retirement planned for. Whatever their income level, they spend thoughtfully and work steadily to build material security over time.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 处女座、摩羯座、金牛座、巨蟹座 |
-| 良好匹配 | 双鱼座、天蝎座 |
-| 有挑战 | 狮子座、水瓶座 |
-| 困难匹配 | 射手座、白羊座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Virgo, Capricorn, Taurus, Cancer |
+| Good Match | Pisces, Scorpio |
+| Challenging | Leo, Aquarius |
+| Difficult Match | Sagittarius, Aries |

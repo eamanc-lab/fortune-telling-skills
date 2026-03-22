@@ -1,55 +1,55 @@
-# ♈ 白羊座 Aries (3/21-4/19)
+# ♈ Aries (3/21-4/19)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 火 Fire |
-| 模式 | 开创 Cardinal |
-| 极性 | 阳 Positive |
-| 守护星 | 火星 Mars ♂ |
-| 宫位 | 第一宫 |
-| 象征 | 公羊 Ram 🐏 |
-| 诞生石 | 钻石 Diamond |
-| 幸运颜色 | 红色 |
-| 幸运数字 | 1、9 |
-| 幸运日 | 星期二 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Fire |
+| Modality | Cardinal |
+| Polarity | Positive |
+| Ruling Planet | Mars ♂ |
+| House | 1st House |
+| Symbol | Ram 🐏 |
+| Birthstone | Diamond |
+| Lucky Color | Red |
+| Lucky Numbers | 1, 9 |
+| Lucky Day | Tuesday |
 
-## 性格特征
+## Personality
 
-**核心特质**：勇敢(Courageous)、充满活力(Energetic)、自信(Confident)、热情(Enthusiastic)、直接(Direct)、领导力强(Leader)
+**Core Traits**: Courageous, Energetic, Confident, Enthusiastic, Direct, Natural Leader
 
-**优点**：
-- 勇敢果断 Brave
-- 坚定有决心 Determined
-- 自信 Confident
-- 热情乐观 Enthusiastic
-- 诚实直率 Optimistic
+**Strengths**:
+- Brave
+- Determined
+- Confident
+- Enthusiastic
+- Optimistic and straightforward
 
-**缺点**：
-- 急躁 Impatient
-- 喜怒无常 Moody
-- 冲动 Impulsive
-- 好斗 Aggressive
-- 脾气暴躁 Short-tempered
+**Weaknesses**:
+- Impatient
+- Moody
+- Impulsive
+- Aggressive
+- Short-tempered
 
-## 爱情倾向
+## Love Tendencies
 
-热情强烈，坠入爱河时会毫不犹豫地主动表达感受。享受追求过程，需要伴侣给予足够的空间和尊重，学会平衡自己的激情与对方的节奏。
+Aries loves with heat and intensity — when they fall, they go all in and make their feelings known without hesitation. They thrive on the thrill of pursuit and need a partner who respects their independence. Learning to match their passion with their partner's pace is an ongoing (and worthwhile) journey.
 
-## 事业倾向
+## Career Tendencies
 
-天生具有领导才能，适合竞争性环境和领导岗位。思维敏捷、行动力强，在挑战和压力中表现出色，适合管理、体育、创业等领域。
+Born with natural leadership instincts, Aries thrives in competitive environments and roles that put them at the front. Quick-thinking and action-oriented, they perform best under pressure and challenge. Management, athletics, and entrepreneurship are natural fits.
 
-## 财运倾向
+## Finance Tendencies
 
-赚钱能力强，但消费冲动，生活在当下而对未来规划不足。总能找到赚钱方式来弥补支出，财运呈自然流动状态。
+Aries earns well but spends on impulse, living in the present with little thought for tomorrow. That said, they always seem to find a way to replenish what they spend. Their finances tend to flow freely rather than accumulate steadily.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 狮子座、射手座、白羊座、双子座 |
-| 良好匹配 | 水瓶座、天秤座 |
-| 有挑战 | 巨蟹座、摩羯座 |
-| 困难匹配 | 处女座、双鱼座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Leo, Sagittarius, Aries, Gemini |
+| Good Match | Aquarius, Libra |
+| Challenging | Cancer, Capricorn |
+| Difficult Match | Virgo, Pisces |

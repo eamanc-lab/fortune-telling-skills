@@ -1,123 +1,123 @@
-# 塔罗解读规则
+# Tarot Interpretation Rules
 
-## 目录
+## Table of Contents
 
-- [元素互动](#元素互动)
-- [数字重复规则](#数字重复规则)
-- [大小阿尔卡纳比例](#大小阿尔卡纳比例)
-- [花色主导](#花色主导)
-- [逆位牌的三种解读维度](#逆位牌的三种解读维度)
-- [宫廷牌的双重解读](#宫廷牌的双重解读)
-- [特殊牌面处理指南](#特殊牌面处理指南)
-- [综合解读流程](#综合解读流程)
+- [Elemental Interactions](#elemental-interactions)
+- [Repeated Numbers](#repeated-numbers)
+- [Major vs. Minor Arcana Ratio](#major-vs-minor-arcana-ratio)
+- [Dominant Suit](#dominant-suit)
+- [Three Dimensions of Reversed Cards](#three-dimensions-of-reversed-cards)
+- [The Dual Nature of Court Cards](#the-dual-nature-of-court-cards)
+- [Special Card Handling Guide](#special-card-handling-guide)
+- [Synthesis Process](#synthesis-process)
 
-## 元素互动
+## Elemental Interactions
 
-当牌阵中多张牌的元素发生互动时，参考以下规则：
+When multiple cards in a spread share elemental energies, refer to the following:
 
-| 组合 | 关系 | 解读 |
-|------|------|------|
-| 火🔥 + 风🌬️ | 相助 | 激情得到思维支持，行动力强 |
-| 水💧 + 土🪙 | 相助 | 情感得到实际支撑，稳定踏实 |
-| 火🔥 + 水💧 | 冲突 | 激情与情感矛盾，变化剧烈 |
-| 风🌬️ + 土🪙 | 冲突 | 理想与现实的拉锯，需要调和 |
-| 火🔥 + 土🪙 | 中性 | 行动需要扎根，创意需要落地 |
-| 水💧 + 风🌬️ | 中性 | 情感需要理性审视，直觉与逻辑并行 |
-
----
-
-## 数字重复规则
-
-当牌阵中出现多张相同数字的牌时：
-
-- **2 张同数字**：主题强调，该阶段的能量显著
-- **3 张同数字**：强烈信号，该主题是核心议题
-- **4 张同数字**：极其罕见，该主题已成为不可忽视的力量
-
-**数字的象征含义**：
-
-| 数字 | 象征 |
-|------|------|
-| Ace（1） | 开始、原始能量、种子 |
-| 2 | 二元、选择、伙伴关系 |
-| 3 | 创造、成长、合作 |
-| 4 | 稳定、基础、结构 |
-| 5 | 变化、冲突、挑战 |
-| 6 | 和谐、责任、流动 |
-| 7 | 反思、评估、内在探索 |
-| 8 | 力量、进步、掌控 |
-| 9 | 接近完成、整合、智慧 |
-| 10 | 完成、循环终结、过渡 |
+| Combination | Relationship | Reading |
+|-------------|-------------|---------|
+| Fire 🔥 + Air 🌬️ | Supportive | Passion backed by thought — strong drive and momentum |
+| Water 💧 + Earth 🪙 | Supportive | Emotion grounded in practicality — stable and solid |
+| Fire 🔥 + Water 💧 | Conflicting | Passion and feeling pull against each other — volatile, intense change |
+| Air 🌬️ + Earth 🪙 | Conflicting | Ideals and reality in tension — requires bridging and compromise |
+| Fire 🔥 + Earth 🪙 | Neutral | Action needs grounding; creativity must become tangible |
+| Water 💧 + Air 🌬️ | Neutral | Feeling needs rational perspective; intuition and logic in dialogue |
 
 ---
 
-## 大小阿尔卡纳比例
+## Repeated Numbers
 
-- **多数为大阿尔卡纳** → 问题涉及重大人生转变、灵魂课题、命运性事件
-- **多数为小阿尔卡纳** → 日常事件、可控范围内的情况、具体行动层面
-- **均衡混合** → 日常事件中蕴含更深层的灵性意义
+When multiple cards in a spread share the same number:
 
----
+- **2 cards with the same number**: The theme is emphasized — that energy is especially present in this reading
+- **3 cards with the same number**: A strong signal — this theme is the central issue at hand
+- **4 cards with the same number**: Extremely rare; this theme has become an undeniable force in the querent's situation
 
-## 花色主导
+**Symbolic Meanings by Number**:
 
-- **权杖🔥主导** → 行动和创意是关键，需要勇气和热情
-- **圣杯💧主导** → 情感和关系是核心，需要倾听内心
-- **宝剑🌬️主导** → 冲突和思维是焦点，需要清晰判断
-- **金币🪙主导** → 物质和实际是重点，需要脚踏实地
-
----
-
-## 逆位牌的三种解读维度
-
-逆位牌不等于"坏"，可以从三个角度理解：
-
-1. **能量阻塞**：正位的能量被压制或无法正常流动
-2. **能量过度**：正位的特质被过度放大到失控
-3. **内在化**：正位的能量从外在表现转为内在体验
-
-选择哪种解读取决于上下文和周围牌的互动。
+| Number | Symbolism |
+|--------|-----------|
+| Ace (1) | beginnings, raw energy, the seed |
+| 2 | duality, choice, partnership |
+| 3 | creation, growth, collaboration |
+| 4 | stability, foundation, structure |
+| 5 | change, conflict, challenge |
+| 6 | harmony, responsibility, flow |
+| 7 | reflection, evaluation, inner exploration |
+| 8 | strength, progress, mastery |
+| 9 | near completion, integration, wisdom |
+| 10 | completion, end of a cycle, transition |
 
 ---
 
-## 宫廷牌的双重解读
+## Major vs. Minor Arcana Ratio
 
-宫廷牌（侍从/骑士/王后/国王）可以代表：
-
-1. **一个人**：问卜者自己、或生活中的某个人
-2. **一种能量**：问卜者需要拥抱或警惕的特质
-
-| 角色 | 成熟度 | 作为人 | 作为能量 |
-|------|--------|--------|---------|
-| 侍从 Page | 初学者 | 年轻人、学生、孩子 | 好奇心、学习、新开始 |
-| 骑士 Knight | 行动者 | 年轻成人、追求者 | 追求、极端、冲劲 |
-| 王后 Queen | 内在掌控 | 成熟女性、母亲 | 滋养、直觉、内在力量 |
-| 国王 King | 外在权威 | 成熟男性、领导者 | 掌控、权威、外在力量 |
+- **Mostly Major Arcana** → The question touches on major life transformation, soul-level lessons, or karmic events
+- **Mostly Minor Arcana** → Everyday circumstances, situations within the querent's control, practical matters
+- **Balanced mix** → Ordinary events carry deeper spiritual meaning woven through them
 
 ---
 
-## 特殊牌面处理指南
+## Dominant Suit
 
-| 牌 | 常见误解 | 正确解读方向 |
-|----|---------|------------|
-| 死神 XIII | "代表死亡" | 象征蜕变与重生，旧阶段的自然结束 |
-| 塔 XVI | "灾难降临" | 不再服务于你的结构正在被清除，是解放 |
-| 恶魔 XV | "邪恶力量" | 觉察自己的束缚和执着，是自我解放的第一步 |
-| 十号宝剑 | "最糟糕的牌" | 已经触底，意味着转机和新生即将到来 |
-| 塔逆位 | "灾难避免" | 变革的能量被延迟但不会消失，提前准备 |
+- **Wands 🔥 dominant** → Action and creativity are the key — courage and passion are called for
+- **Cups 💧 dominant** → Emotion and relationships are at the center — listening to the heart is essential
+- **Swords 🌬️ dominant** → Conflict and thought are in focus — clear judgment and discernment are needed
+- **Pentacles 🪙 dominant** → The material and practical are paramount — staying grounded and realistic matters most
 
 ---
 
-## 综合解读流程
+## Three Dimensions of Reversed Cards
 
-进行完整牌阵解读时，建议按以下顺序思考：
+A reversed card does not simply mean "bad." There are three angles from which to read it:
 
-1. **整体印象**：先看整副牌的整体感受，不分析，只感受
-2. **比例观察**：大/小阿尔卡纳比例、花色主导、正逆位比例
-3. **核心位置**：找到牌阵中权重最高的位置（通常是第1、2位或结果位）
-4. **逐位解读**：按牌阵设计的顺序，结合位置含义解读每张牌
-5. **互动关联**：注意相邻牌或呼应牌之间的对话与张力
-6. **综合叙事**：把所有解读编织成一个连贯的故事，而非孤立的牌义罗列
-7. **核心信息**：提炼出1-2句最重要的洞见或建议
+1. **Blocked energy**: The upright energy is suppressed or unable to flow freely
+2. **Excess energy**: The upright quality has been amplified to the point of imbalance or loss of control
+3. **Internalized energy**: The upright expression has turned inward — an inner experience rather than an outer one
 
-**解读的艺术**：好的塔罗解读不是机械地背诵牌义，而是以牌为媒介，帮助问卜者与自身的智慧建立对话。解读者是翻译，不是预言者。
+Which dimension applies depends on context and how the surrounding cards interact.
+
+---
+
+## The Dual Nature of Court Cards
+
+Court cards (Page / Knight / Queen / King) can represent either:
+
+1. **A person**: The querent themselves, or someone in their life
+2. **An energy**: A quality the querent is being asked to embrace or guard against
+
+| Role | Maturity | As a Person | As an Energy |
+|------|----------|-------------|--------------|
+| Page | Beginner | a young person, student, or child | curiosity, learning, fresh beginnings |
+| Knight | Action-taker | a young adult, someone in pursuit | striving, extremes, drive |
+| Queen | Inner mastery | a mature woman, a mother figure | nurturing, intuition, inner strength |
+| King | Outer authority | a mature man, a leader | command, authority, external power |
+
+---
+
+## Special Card Handling Guide
+
+| Card | Common Misconception | Correct Interpretive Direction |
+|------|---------------------|-------------------------------|
+| Death XIII | "It means literal death" | Transformation and rebirth — the natural end of one chapter |
+| The Tower XVI | "Disaster is coming" | What no longer serves you is being cleared away — this is liberation |
+| The Devil XV | "An evil force" | Recognizing your own chains and attachments — the first step to freeing yourself |
+| Ten of Swords | "The worst card in the deck" | You've hit the bottom — which means the turning point and new life are on the way |
+| The Tower Reversed | "Disaster averted" | The energy of change is delayed but not gone — prepare proactively |
+
+---
+
+## Synthesis Process
+
+When reading a full spread, move through the following sequence:
+
+1. **First impression**: Take in the spread as a whole — don't analyze yet, just feel
+2. **Observe proportions**: Major vs. Minor ratio, dominant suit, upright vs. reversed ratio
+3. **Anchor the key positions**: Identify the positions carrying the most weight (usually Positions 1 and 2, or the outcome card)
+4. **Read position by position**: Following the spread's designed sequence, interpret each card in light of its positional meaning
+5. **Explore interactions**: Notice conversations and tensions between adjacent or echoing cards
+6. **Weave the narrative**: Draw all the readings into a single coherent story — not a list of isolated card meanings
+7. **Distill the core message**: Arrive at 1–2 sentences carrying the most essential insight or guidance
+
+**The art of reading**: A skilled tarot reading is not a mechanical recitation of card definitions. The cards are the medium; the real work is helping the querent enter into dialogue with their own wisdom. The reader is a translator, not a prophet.

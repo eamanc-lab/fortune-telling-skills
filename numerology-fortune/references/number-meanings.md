@@ -1,221 +1,221 @@
-# 数字含义参考表
+# Number Meanings Reference
 
-## 目录
+## Table of Contents
 
-- [一、主命数 1~9](#主命数-19)
-  - [数字 1 — 领导者](#数字-1--领导者)
-  - [数字 2 — 合作者](#数字-2--合作者)
-  - [数字 3 — 创造者](#数字-3--创造者)
-  - [数字 4 — 建造者](#数字-4--建造者)
-  - [数字 5 — 自由者](#数字-5--自由者)
-  - [数字 6 — 照顾者](#数字-6--照顾者)
-  - [数字 7 — 探索者](#数字-7--探索者)
-  - [数字 8 — 成就者](#数字-8--成就者)
-  - [数字 9 — 人道主义者](#数字-9--人道主义者)
-- [二、大师数 11、22、33](#大师数-112233)
-  - [数字 11 — 直觉大师](#数字-11--直觉大师)
-  - [数字 22 — 建造大师](#数字-22--建造大师)
-  - [数字 33 — 治愈大师](#数字-33--治愈大师)
-- [三、个人年周期含义（1~9 循环）](#个人年周期含义19-循环)
-- [四、个人月含义](#个人月含义)
-- [五、个人日含义](#个人日含义)
+- [I. Core Numbers 1–9](#core-numbers-19)
+  - [Number 1 — The Leader](#number-1--the-leader)
+  - [Number 2 — The Cooperator](#number-2--the-cooperator)
+  - [Number 3 — The Creator](#number-3--the-creator)
+  - [Number 4 — The Builder](#number-4--the-builder)
+  - [Number 5 — The Freedom Seeker](#number-5--the-freedom-seeker)
+  - [Number 6 — The Nurturer](#number-6--the-nurturer)
+  - [Number 7 — The Seeker](#number-7--the-seeker)
+  - [Number 8 — The Achiever](#number-8--the-achiever)
+  - [Number 9 — The Humanitarian](#number-9--the-humanitarian)
+- [II. Master Numbers 11, 22, 33](#master-numbers-11-22-33)
+  - [Number 11 — The Intuitive Master](#number-11--the-intuitive-master)
+  - [Number 22 — The Master Builder](#number-22--the-master-builder)
+  - [Number 33 — The Master Healer](#number-33--the-master-healer)
+- [III. Personal Year Cycle Meanings (1–9)](#personal-year-cycle-meanings-19)
+- [IV. Personal Month Meanings](#personal-month-meanings)
+- [V. Personal Day Meanings](#personal-day-meanings)
 
-## 主命数 1~9
+## Core Numbers 1–9
 
-### 数字 1 — 领导者
+### Number 1 — The Leader
 
-**关键词**：独立、开创、自信、果断
+**Keywords**: Independence, pioneering, confidence, decisiveness
 
-**正面特质**：天生的领导者和先驱者。有强烈的独立精神和原创性，善于开辟新路。意志坚定，目标明确，行动力强。在团队中自然而然地走向领导位置，有创业家精神。
+**Strengths**: You are a natural-born leader and trailblazer. Your independent spirit and originality are among your greatest assets — you have a gift for forging new paths where none existed before. Driven by a clear sense of purpose and backed by remarkable willpower, you naturally gravitate toward leadership roles. There's an entrepreneurial fire in you that loves to initiate and innovate.
 
-**负面特质**：固执己见，难以接受他人意见。过度自信可能演变为自大。倾向于孤立工作，忽视团队合作的价值。在人际关系中可能显得强势和控制欲过强。
+**Challenges**: You can be stubborn and find it difficult to receive input from others. Confidence, when unchecked, can shade into arrogance. You may prefer working alone to the point of undervaluing true collaboration. In close relationships, a tendency toward dominance or control may surface.
 
-**事业方向**：创业、管理、发明、独立工作、先锋行业
+**Career paths**: Entrepreneurship, management, invention, independent work, pioneering industries
 
-**人际关系**：需要尊重其独立性的伴侣，在关系中倾向于主导地位。与 3、5、7 最和谐。
-
----
-
-### 数字 2 — 合作者
-
-**关键词**：敏感、外交、合作、直觉
-
-**正面特质**：天生的调解者和和平使者。直觉敏锐，能感知他人的情绪和需求。善于倾听，有极强的同理心。在合作与伙伴关系中表现出色，是最好的队友和伴侣。
-
-**负面特质**：过度敏感，容易受伤。优柔寡断，害怕冲突而回避问题。可能过度依赖他人的认可，缺乏自信。情绪容易受环境影响而波动。
-
-**事业方向**：外交、咨询、调解、心理辅导、艺术、合伙经营
-
-**人际关系**：渴望深度的情感连接，是忠诚而体贴的伴侣。与 4、6、8 最和谐。
+**Relationships**: You thrive with partners who respect your need for independence. In relationships, you naturally take the lead. Most harmonious with 3, 5, and 7.
 
 ---
 
-### 数字 3 — 创造者
+### Number 2 — The Cooperator
 
-**关键词**：表达力、乐观、社交、创意
+**Keywords**: Sensitivity, diplomacy, partnership, intuition
 
-**正面特质**：天赋异禀的沟通者和创造者。乐观开朗，有感染力，是社交场合的焦点。想象力丰富，善于用语言、文字、艺术表达自己。对生活充满热情和好奇心。
+**Strengths**: You are a gifted peacemaker and mediator. Your intuition is finely tuned — you can sense the emotions and needs of others before they're even spoken. You are a deeply empathetic listener and a supportive partner who makes teammates and loved ones feel truly seen. In collaboration and one-on-one connections, you absolutely shine.
 
-**负面特质**：容易分散注意力，缺乏持久性。表面化，不愿深入探索困难的话题。可能过度夸张或不够真诚。情绪高低起伏，面对挫折容易消沉。
+**Challenges**: Your emotional sensitivity is a gift, but it can also leave you easily wounded. Decision-making can be difficult when you're trying to keep everyone happy. You may seek too much external validation, and your mood can shift with the energies around you. Conflict feels threatening, so you may sidestep issues rather than address them.
 
-**事业方向**：写作、表演、设计、教育、营销、社交媒体
+**Career paths**: Diplomacy, counseling, mediation, psychology, the arts, partnership-based ventures
 
-**人际关系**：需要充满趣味和刺激的关系，害怕单调。与 1、5、9 最和谐。
-
----
-
-### 数字 4 — 建造者
-
-**关键词**：稳定、勤奋、实际、有组织
-
-**正面特质**：脚踏实地的实干家。有极强的组织能力和执行力，善于建立系统和流程。忠诚可靠，信守承诺。耐心持久，能将宏大的计划一步一步变为现实。
-
-**负面特质**：过于刻板和保守，抗拒变化。工作狂倾向，忽视生活的其他方面。可能变得吹毛求疵和控制欲强。思维方式过于线性，缺乏创新精神。
-
-**事业方向**：工程、建筑、会计、项目管理、行政、法律
-
-**人际关系**：寻求稳定和安全感的关系，承诺后极为忠诚。与 2、6、8 最和谐。
+**Relationships**: You crave deep emotional bonds and are a devoted, attentive partner. Most harmonious with 4, 6, and 8.
 
 ---
 
-### 数字 5 — 自由者
+### Number 3 — The Creator
 
-**关键词**：冒险、适应力、多才多艺、变化
+**Keywords**: Self-expression, optimism, sociability, creativity
 
-**正面特质**：热爱自由和冒险的灵魂。适应力极强，能在不同环境中迅速找到位置。思维敏捷，兴趣广泛，精力旺盛。有感染力的个人魅力，善于与不同类型的人交往。
+**Strengths**: You are a natural communicator and creative force. Upbeat and magnetic, you bring warmth and wit to every room you enter. Your imagination is vivid, and you have a real talent for expressing yourself through words, art, and storytelling. Life genuinely excites and delights you, and that enthusiasm is contagious.
 
-**负面特质**：不安定，难以长期坚持一件事。冲动行事，缺乏深思熟虑。可能沉迷于感官享乐。对承诺和约束有天然的抵触情绪。
+**Challenges**: Your attention can scatter easily, and long-term follow-through may be a struggle. You may tend to skim the surface rather than diving deep into difficult subjects. Honesty can sometimes give way to exaggeration. When setbacks hit, your optimism can crash hard before it rebounds.
 
-**事业方向**：旅行、销售、传媒、公关、自由职业、冒险行业
+**Career paths**: Writing, performing, design, education, marketing, social media
 
-**人际关系**：需要大量个人空间和新鲜感，害怕被束缚。与 1、3、7 最和谐。
-
----
-
-### 数字 6 — 照顾者
-
-**关键词**：责任、和谐、家庭、治愈
-
-**正面特质**：天生的照顾者和疗愈者。有强烈的责任感和家庭观念。善于创造和谐美好的环境，有审美天赋。无私奉献，总是把他人的需求放在自己之前。
-
-**负面特质**：过度牺牲自我，导致疲惫和怨恨。控制欲在"为你好"的外衣下隐藏。过度焦虑，尤其是关于家人的安危。可能因为完美主义而对自己和他人要求过高。
-
-**事业方向**：医疗、教育、社工、室内设计、烹饪、心理咨询
-
-**人际关系**：是最体贴的伴侣和父母，但需要学会也接受他人的照顾。与 2、4、8 最和谐。
+**Relationships**: You need relationships full of spark and novelty — routine can feel stifling. Most harmonious with 1, 5, and 9.
 
 ---
 
-### 数字 7 — 探索者
+### Number 4 — The Builder
 
-**关键词**：分析、灵性、内省、智慧
+**Keywords**: Stability, diligence, practicality, organization
 
-**正面特质**：深度的思考者和真理追寻者。有极强的分析能力和直觉力。享受独处和内省，能在安静中获得深刻的洞见。对灵性和哲学有天然的兴趣，追求超越表面的理解。
+**Strengths**: You are the bedrock that others rely on. Your organizational skills and follow-through are exceptional — you know how to build systems, structures, and plans that actually work. Loyal and steadfast, you keep your promises. You have the patience to turn grand visions into tangible, lasting reality, one careful step at a time.
 
-**负面特质**：过于孤僻，与人产生距离感。过度分析导致行动力不足。怀疑一切，难以建立信任。可能显得冷漠或不近人情。
+**Challenges**: You can be rigid and resistant to change. Workaholic tendencies may crowd out other dimensions of life. A critical eye and a need for control can frustrate both you and those around you. Your thinking can become overly linear, making it harder to embrace creative leaps.
 
-**事业方向**：研究、科学、哲学、写作、技术、灵性指导
+**Career paths**: Engineering, architecture, accounting, project management, administration, law
 
-**人际关系**：需要尊重其独处空间的伴侣，在深度信任后才展现真实自我。与 1、5、3 最和谐。
-
----
-
-### 数字 8 — 成就者
-
-**关键词**：权力、丰盛、商业、管理
-
-**正面特质**：天生的商业头脑和管理才能。目标导向，执行力极强。有判断形势的敏锐嗅觉和掌控大局的能力。追求物质和精神的双重成功，有强大的意志力。
-
-**负面特质**：过于物质主义，用金钱和权力衡量一切。控制欲强，可能变得专横。工作与生活严重失衡。面对失败时可能过于沮丧或报复性行事。
-
-**事业方向**：金融、投资、房地产、企业管理、法律、政治
-
-**人际关系**：倾向于找到能匹配其社会地位和野心的伴侣。与 2、4、6 最和谐。
+**Relationships**: You seek security and commitment in relationships and, once committed, your loyalty is absolute. Most harmonious with 2, 6, and 8.
 
 ---
 
-### 数字 9 — 人道主义者
+### Number 5 — The Freedom Seeker
 
-**关键词**：慈悲、理想主义、全局观、智慧
+**Keywords**: Adventure, adaptability, versatility, change
 
-**正面特质**：有宽广的视野和深深的慈悲心。理想主义者，希望让世界变得更好。有极强的创造力和艺术天赋。能够放下个人利益，为更大的目标服务。有磁性般的个人魅力。
+**Strengths**: You are a free spirit who thrives on variety and new experiences. Your adaptability is remarkable — you can find your footing in almost any environment. Quick-minded, multi-talented, and full of energy, you move through the world with an infectious charisma and an easy ability to connect with people from all walks of life.
 
-**负面特质**：不切实际，空有理想而缺乏落地能力。情感上可能与人保持距离，显得高高在上。自怜倾向，觉得自己付出太多。可能因过于理想化而频繁失望。
+**Challenges**: Restlessness can make it hard to stick with any one thing for long. Impulsive choices may come back to bite you. Sensory pleasures can become an escape rather than an enrichment. Commitment and constraint tend to trigger resistance in you.
 
-**事业方向**：慈善、艺术、教育、国际事务、环保、灵性引导
+**Career paths**: Travel, sales, media, public relations, freelancing, adventure industries
 
-**人际关系**：需要理解其使命感的伴侣，在关系中追求灵魂层面的共鸣。与 1、3、5 最和谐。
-
----
-
-## 大师数 11、22、33
-
-大师数在缩减过程中**不再继续缩减**，它们携带更强的振动频率，同时也意味着更大的挑战。
-
-### 数字 11 — 直觉大师
-
-**基础振动**：2 的升级版
-
-**关键词**：灵性觉醒、直觉极强、理想主义、启发者
-
-**正面特质**：拥有超乎常人的直觉力和灵性敏感度。天生的启发者和灵感传递者，能点亮他人心中的火花。在艺术、灵性和疗愈领域有非凡天赋。内在有着强大的愿景和使命感。
-
-**挑战**：内在张力极大——直觉（11）与理性（2）的持续拉锯。容易焦虑和自我怀疑。对外界能量极度敏感，需要学会保护和平衡自己的能量场。
-
-**建议**：通过冥想、艺术创作或灵性实践来疏通内在能量。学会信任自己的直觉而非过度分析。
+**Relationships**: You need plenty of personal space and fresh experiences in a relationship. Being "pinned down" feels suffocating. Most harmonious with 1, 3, and 7.
 
 ---
 
-### 数字 22 — 建造大师
+### Number 6 — The Nurturer
 
-**基础振动**：4 的升级版
+**Keywords**: Responsibility, harmony, family, healing
 
-**关键词**：将理想变为现实、大规模建设、实际的理想主义
+**Strengths**: You are a born caregiver and healer with an instinctive drive to serve those you love. Your sense of responsibility runs deep, and you have a genuine gift for creating beautiful, harmonious environments. Selfless and generous, you tend to put others' needs ahead of your own — and your aesthetic sense is often extraordinary.
 
-**正面特质**：拥有将宏大愿景落地为现实的稀有能力。既有梦想家的视野（11），又有实干家的执行力（4）。能够建立影响深远的系统、组织或事业。是所有数字中最具实现力的。
+**Challenges**: Over-giving can lead to burnout and quiet resentment. Protectiveness can tip into control, dressed up as "caring about you." You may carry excessive worry, especially about those you love. Perfectionism can make you hard on yourself and others.
 
-**挑战**：肩负的使命感可能带来巨大的压力。对自己和他人的期望极高，容易筋疲力尽。如果无法活出 22 的高度，会退回到 4 的保守模式。
+**Career paths**: Healthcare, teaching, social work, interior design, culinary arts, counseling
 
-**建议**：设定阶段性目标，不要被终极目标压垮。学会授权和信任团队。
-
----
-
-### 数字 33 — 治愈大师
-
-**基础振动**：6 的升级版
-
-**关键词**：无条件的爱、精神导师、利他主义
-
-**正面特质**：极其罕见的大师数。拥有深不可测的爱和慈悲心。是天生的精神导师和疗愈者，能给予他人无条件的关爱和接纳。其存在本身就是一种疗愈力量。
-
-**挑战**：可能因过度付出而完全失去自我。承受着极大的情感压力。很少有人能真正活出 33 的完整振动，大多数时候表现为 6 的特质。
-
-**建议**：学会自我关爱，设定健康的边界。在服务他人的同时不要忘记自己也需要滋养。
+**Relationships**: You are one of the most devoted and attentive partners and parents — but you also need to learn to receive care in return. Most harmonious with 2, 4, and 8.
 
 ---
 
-## 个人年周期含义（1~9 循环）
+### Number 7 — The Seeker
 
-| 个人年 | 主题 | 关键词 | 建议 |
-|--------|------|--------|------|
-| **1** | 新的开始 | 种子、启动、独立 | 大胆开始新项目，设定新目标，这是 9 年周期的起点 |
-| **2** | 合作与耐心 | 等待、合作、细节 | 放慢节奏，培育去年种下的种子，注重关系和合作 |
-| **3** | 创造与表达 | 创意、社交、乐观 | 发展创造力，扩大社交圈，享受生活的乐趣 |
-| **4** | 建设与稳固 | 基础、工作、秩序 | 脚踏实地地工作，建立稳固的基础，不要走捷径 |
-| **5** | 变化与自由 | 转变、旅行、冒险 | 拥抱变化，尝试新事物，可能有意外的旅行或搬迁 |
-| **6** | 责任与家庭 | 家庭、服务、和谐 | 关注家庭和亲密关系，承担责任，创造和谐 |
-| **7** | 内省与灵性 | 反思、学习、独处 | 向内探索，学习新知识，适合灵性成长，减少社交 |
-| **8** | 收获与权力 | 成就、财务、管理 | 事业和财务的收获年，抓住机会展现领导力 |
-| **9** | 完成与释放 | 结束、放下、总结 | 完成未竟之事，释放不再服务于你的一切，为新周期做准备 |
+**Keywords**: Analysis, spirituality, introspection, wisdom
 
-## 个人月含义
+**Strengths**: You are a deep thinker and relentless truth-seeker. Your analytical mind and powerful intuition work in tandem, giving you an almost uncanny ability to see below the surface of things. Solitude is your recharging station — in quiet reflection, you arrive at insights that others simply miss. Spiritual and philosophical questions draw you like a magnet.
 
-个人月 = 个人年数 + 当前月份（缩减后相加再缩减）
+**Challenges**: Your need for solitude can make you seem distant or emotionally unavailable. Overthinking can paralyze action. Trust is hard-won for you, and vulnerability can feel risky. To those who don't know you well, you may come across as aloof or detached.
 
-月度能量叠加在年度主题之上，为当月提供更具体的方向指引。含义参照上表的数字主题，但时间尺度更小更具体。
+**Career paths**: Research, science, philosophy, writing, technology, spiritual guidance
 
-## 个人日含义
+**Relationships**: You need a partner who truly respects your inner world and your need for quiet time. You reveal your authentic self slowly, once deep trust is established. Most harmonious with 1, 5, and 3.
 
-个人日 = 个人月数 + 当前日期（缩减后相加再缩减）
+---
 
-日度能量是最微观的指引，适合用于判断"今天适合做什么"。含义参照数字主题的日常化版本。
+### Number 8 — The Achiever
+
+**Keywords**: Power, abundance, business acumen, authority
+
+**Strengths**: You have a razor-sharp business mind and an innate talent for leadership and management. Goal-driven and decisive, you can read a situation quickly and steer outcomes with confidence. You pursue both material and spiritual success with equal intensity, backed by a formidable will. When you focus, results follow.
+
+**Challenges**: A strong pull toward material achievement can cause you to measure everything — and everyone — in terms of status or wealth. Control needs can tip into domineering behavior. Work-life balance may be genuinely difficult for you to maintain. Failure can hit harder than it needs to, or trigger an urge to push back aggressively.
+
+**Career paths**: Finance, investment, real estate, corporate management, law, politics
+
+**Relationships**: You're drawn to partners who match your ambition and social presence. Most harmonious with 2, 4, and 6.
+
+---
+
+### Number 9 — The Humanitarian
+
+**Keywords**: Compassion, idealism, big-picture vision, wisdom
+
+**Strengths**: Your heart is wide open and your vision is genuinely global. You are an idealist who truly wants to make the world a better place — not just as a concept, but as a lived commitment. Your creative and artistic gifts are considerable, and you have a magnetic, soulful quality that draws people in. When you align with a cause larger than yourself, you are at your most powerful.
+
+**Challenges**: Idealism can shade into impracticality — beautiful visions without a plan to land them. You may keep emotional distance in relationships, appearing lofty or hard to reach. Self-pity can surface when you feel your giving hasn't been met. The gap between your ideals and reality tends to invite recurring disappointment.
+
+**Career paths**: Charitable work, the arts, education, international affairs, environmental advocacy, spiritual guidance
+
+**Relationships**: You need a partner who understands and honors your sense of mission. In relationships, you seek resonance at the soul level. Most harmonious with 1, 3, and 5.
+
+---
+
+## Master Numbers 11, 22, 33
+
+Master Numbers are **not reduced further** during the calculation process. They carry a higher vibrational frequency — and with that, a greater set of challenges.
+
+### Number 11 — The Intuitive Master
+
+**Base vibration**: An elevated form of 2
+
+**Keywords**: Spiritual awakening, heightened intuition, idealism, inspiration
+
+**Strengths**: You operate on a frequency of intuition that most people simply don't access. You are a natural inspirer — someone whose presence and words can light a spark in others. In the realms of art, healing, and spiritual exploration, your gifts are exceptional. Inside you lives a powerful sense of vision and calling that goes beyond the personal.
+
+**Challenges**: The internal tension is real — your lightning-bolt intuition (11) pulls constantly against the measured, relational side of 2. Anxiety and self-doubt can be persistent companions. Because you're so energetically sensitive, you need to actively learn how to protect and balance your own inner field.
+
+**Guidance**: Channel your energy through meditation, creative practice, or spiritual exploration. Learn to trust your intuition rather than second-guessing it into silence.
+
+---
+
+### Number 22 — The Master Builder
+
+**Base vibration**: An elevated form of 4
+
+**Keywords**: Turning vision into reality, large-scale creation, practical idealism
+
+**Strengths**: You carry a rare and remarkable ability to take sweeping visions and actually build them — systems, organizations, movements, legacies. You combine the dreamer's scope (11) with the builder's execution (4). At your best, you create structures that outlast you and change things for many people. Of all the numbers, 22 has the greatest potential to manifest.
+
+**Challenges**: The weight of your own sense of mission can be crushing. Your standards for yourself and others are extraordinarily high, and burnout is a real risk. When you can't live up to the full potential of 22, you may retreat into the more cautious, narrow patterns of 4.
+
+**Guidance**: Break the vision into phases — don't let the ultimate goal overwhelm the present step. Learn to delegate and genuinely trust the people around you.
+
+---
+
+### Number 33 — The Master Healer
+
+**Base vibration**: An elevated form of 6
+
+**Keywords**: Unconditional love, spiritual teaching, pure altruism
+
+**Strengths**: This is among the rarest of the Master Numbers. You embody a depth of love and compassion that is genuinely extraordinary. You are a natural spiritual teacher and healer — someone who offers unconditional acceptance and care that can feel almost otherworldly. Your very presence tends to soothe and transform. You give without keeping score.
+
+**Challenges**: The risk of losing yourself entirely in service to others is very real. The emotional weight you carry can be immense. In practice, very few people fully embody the 33 vibration throughout their lives — most who carry this number spend much of their time expressing the qualities of 6.
+
+**Guidance**: Self-love is not optional for you — it's essential. Set healthy, clear boundaries. Tending to your own well-being is part of how you serve others well.
+
+---
+
+## Personal Year Cycle Meanings (1–9)
+
+| Personal Year | Theme | Keywords | Guidance |
+|---------------|-------|---------|---------|
+| **1** | New Beginnings | Seeds, initiation, independence | Boldly start new projects and set fresh intentions — this is the launch point of a 9-year cycle |
+| **2** | Partnership & Patience | Waiting, cooperation, detail | Slow down and nurture what was planted last year; focus on relationships and collaboration |
+| **3** | Creativity & Expression | Creativity, socializing, optimism | Develop your creative gifts, expand your social world, and allow yourself to enjoy the journey |
+| **4** | Building & Stability | Foundation, hard work, order | Put your head down and build — establish solid ground, do the work, resist shortcuts |
+| **5** | Change & Freedom | Transition, travel, adventure | Embrace change, try new things, and stay open to unexpected movement or opportunity |
+| **6** | Responsibility & Home | Family, service, harmony | Turn your attention to home, close relationships, and responsibilities; create beauty around you |
+| **7** | Reflection & Spirituality | Introspection, learning, solitude | Look inward, deepen your knowledge, pursue spiritual growth — this is not a year to push outward |
+| **8** | Harvest & Power | Achievement, finances, leadership | Step into your authority and claim the rewards of your efforts; a year of professional and financial momentum |
+| **9** | Completion & Release | Endings, letting go, summing up | Complete unfinished business, release what no longer serves you, and clear the way for the next cycle |
+
+## Personal Month Meanings
+
+Personal Month = Personal Year number + current month (each reduced separately, then added and reduced)
+
+Monthly energy layers on top of the yearly theme, providing more specific direction for the current month. Use the same number meanings from the table above — just with a narrower, more immediate time frame.
+
+## Personal Day Meanings
+
+Personal Day = Personal Month number + current date (each reduced separately, then added and reduced)
+
+Daily energy offers the most micro-level guidance — ideal for asking "what is today well-suited for?" Use the number themes from above in their most practical, day-to-day expression.

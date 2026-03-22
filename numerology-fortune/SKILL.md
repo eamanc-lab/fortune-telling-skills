@@ -4,14 +4,17 @@ clawhub-slug: numerology-fortune
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  基于毕达哥拉斯数字命理体系进行分析，适合用户询问生命灵数、命运数等数字命理内容时触发。
-  通过出生日期和英文全名精确计算五大核心数字（生命灵数、表达数、灵魂冲动数、人格数、生日数）
-  及个人周期（个人年/月/日），揭示性格特质、天赋才能和人生节奏，每步计算过程全程透明可验证。
-  纯数学计算 + LLM 解读，无外部 API 依赖。
-  触发词：数字命理、生命灵数、numerology、life path number、
-  灵数测算、命运数、我的幸运数字、数字占卜。
-  不适用于：星座运势、八字命理、塔罗占卜等非数字命理领域，
-  这些场景建议使用 fortune-hub 路由或对应领域 Skill。
+  Analyzes your numerology profile using the Pythagorean system. Triggered when users ask about
+  Life Path Numbers, Expression Numbers, and other numerology topics.
+  Accurately calculates the five core numbers (Life Path, Expression, Soul Urge, Personality,
+  Birthday) plus personal cycles (Personal Year/Month/Day) from your birth date and full legal name,
+  revealing personality traits, natural talents, and life rhythms — with every calculation step
+  shown in full for verification.
+  Pure math + LLM interpretation. No external API required.
+  Trigger phrases: numerology, life path number, expression number, soul urge, destiny number,
+  lucky number, numerology reading, personal year.
+  Not applicable for: horoscope readings, Chinese astrology (BaZi), tarot, or other non-numerology
+  domains — use the fortune-hub router or the corresponding Skill instead.
 license: MIT
 compatibility:
   platforms:
@@ -24,277 +27,277 @@ metadata:
   tags: ["numerology", "life-path", "数字命理", "生命灵数", "fortune-telling"]
 ---
 
-# 数字命理分析器
+# Numerology Analyzer
 
-基于毕达哥拉斯数字命理体系，通过精确的数学计算揭示数字中隐藏的人生密码。
+Powered by the Pythagorean numerology system, this Skill uses precise mathematical calculations to reveal the life codes hidden within your numbers.
 
-## 快速开始
+## Quick Start
 
 ```
-"帮我算生命灵数，我是1990年6月15日出生的"
-"我叫 John Smith，1995年3月22日出生，帮我做完整的数字命理分析"
-"我的个人年是什么？今年运势如何？"
-"帮我算一下今天的个人日数字"
+"Calculate my Life Path Number — I was born on June 15, 1990"
+"My name is John Smith, born March 22, 1995. Give me a full numerology reading."
+"What's my Personal Year number? How does this year look for me?"
+"What's my Personal Day number for today?"
 ```
 
-**完整示例**：
+**Full example**:
 
-输入：`我叫 Emily Chen，1992年8月11日出生，帮我做数字命理分析`
+Input: `My name is Emily Chen, born August 11, 1992. Please do a numerology reading for me.`
 
-输出：
-> # 🔢 Emily Chen 的数字命理报告
+Output:
+> # 🔢 Emily Chen's Numerology Report
 >
-> ## 五大核心数字
+> ## Five Core Numbers
 >
-> ### 生命灵数：3 — 创造者
-> **计算过程**：月 8→8 | 日 11→11（大师数） | 年 1992→21→3 | 总和 8+11+3=22→**但需继续** 2+2=4...
-> *(实际会按规则精确计算)*
+> ### Life Path Number: 3 — The Creator
+> **Calculation**: Month 8→8 | Day 11→11 (Master Number) | Year 1992→21→3 | Sum 8+11+3=22→**but continues** 2+2=4...
+> *(Actual calculation follows the rules precisely)*
 >
-> 你的人生主题是**创造与表达**。你有天赋的沟通能力和丰富的想象力...
+> Your life's central theme is **creativity and self-expression**. You have a natural gift for communication and a rich imagination...
 >
-> ### 表达数：...
-> ### 灵魂冲动数：...
-> ### 人格数：...
-> ### 生日数：11 — 直觉大师
+> ### Expression Number: ...
+> ### Soul Urge Number: ...
+> ### Personality Number: ...
+> ### Birthday Number: 11 — The Intuitive Master
 >
-> ## 2026 年个人周期
-> - 个人年：X — [主题]
-> - 本月个人月：X — [主题]
-> - 今日个人日：X — [主题]
+> ## 2026 Personal Cycles
+> - Personal Year: X — [Theme]
+> - Personal Month: X — [Theme]
+> - Personal Day: X — [Theme]
 >
-> ## 综合解读
-> [整合五大数字的叙事性解读]
+> ## Synthesis
+> [Narrative reading integrating all five core numbers]
 
 ## User Context
 
-本 Skill 需要用户的出生日期和英文全名来计算核心数字。
+This Skill requires the user's birth date and full legal name (in English) to calculate the core numbers.
 
-**读取**：执行前依次检查：
-1. 本目录 `MEMORY.md` — 优先使用
-2. 同仓库 `fortune-hub/MEMORY.md`（如果存在）— 补充缺失的基础档案字段
+**Reading**: Before running, check in this order:
+1. This directory's `MEMORY.md` — use first
+2. `fortune-hub/MEMORY.md` in the same repo (if it exists) — fill in any missing base profile fields
 
-如有可用数据，直接使用，不再询问。
+If data is available, use it directly without asking again.
 
-**写入**：收集到用户信息后，写入**本目录的** `MEMORY.md`：
-
-```markdown
-# 用户信息
-
-## 基础档案
-- 公历生日：YYYY-MM-DD
-- 英文全名：Full Name
-
-## 核心数字（缓存）
-- 生命灵数：X
-- 表达数：X
-- 灵魂冲动数：X
-- 人格数：X
-- 生日数：X
-```
-
-| 字段 | 是否必须 | 询问方式 |
-|------|---------|---------|
-| 公历生日 | ✅ | "请告诉我你的出生日期（年月日）🎂" |
-| 英文全名 | ✅ 计算表达数/灵魂冲动数/人格数时需要 | "你的英文全名是什么？（出生时的法定全名，用于计算命运数）" |
-
-**更新**：用户要求修改时更新。核心数字会随之重新计算。
-
-## 工作流程
-
-### Step 1: 解析用户意图
-
-从用户输入中识别：
-
-| 参数 | 解析规则 | 默认值 |
-|------|---------|--------|
-| **分析类型** | 完整分析 / 单项查询（如"只看生命灵数"） | 完整分析 |
-| **出生日期** | 直接提供 或 从 MEMORY.md 读取 | 必填 |
-| **英文全名** | 直接提供 或 从 MEMORY.md 读取 | 完整分析时必填，仅算生命灵数/个人年时可选 |
-| **周期查询** | 是否需要个人年/月/日分析 | 完整分析时自动包含 |
-
-### Step 2: 精确计算
-
-加载计算规则 [references/calculation-rules.md](references/calculation-rules.md)，按以下顺序执行计算。
-
-**必须严格按照规则计算，不可凭印象估算。** 每一步都要展示计算过程。
-
-#### 计算顺序
-
-1. **生命灵数**（仅需出生日期）
-2. **生日数**（仅需出生日期中的"日"）
-3. **表达数**（需要英文全名）
-4. **灵魂冲动数**（需要英文全名中的元音）
-5. **人格数**（需要英文全名中的辅音）
-6. **个人年**（出生月日 + 当前年份）
-7. **个人月**（个人年 + 当前月份）
-8. **个人日**（个人月 + 当前日期）
-
-#### 计算展示格式
-
-每个数字的计算过程都要展示，格式如下：
-
-```
-📊 生命灵数计算：
-月：6 → 6
-日：15 → 1+5 = 6
-年：1990 → 1+9+9+0 = 19 → 1+9 = 10 → 1+0 = 1
-总和：6 + 6 + 1 = 13 → 1+3 = 4
-✨ 生命灵数 = 4（建造者）
-```
-
-### Step 3: 加载数字含义
-
-按需加载对应数字的含义 [references/number-meanings.md](references/number-meanings.md)。
-
-### Step 4: 生成解读报告
-
-#### 输出格式（完整分析）
+**Writing**: After collecting user info, write it to **this directory's** `MEMORY.md`:
 
 ```markdown
-# 🔢 {姓名} 的数字命理报告
+# User Info
 
-> 出生日期：{YYYY年M月D日} | 体系：毕达哥拉斯
+## Basic Profile
+- Date of birth: YYYY-MM-DD
+- Full legal name (English): Full Name
 
-## 五大核心数字
+## Core Numbers (Cached)
+- Life Path Number: X
+- Expression Number: X
+- Soul Urge Number: X
+- Personality Number: X
+- Birthday Number: X
+```
 
-### 生命灵数：{N} — {关键词}
+| Field | Required | How to ask |
+|-------|---------|------------|
+| Date of birth | ✅ | "Please share your birth date (year, month, day) 🎂" |
+| Full legal name (English) | ✅ Required for Expression / Soul Urge / Personality Numbers | "What's your full legal name in English? (Your birth name, used to calculate your Expression Number)" |
 
-📊 计算过程：
-[展示完整计算步骤]
+**Updating**: Update `MEMORY.md` when the user requests changes. Core numbers will be recalculated accordingly.
 
-[2-3句核心解读，聚焦人生主题和使命]
+## Workflow
 
-### 表达数：{N} — {关键词}
+### Step 1: Parse User Intent
 
-📊 计算过程：
-[展示完整计算步骤]
+Identify from the user's input:
 
-[2-3句解读，聚焦天赋和才能]
+| Parameter | Parsing rule | Default |
+|-----------|-------------|---------|
+| **Analysis type** | Full reading / single query (e.g. "just my Life Path Number") | Full reading |
+| **Birth date** | Provided directly or read from MEMORY.md | Required |
+| **Full legal name** | Provided directly or read from MEMORY.md | Required for full reading; optional if only Life Path / Personal Year is needed |
+| **Cycle query** | Whether Personal Year/Month/Day analysis is needed | Included automatically in full reading |
 
-### 灵魂冲动数：{N} — {关键词}
+### Step 2: Precise Calculation
 
-📊 计算过程：
-[展示完整计算步骤]
+Load the calculation rules from [references/calculation-rules.md](references/calculation-rules.md) and execute in the following order.
 
-[2-3句解读，聚焦内心渴望]
+**Calculations must follow the rules strictly — never estimate from memory.** Show every step of the work.
 
-### 人格数：{N} — {关键词}
+#### Calculation Order
 
-📊 计算过程：
-[展示完整计算步骤]
+1. **Life Path Number** (birth date only)
+2. **Birthday Number** (the "day" part of the birth date only)
+3. **Expression Number** (full legal name required)
+4. **Soul Urge Number** (vowels in full legal name)
+5. **Personality Number** (consonants in full legal name)
+6. **Personal Year** (birth month + day + current year)
+7. **Personal Month** (Personal Year + current month)
+8. **Personal Day** (Personal Month + current date)
 
-[2-3句解读，聚焦外在形象]
+#### Calculation Display Format
 
-### 生日数：{N} — {关键词}
+Show the full calculation process for each number:
 
-[1-2句解读，聚焦特殊才能]
+```
+📊 Life Path Number Calculation:
+Month: 6 → 6
+Day: 15 → 1+5 = 6
+Year: 1990 → 1+9+9+0 = 19 → 1+9 = 10 → 1+0 = 1
+Sum: 6 + 6 + 1 = 13 → 1+3 = 4
+✨ Life Path Number = 4 (The Builder)
+```
 
-## 数字之间的互动
+### Step 3: Load Number Meanings
 
-[分析五个核心数字之间的关系——是否和谐、是否存在张力、如何互补]
+Load the relevant number meanings as needed from [references/number-meanings.md](references/number-meanings.md).
 
-## 2026 年个人周期
+### Step 4: Generate the Reading Report
 
-### 个人年：{N} — {主题}
-📊 计算过程：[展示]
-[3-4句解读，今年的整体方向和建议]
+#### Output Format (Full Reading)
 
-### 本月个人月：{N} — {主题}
-[2-3句解读，本月重点]
+```markdown
+# 🔢 {Name}'s Numerology Report
 
-### 今日个人日：{N} — {主题}
-[1-2句解读，今天适合做什么]
+> Date of Birth: {Month D, YYYY} | System: Pythagorean
 
-## 综合洞察
+## Five Core Numbers
 
-[整合所有数字，给出 3-5 条具体的人生建议]
+### Life Path Number: {N} — {Keyword}
+
+📊 Calculation:
+[Show full calculation steps]
+
+[2–3 sentences of core interpretation, focused on life theme and purpose]
+
+### Expression Number: {N} — {Keyword}
+
+📊 Calculation:
+[Show full calculation steps]
+
+[2–3 sentences focused on natural talents and abilities]
+
+### Soul Urge Number: {N} — {Keyword}
+
+📊 Calculation:
+[Show full calculation steps]
+
+[2–3 sentences focused on inner desires and motivations]
+
+### Personality Number: {N} — {Keyword}
+
+📊 Calculation:
+[Show full calculation steps]
+
+[2–3 sentences focused on outward impression]
+
+### Birthday Number: {N} — {Keyword}
+
+[1–2 sentences focused on a special talent or gift]
+
+## How Your Numbers Interact
+
+[Analyze the relationships among the five core numbers — do they harmonize, create tension, or complement each other?]
+
+## 2026 Personal Cycles
+
+### Personal Year: {N} — {Theme}
+📊 Calculation: [Show]
+[3–4 sentences on overall direction and guidance for the year]
+
+### Personal Month: {N} — {Theme}
+[2–3 sentences on the month's key focus]
+
+### Personal Day: {N} — {Theme}
+[1–2 sentences on what today is well-suited for]
+
+## Integrated Insights
+
+[Bring all numbers together and offer 3–5 concrete life guidance points]
 
 ---
 
-*数字命理基于毕达哥拉斯体系，仅供参考和自我探索。*
+*Numerology readings are based on the Pythagorean system and are intended for personal exploration and reflection.*
 ```
 
-#### 输出格式（单项查询）
+#### Output Format (Single Query)
 
-仅输出用户询问的那个数字，包含计算过程和解读，不生成完整报告。
+Output only the number the user asked about, including the calculation process and interpretation. Do not generate a full report.
 
-#### 输出格式（每日数字运势）
+#### Output Format (Daily Number)
 
-当用户只想知道"今天的数字运势"时：
+When the user only wants to know "today's numerology energy":
 
 ```markdown
-# 🔢 今日数字运势 ({YYYY-MM-DD})
+# 🔢 Today's Numerology ({YYYY-MM-DD})
 
-## 个人日：{N} — {关键词}
+## Personal Day: {N} — {Keyword}
 
-📊 计算：个人月({M}) + 今日({D}日) = {X} → {N}
+📊 Calculation: Personal Month({M}) + Today({D}) = {X} → {N}
 
-[3-4句今日运势解读，结合数字主题给出具体建议]
+[3–4 sentences on today's energy, with specific guidance based on the number's theme]
 
-### 今日宜
-- [具体行动建议 1]
-- [具体行动建议 2]
+### Today's Strengths
+- [Specific action suggestion 1]
+- [Specific action suggestion 2]
 
-### 今日忌
-- [需要注意的事项]
+### Today's Cautions
+- [Something to be mindful of]
 
-> 💡 开运提示：[一句与数字能量共振的具体建议]
+> 💡 Alignment Tip: [One concrete suggestion to flow with today's number energy]
 ```
 
-### Step 5: 保存结果
+### Step 5: Save Results
 
-首次完整分析后，将核心数字缓存到 `MEMORY.md`，后续查询个人周期时无需重新计算。
+After the first complete reading, cache the core numbers to `MEMORY.md`. Subsequent Personal Cycle queries can use the cache without recalculating.
 
-## 生成规则
+## Generation Rules
 
-**计算准确性**：
-- 必须严格按照 calculation-rules.md 中的公式计算，**绝不可凭直觉猜测**
-- 每个结果都展示完整计算过程，让用户可以验证
-- 大师数（11、22、33）在缩减过程中保留，不继续缩减
-- 年/月/日必须先各自缩减再相加
+**Calculation accuracy**:
+- Always follow the formulas in calculation-rules.md exactly — **never guess**
+- Display the full calculation for every result so the user can verify it
+- Master Numbers (11, 22, 33) are preserved during reduction — do not reduce further
+- Year, month, and day must each be reduced separately before being added together
 
-**表达风格**：
+**Expression style**:
 
-默认使用**启发探索型**风格——介于专业分析和灵性启发之间：
+Default to an **exploratory-inspirational** tone — poised between professional analysis and spiritual insight:
 
-- 展示计算过程体现专业性（"让我们来看看数字告诉我们什么"）
-- 用日常化的语言解释数字含义（"你的生命灵数 4 意味着你是天生的建设者"）
-- 不同数字之间做关联解读（"你的生命灵数 4 追求稳定，但灵魂冲动数 5 渴望自由——这种内在张力正是你独特力量的来源"）
-- 负面特质用建设性方式呈现（"数字 8 的能量可能让你过度关注物质成就，试着也为精神成长留出空间"）
+- Show the calculation process to establish credibility ("Let's see what the numbers reveal")
+- Explain number meanings in everyday language ("Your Life Path 4 means you're a natural builder")
+- Draw connections across numbers ("Your Life Path 4 craves stability, yet your Soul Urge 5 hungers for freedom — that inner tension is the source of your unique strength")
+- Frame challenging traits constructively ("The energy of 8 can pull you toward overvaluing material success — try carving out space for inner growth too")
 
-**禁用表达清单**：
+**Prohibited expressions**:
 
-| 禁止使用 | 替换为 |
-|---------|-------|
-| ❌ "你命中注定..." | ✅ "你的数字显示...的倾向" |
-| ❌ "你的数字很差/很凶" | ✅ "这个数字组合带来一些需要留意的挑战" |
-| ❌ "你永远不会成功" | ✅ "数字 X 的能量在这个领域需要更多耐心" |
-| ❌ "必须改名才能..." | ✅ "了解数字能量可以帮助你更有意识地做选择" |
+| Do not use | Replace with |
+|-----------|-------------|
+| ❌ "You are destined to..." | ✅ "Your numbers point toward a tendency to..." |
+| ❌ "Your numbers are bad / unlucky" | ✅ "This number combination brings some challenges worth being aware of" |
+| ❌ "You will never succeed" | ✅ "The energy of X calls for extra patience in this area" |
+| ❌ "You must change your name to..." | ✅ "Understanding your number energy can help you make more conscious choices" |
 
-绝对禁止：宿命论断言、恐吓性语言、推销改名/改运服务。
+Absolutely prohibited: fatalistic pronouncements, fear-based language, and promotion of name-change or "correction" services.
 
-## 错误处理
+## Error Handling
 
-| 场景 | 处理方式 |
-|------|---------|
-| 未提供出生日期 | "请告诉我你的出生日期（年月日），我来帮你计算生命灵数 🎂" |
-| 未提供英文全名（完整分析时） | "要计算表达数和灵魂冲动数，需要你的英文全名。如果只想看生命灵数和个人年，现有信息就够了 ✨" |
-| 全名中包含非英文字符 | "数字命理基于英文字母体系，中文名需要提供对应的英文/拼音版本。你的英文名或拼音全名是什么？" |
-| 用户问星座/八字/塔罗 | "建议使用 fortune-hub 选择对应领域 Skill，那里有专门的星座和八字模块" |
-| 用户质疑科学性 | "数字命理是一种有趣的自我探索工具，它提供的是反思的视角而非科学结论。可以把它当作认识自己的一面镜子 🪞" |
+| Scenario | Response |
+|----------|---------|
+| Birth date not provided | "Please share your birth date (year, month, day) so I can calculate your Life Path Number 🎂" |
+| Full name not provided (full reading) | "To calculate your Expression Number and Soul Urge Number, I'll need your full legal name in English. If you'd only like your Life Path Number or Personal Year, what I have is enough ✨" |
+| Name contains non-English characters | "Numerology is based on the English alphabet. For a Chinese name, please provide the English or Pinyin version. What's your full name in English or Pinyin?" |
+| User asks about horoscopes / BaZi / tarot | "I'd suggest using fortune-hub to select the right Skill for that — there are dedicated modules for horoscopes and Chinese astrology" |
+| User questions the science | "Numerology is a fun tool for self-exploration — it offers a perspective for reflection rather than scientific conclusions. Think of it as a mirror for getting to know yourself 🪞" |
 
-## 不适用场景
+## When Not to Use This Skill
 
-以下情况请**不要**调用本 Skill：
-- **星座运势** → horoscope-daily
-- **八字/紫微/塔罗/风水** → 建议使用 fortune-hub 选择对应领域 Skill
-- **精确天文计算** → 需要占星引擎，本 Skill 不做天文计算
-- **心理咨询/医疗建议** → 本 Skill 仅供自我探索，不替代专业服务
+Do **not** invoke this Skill for:
+- **Horoscope / zodiac readings** → horoscope-daily
+- **BaZi / Zi Wei Dou Shu / Tarot / Feng Shui** → use fortune-hub to select the right Skill
+- **Precise astronomical calculations** → requires an astrology engine; this Skill does not do astronomical math
+- **Psychological counseling / medical advice** → this Skill is for self-exploration only and does not replace professional services
 
-## 原子化设计
+## Atomic Design
 
-本 Skill 仅负责「毕达哥拉斯数字命理分析」这一个原子化能力。不包含星座运势、八字命理、塔罗占卜等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
+This Skill covers one atomic capability: **Pythagorean numerology analysis**. It does not include horoscope readings, BaZi, tarot, or other divination domains. For other areas, combine with the corresponding Skill in this repo or route through fortune-hub.
 
-## 免责声明
+## Disclaimer
 
-数字命理分析基于毕达哥拉斯数字命理体系，仅供娱乐和自我探索参考。不构成任何医疗、法律、财务等专业建议。重大人生决策请基于理性判断和专业咨询。
+Numerology readings are based on the Pythagorean system and are intended for entertainment and personal exploration only. They do not constitute medical, legal, financial, or any other professional advice. For major life decisions, rely on rational judgment and professional consultation.

@@ -1,218 +1,218 @@
-# 吠陀占星计算规则
+# Vedic Astrology Calculation Rules
 
-## 目录
+## Table of Contents
 
-- [与西方占星的核心差异](#与西方占星的核心差异)
-- [Ayanamsa 概念与主要体系](#ayanamsa-概念与主要体系)
-- [行星平均速率（用于估算）](#行星平均速率用于估算)
-- [27 Nakshatras 完整列表](#27-nakshatras-完整列表)
-- [Vimshottari Dasha 系统](#vimshottari-dasha-系统)
-- [九曜行星（Nava Graha）](#九曜行星nava-graha)
-- [十二宫位（Bhava）含义](#十二宫位bhava含义)
-
----
-
-## 与西方占星的核心差异
-
-| 维度 | 西方占星（Tropical） | 吠陀占星（Vedic/Jyotish） |
-|------|-------------------|------------------------|
-| 黄道体系 | 热带黄道（以春分点为白羊座0°） | 恒星黄道（以恒星背景为参照） |
-| 差值（Ayanamsa） | — | 约 23°~24°，每年约增加 50.3" |
-| 星座数量 | 12 | 12（但位置不同） |
-| 月宿系统 | 不使用 | 27 Nakshatras（核心工具） |
-| 上升星座 | 上升点（Ascendant） | Lagna（同概念，恒星黄道） |
-| 行星个数 | 10（含冥王星） | 9 Grahas（不含天王/海王/冥王） |
-| 外行星 | 天王、海王、冥王 | 罗睺（Rahu）+ 计都（Ketu）替代 |
-| 大运系统 | Progressions / Solar Return | Vimshottari Dasha（120年周期） |
-| 预测侧重 | 心理倾向、性格 | 事件时机、业力路径 |
-| 宫位体系 | Placidus / Koch 等 | Whole Sign（整星座宫位）为主 |
-
-**实用换算**：热带星座经度 − Ayanamsa ≈ 恒星星座经度（约晚 23~24°）
+- [Key Differences from Western Astrology](#key-differences-from-western-astrology)
+- [Ayanamsa: Concept and Major Systems](#ayanamsa-concept-and-major-systems)
+- [Average Planetary Velocities (for estimation)](#average-planetary-velocities-for-estimation)
+- [27 Nakshatras — Complete List](#27-nakshatras--complete-list)
+- [Vimshottari Dasha System](#vimshottari-dasha-system)
+- [Navagraha (Nine Planets)](#navagraha-nine-planets)
+- [Twelve Houses (Bhavas)](#twelve-houses-bhavas)
 
 ---
 
-## Ayanamsa 概念与主要体系
+## Key Differences from Western Astrology
 
-**Ayanamsa**（梵文：差数）是热带黄道与恒星黄道之间的度数差值，由岁差引起，每 72 年增加约 1°。
+| Dimension | Western Astrology (Tropical) | Vedic Astrology (Jyotish / Sidereal) |
+|-----------|------------------------------|--------------------------------------|
+| Zodiac system | Tropical zodiac (0° Aries = Vernal Equinox) | Sidereal zodiac (fixed stars as reference) |
+| Difference (Ayanamsa) | — | ~23°–24°, increasing ~50.3" per year |
+| Number of signs | 12 | 12 (same signs, different positions) |
+| Lunar Mansion system | Not used | 27 Nakshatras (Lunar Mansions) — core tool |
+| Rising sign | Ascendant | Lagna (same concept, sidereal zodiac) |
+| Number of planets | 10 (including Pluto) | 9 Grahas (no Uranus / Neptune / Pluto) |
+| Outer planets | Uranus, Neptune, Pluto | Replaced by Rahu (North Node) + Ketu (South Node) |
+| Timing system | Progressions / Solar Return | Vimshottari Dasha (120-year cycle) |
+| Predictive focus | Psychological tendencies, personality | Event timing, karmic pathways |
+| House system | Placidus / Koch, etc. | Whole Sign Houses (primary) |
 
-### 主要体系对比
-
-| 体系 | 2000年值 | 2025年值（约） | 说明 |
-|------|---------|-------------|------|
-| **Lahiri（Chitrapaksha）** | 23°51' | 24°13' | 印度政府官方采用，最常用 |
-| Raman | 22°23' | 22°46' | B.V. Raman 体系 |
-| Krishnamurti (KP) | 23°51' | 24°13' | 与 Lahiri 相同基数，用于 KP 系统 |
-| Fagan-Bradley | 24°02' | 24°25' | 西方恒星占星常用 |
-| True Chitrapaksha | 23°51' | 约 24°13' | 基于 Spica 恒星位置的精确体系 |
-
-**本 Skill 默认使用 Lahiri 体系**。
-
-### 快速估算公式
-
-```
-Lahiri Ayanamsa ≈ 23.85° + (年份 - 2000) × 0.0139°
-
-示例：2025年 Ayanamsa ≈ 23.85° + 25 × 0.0139° ≈ 24.20°
-```
-
-恒星黄道经度 = 热带黄道经度 − Ayanamsa（若结果为负，加 360°）
+**Practical conversion**: Tropical longitude − Ayanamsa ≈ Sidereal longitude (~23–24° less)
 
 ---
 
-## 行星平均速率（用于估算）
+## Ayanamsa: Concept and Major Systems
 
-| 行星 | 平均每日运行度数 | 绕黄道一周 |
-|------|-------------|---------|
-| 太阳 | 约 0.9856°/天 | 365.25 天 |
-| 月亮 | 约 13.176°/天 | 27.32 天（恒星月） |
-| 水星 | 约 1.38°/天（平均，含逆行） | 88 天 |
-| 金星 | 约 1.20°/天（平均） | 225 天 |
-| 火星 | 约 0.524°/天 | 687 天 |
-| 木星 | 约 0.0831°/天 | 11.86 年 |
-| 土星 | 约 0.0334°/天 | 29.5 年 |
-| 罗睺/计都 | 约 -0.0529°/天（逆行） | 18.6 年 |
+**Ayanamsa** (Sanskrit: "portion of movement") is the angular difference between the tropical zodiac and the sidereal zodiac, caused by the precession of the equinoxes. It increases by approximately 1° every 72 years.
 
-**注意**：水星、金星、火星有明显逆行，以上为粗略平均值，边界日期精度有限。
+### Comparison of Major Systems
+
+| System | Value in 2000 | Value in 2025 (approx.) | Notes |
+|--------|--------------|------------------------|-------|
+| **Lahiri (Chitrapaksha)** | 23°51' | 24°13' | Official Indian government standard; most widely used |
+| Raman | 22°23' | 22°46' | B.V. Raman system |
+| Krishnamurti (KP) | 23°51' | 24°13' | Same base as Lahiri; used in the KP system |
+| Fagan-Bradley | 24°02' | 24°25' | Common in Western sidereal astrology |
+| True Chitrapaksha | 23°51' | ~24°13' | Precision system based on Spica's actual position |
+
+**This Skill uses the Lahiri system by default.**
+
+### Quick Estimation Formula
+
+```
+Lahiri Ayanamsa ≈ 23.85° + (year − 2000) × 0.0139°
+
+Example: 2025 Ayanamsa ≈ 23.85° + 25 × 0.0139° ≈ 24.20°
+```
+
+Sidereal longitude = Tropical longitude − Ayanamsa (add 360° if the result is negative)
 
 ---
 
-## 27 Nakshatras 完整列表
+## Average Planetary Velocities (for estimation)
 
-每个 Nakshatra 跨度为 13°20'（360° ÷ 27 = 13.333...°）。
+| Planet | Average daily motion | Full zodiac cycle |
+|--------|---------------------|------------------|
+| Sun | ~0.9856°/day | 365.25 days |
+| Moon | ~13.176°/day | 27.32 days (sidereal month) |
+| Mercury | ~1.38°/day (average, including retrograde) | 88 days |
+| Venus | ~1.20°/day (average) | 225 days |
+| Mars | ~0.524°/day | 687 days |
+| Jupiter | ~0.0831°/day | 11.86 years |
+| Saturn | ~0.0334°/day | 29.5 years |
+| Rahu / Ketu | ~−0.0529°/day (retrograde) | 18.6 years |
 
-| 序号 | 名称（梵文） | 中文参考名 | 经度范围（热带/恒星相差约24°） | 恒星黄道范围 | 主星 | Dasha 年限 |
-|------|-----------|---------|--------------------------|----------|------|-----------|
-| 1 | Ashwini | 马宿 | 白羊 0°–13°20' | 双鱼 6°40'–白羊 0°（恒星） | 计都（Ketu） | 7年 |
-| 2 | Bharani | 婆罗尼 | 白羊 13°20'–26°40' | 白羊 0°–13°20' | 金星（Venus） | 20年 |
-| 3 | Krittika | 昴宿 | 白羊 26°40'–金牛 10° | 白羊 13°20'–26°40' | 太阳（Sun） | 6年 |
-| 4 | Rohini | 毕宿 | 金牛 10°–23°20' | 金牛 0°（恒星）–13°20' | 月亮（Moon） | 10年 |
-| 5 | Mrigashira | 觜宿 | 金牛 23°20'–双子 6°40' | 金牛 13°20'–双子 0°（恒星） | 火星（Mars） | 7年 |
-| 6 | Ardra | 参宿 | 双子 6°40'–20° | 双子 0°–13°20' | 罗睺（Rahu） | 18年 |
-| 7 | Punarvasu | 井宿 | 双子 20°–巨蟹 3°20' | 双子 13°20'–26°40' | 木星（Jupiter） | 16年 |
-| 8 | Pushya | 鬼宿 | 巨蟹 3°20'–16°40' | 巨蟹 0°–13°20' | 土星（Saturn） | 19年 |
-| 9 | Ashlesha | 柳宿 | 巨蟹 16°40'–30° | 巨蟹 13°20'–26°40' | 水星（Mercury） | 17年 |
-| 10 | Magha | 星宿 | 狮子 0°–13°20' | 巨蟹 26°40'–狮子 10°（热带13°以内恒星） | 计都（Ketu） | 7年 |
-| 11 | Purva Phalguni | 张宿 | 狮子 13°20'–26°40' | 狮子 0°（恒星）–13°20' | 金星（Venus） | 20年 |
-| 12 | Uttara Phalguni | 翼宿 | 狮子 26°40'–处女 10° | 狮子 13°20'–26°40' | 太阳（Sun） | 6年 |
-| 13 | Hasta | 轸宿 | 处女 10°–23°20' | 处女 0°（恒星）–13°20' | 月亮（Moon） | 10年 |
-| 14 | Chitra | 角宿 | 处女 23°20'–天秤 6°40' | 处女 13°20'–26°40' | 火星（Mars） | 7年 |
-| 15 | Swati | 亢宿 | 天秤 6°40'–20° | 天秤 0°（恒星）–13°20' | 罗睺（Rahu） | 18年 |
-| 16 | Vishakha | 氐宿 | 天秤 20°–天蝎 3°20' | 天秤 13°20'–26°40' | 木星（Jupiter） | 16年 |
-| 17 | Anuradha | 房宿 | 天蝎 3°20'–16°40' | 天蝎 0°（恒星）–13°20' | 土星（Saturn） | 19年 |
-| 18 | Jyeshtha | 心宿 | 天蝎 16°40'–30° | 天蝎 13°20'–26°40' | 水星（Mercury） | 17年 |
-| 19 | Mula | 尾宿 | 射手 0°–13°20' | 天蝎 26°40'–射手 10°（热带）| 计都（Ketu） | 7年 |
-| 20 | Purva Ashadha | 箕宿 | 射手 13°20'–26°40' | 射手 0°（恒星）–13°20' | 金星（Venus） | 20年 |
-| 21 | Uttara Ashadha | 斗宿 | 射手 26°40'–摩羯 10° | 射手 13°20'–26°40' | 太阳（Sun） | 6年 |
-| 22 | Shravana | 牛宿 | 摩羯 10°–23°20' | 摩羯 0°（恒星）–13°20' | 月亮（Moon） | 10年 |
-| 23 | Dhanishtha | 女宿 | 摩羯 23°20'–宝瓶 6°40' | 摩羯 13°20'–26°40' | 火星（Mars） | 7年 |
-| 24 | Shatabhisha | 虚宿 | 宝瓶 6°40'–20° | 宝瓶 0°（恒星）–13°20' | 罗睺（Rahu） | 18年 |
-| 25 | Purva Bhadrapada | 危宿 | 宝瓶 20°–双鱼 3°20' | 宝瓶 13°20'–26°40' | 木星（Jupiter） | 16年 |
-| 26 | Uttara Bhadrapada | 室宿 | 双鱼 3°20'–16°40' | 双鱼 0°（恒星）–13°20' | 土星（Saturn） | 19年 |
-| 27 | Revati | 壁宿 | 双鱼 16°40'–30° | 双鱼 13°20'–26°40' | 水星（Mercury） | 17年 |
-
-> **注**：上表"恒星黄道范围"为 Lahiri 体系下的近似值，每年随 Ayanamsa 略有变化。使用恒星经度（热带经度 − 24°）查表即可。
+**Note**: Mercury, Venus, and Mars have significant retrograde periods. The figures above are rough averages — precision is limited near boundary dates.
 
 ---
 
-## Vimshottari Dasha 系统
+## 27 Nakshatras — Complete List
 
-### 行星年限表（总计 120 年）
+Each Nakshatra spans 13°20' (360° ÷ 27 = 13.333...°).
 
-| 行星 | 大运年限 | 对应 Nakshatra（起点 Nakshatra） |
-|------|---------|-------------------------------|
-| 计都（Ketu） | 7年 | Ashwini、Magha、Mula |
-| 金星（Venus） | 20年 | Bharani、Purva Phalguni、Purva Ashadha |
-| 太阳（Sun） | 6年 | Krittika、Uttara Phalguni、Uttara Ashadha |
-| 月亮（Moon） | 10年 | Rohini、Hasta、Shravana |
-| 火星（Mars） | 7年 | Mrigashira、Chitra、Dhanishtha |
-| 罗睺（Rahu） | 18年 | Ardra、Swati、Shatabhisha |
-| 木星（Jupiter） | 16年 | Punarvasu、Vishakha、Purva Bhadrapada |
-| 土星（Saturn） | 19年 | Pushya、Anuradha、Uttara Bhadrapada |
-| 水星（Mercury） | 17年 | Ashlesha、Jyeshtha、Revati |
+| # | Sanskrit Name | Sidereal Range (Lahiri, approx.) | Ruling Planet | Dasha Years |
+|---|--------------|----------------------------------|---------------|-------------|
+| 1 | Ashwini | Pisces 6°40' – Aries 0° (sidereal) | Ketu | 7 |
+| 2 | Bharani | Aries 0° – 13°20' | Venus | 20 |
+| 3 | Krittika | Aries 13°20' – 26°40' | Sun | 6 |
+| 4 | Rohini | Taurus 0° – 13°20' (sidereal) | Moon | 10 |
+| 5 | Mrigashira | Taurus 13°20' – Gemini 0° (sidereal) | Mars | 7 |
+| 6 | Ardra | Gemini 0° – 13°20' | Rahu | 18 |
+| 7 | Punarvasu | Gemini 13°20' – 26°40' | Jupiter | 16 |
+| 8 | Pushya | Cancer 0° – 13°20' | Saturn | 19 |
+| 9 | Ashlesha | Cancer 13°20' – 26°40' | Mercury | 17 |
+| 10 | Magha | Cancer 26°40' – Leo 10° (tropical ref.) | Ketu | 7 |
+| 11 | Purva Phalguni | Leo 0° – 13°20' (sidereal) | Venus | 20 |
+| 12 | Uttara Phalguni | Leo 13°20' – 26°40' | Sun | 6 |
+| 13 | Hasta | Virgo 0° – 13°20' (sidereal) | Moon | 10 |
+| 14 | Chitra | Virgo 13°20' – 26°40' | Mars | 7 |
+| 15 | Swati | Libra 0° – 13°20' (sidereal) | Rahu | 18 |
+| 16 | Vishakha | Libra 13°20' – 26°40' | Jupiter | 16 |
+| 17 | Anuradha | Scorpio 0° – 13°20' (sidereal) | Saturn | 19 |
+| 18 | Jyeshtha | Scorpio 13°20' – 26°40' | Mercury | 17 |
+| 19 | Mula | Scorpio 26°40' – Sagittarius 10° (tropical ref.) | Ketu | 7 |
+| 20 | Purva Ashadha | Sagittarius 0° – 13°20' (sidereal) | Venus | 20 |
+| 21 | Uttara Ashadha | Sagittarius 13°20' – 26°40' | Sun | 6 |
+| 22 | Shravana | Capricorn 0° – 13°20' (sidereal) | Moon | 10 |
+| 23 | Dhanishtha | Capricorn 13°20' – 26°40' | Mars | 7 |
+| 24 | Shatabhisha | Aquarius 0° – 13°20' (sidereal) | Rahu | 18 |
+| 25 | Purva Bhadrapada | Aquarius 13°20' – 26°40' | Jupiter | 16 |
+| 26 | Uttara Bhadrapada | Pisces 0° – 13°20' (sidereal) | Saturn | 19 |
+| 27 | Revati | Pisces 13°20' – 26°40' | Mercury | 17 |
 
-**固定顺序**：Ketu → Venus → Sun → Moon → Mars → Rahu → Jupiter → Saturn → Mercury → （回到 Ketu）
+> **Note**: Sidereal ranges above are approximate Lahiri values and shift slightly each year as the Ayanamsa increases. Use the sidereal longitude (tropical − ~24°) to look up the Nakshatra.
 
-### Dasha 推算方法
+---
 
-**Step 1**：确定月亮所在 Nakshatra 及其主星（即出生时的 Dasha 行星）
+## Vimshottari Dasha System
 
-**Step 2**：计算出生时已过的 Dasha 比例
+### Planetary Period Table (total: 120 years)
+
+| Planet | Mahadasha Years | Corresponding Nakshatras (starting Nakshatras) |
+|--------|----------------|------------------------------------------------|
+| Ketu | 7 | Ashwini, Magha, Mula |
+| Venus | 20 | Bharani, Purva Phalguni, Purva Ashadha |
+| Sun | 6 | Krittika, Uttara Phalguni, Uttara Ashadha |
+| Moon | 10 | Rohini, Hasta, Shravana |
+| Mars | 7 | Mrigashira, Chitra, Dhanishtha |
+| Rahu | 18 | Ardra, Swati, Shatabhisha |
+| Jupiter | 16 | Punarvasu, Vishakha, Purva Bhadrapada |
+| Saturn | 19 | Pushya, Anuradha, Uttara Bhadrapada |
+| Mercury | 17 | Ashlesha, Jyeshtha, Revati |
+
+**Fixed sequence**: Ketu → Venus → Sun → Moon → Mars → Rahu → Jupiter → Saturn → Mercury → (back to Ketu)
+
+### Dasha Calculation Method
+
+**Step 1**: Identify the Moon's Nakshatra and its ruling planet (= the birth Dasha planet)
+
+**Step 2**: Calculate the fraction of the Dasha already elapsed at birth
 
 ```
-月亮在 Nakshatra 内的已走度数 = 月亮恒星经度 - 该 Nakshatra 起始经度
-该 Nakshatra 跨度 = 13.333°
+Degrees traversed within Nakshatra = Moon's sidereal longitude − Nakshatra start longitude
+Nakshatra span = 13.333°
 
-已过比例 = 已走度数 / 13.333°
+Fraction elapsed = degrees traversed / 13.333°
 
-出生时该 Dasha 剩余年数 = 该行星年限 × (1 - 已过比例)
+Remaining years in birth Dasha = planet's Dasha years × (1 − fraction elapsed)
 ```
 
-**Step 3**：从出生日期起，依次累加各 Dasha 年限，直到当前日期
+**Step 3**: Starting from the birth date, add the Dasha periods in sequence until reaching today
 
 ```
-示例：1990年6月15日出生，月亮在 Rohini（Moon Dasha，10年）
-月亮约位于 Rohini 第 7°（已过 7/13.33 ≈ 52.5%）
-出生时 Moon Dasha 剩余 = 10 × (1 - 0.525) = 4.75年 → 至约 1995年3月
+Example: Born June 15, 1990 — Moon in Rohini (Moon Dasha, 10 years)
+Moon approximately at Rohini 7° (elapsed: 7 / 13.33 ≈ 52.5%)
+Remaining Moon Dasha at birth = 10 × (1 − 0.525) = 4.75 years → until ~March 1995
 
-时间线：
-1990.06 – 1995.03  Moon Dasha（剩余）
-1995.03 – 2002.03  Mars Dasha（7年）
-2002.03 – 2020.03  Rahu Dasha（18年）
-2020.03 – 2036.03  Jupiter Dasha（16年）
+Timeline:
+Jun 1990 – Mar 1995  Moon Mahadasha (remainder)
+Mar 1995 – Mar 2002  Mars Mahadasha (7 years)
+Mar 2002 – Mar 2020  Rahu Mahadasha (18 years)
+Mar 2020 – Mar 2036  Jupiter Mahadasha (16 years)
 ...
 ```
 
-### Antardasha（副运）计算
+### Antardasha (Sub-Period) Calculation
 
-每个主运（Mahadasha）内按相同比例再细分 9 个副运（Antardasha）：
+Each Mahadasha is subdivided into 9 Antardashas (sub-periods) in the same proportional sequence:
 
 ```
-副运年限 = 主运年限 × 副运行星年限 / 120
+Antardasha duration = Mahadasha years × sub-planet's Dasha years / 120
 
-示例：Rahu 主运（18年）内的 Jupiter 副运：
-18 × 16 / 120 = 2.4年
+Example: Jupiter Antardasha within Rahu Mahadasha (18 years):
+18 × 16 / 120 = 2.4 years
 ```
 
-副运顺序与主运相同，从主运行星自身开始。
+The Antardasha sequence follows the same order as the Mahadasha, beginning with the Mahadasha planet itself.
 
 ---
 
-## 九曜行星（Nava Graha）
+## Navagraha (Nine Planets)
 
-| 行星 | 梵文 | 中文 | 属性 | 主管领域 |
-|------|------|------|------|---------|
-| Sun | Surya | 苏利耶 / 日 | 阳 / 火 | 自我、父亲、权威、灵魂 |
-| Moon | Chandra | 月亮 | 阴 / 水 | 心智、母亲、情感、繁荣 |
-| Mars | Mangala | 战神 | 阳 / 火 | 能量、勇气、兄弟、土地 |
-| Mercury | Budha | 水星 | 中性 / 土 | 智识、沟通、商业 |
-| Jupiter | Guru/Brihaspati | 木星 | 阳 / 空 | 智慧、宗教、子女、扩展 |
-| Venus | Shukra | 金星 | 阴 / 水 | 爱情、美、财富、艺术 |
-| Saturn | Shani | 土星 | 阴 / 风 | 纪律、业力、延迟、服务 |
-| Rahu | 罗睺 | 北交点 | 阴 / 风（烟雾） | 世俗欲望、异域、技术 |
-| Ketu | 计都 | 南交点 | 阴 / 火（烟） | 灵性、解脱、过去世业力 |
+| Planet | Sanskrit Name | Nature | Domains |
+|--------|--------------|--------|---------|
+| Sun | Surya | Yang / Fire | Self, father, authority, soul |
+| Moon | Chandra | Yin / Water | Mind, mother, emotions, prosperity |
+| Mars | Mangala | Yang / Fire | Energy, courage, siblings, land |
+| Mercury | Budha | Neutral / Earth | Intellect, communication, commerce |
+| Jupiter | Guru / Brihaspati | Yang / Ether | Wisdom, religion, children, expansion |
+| Venus | Shukra | Yin / Water | Love, beauty, wealth, the arts |
+| Saturn | Shani | Yin / Air | Discipline, karma, delay, service |
+| Rahu | Rahu (North Node) | Yin / Air (smoky) | Worldly desire, foreign lands, technology |
+| Ketu | Ketu (South Node) | Yin / Fire (smoky) | Spirituality, liberation, past-life karma |
 
-**罗睺与计都**：永远相对（相差 180°），逆行，代表月亮轨道的升降交点。
+**Rahu and Ketu** are always exactly opposite each other (180° apart), move retrograde, and represent the Moon's ascending and descending nodes.
 
 ---
 
-## 十二宫位（Bhava）含义
+## Twelve Houses (Bhavas)
 
-| 宫位 | 梵文 | 核心领域 | 与西方占星差异说明 |
-|------|------|---------|-----------------|
-| 第1宫 | Lagna | 自我、身体、性格、外貌 | 与西方第1宫相似 |
-| 第2宫 | Dhana | 财富、家族、语言、饮食 | 吠陀更强调家族和语言 |
-| 第3宫 | Sahaja | 兄弟姐妹、努力、短途旅行、勇气 | 更强调个人努力和勇气 |
-| 第4宫 | Sukha | 母亲、家宅、内心快乐、车辆 | 与西方类似 |
-| 第5宫 | Putra | 子女、智慧、创造力、过去善业 | 更强调业力和智识 |
-| 第6宫 | Ripu | 敌人、疾病、债务、服务 | 与西方类似（困难宫） |
-| 第7宫 | Yuvati | 配偶、合伙、公众、贸易 | 与西方类似 |
-| 第8宫 | Randhra | 死亡、转化、秘密、遗产、神秘 | 与西方类似，更强调寿命 |
-| 第9宫 | Dharma | 父亲、命运、宗教、长途旅行、师傅 | 比西方更强调父亲和 Dharma |
-| 第10宫 | Karma | 职业、声誉、行动、权威 | 与西方类似 |
-| 第11宫 | Labha | 收益、朋友、愿望实现 | 更强调收益和愿望 |
-| 第12宫 | Vyaya | 损失、解脱、外国、灵修、床上之乐 | 更强调灵性解脱 |
+| House | Sanskrit Name | Core Domains | Notes vs. Western System |
+|-------|--------------|-------------|--------------------------|
+| 1st | Lagna | Self, body, personality, appearance | Similar to Western 1st house |
+| 2nd | Dhana | Wealth, family, speech, food | Jyotish places greater emphasis on lineage and speech |
+| 3rd | Sahaja | Siblings, effort, short travel, courage | Stronger emphasis on personal effort and valor |
+| 4th | Sukha | Mother, home, inner happiness, vehicles | Similar to Western 4th |
+| 5th | Putra | Children, intelligence, creativity, past merit | Greater emphasis on karma and intellectual gifts |
+| 6th | Ripu | Enemies, illness, debts, service | Similar to Western 6th (house of difficulty) |
+| 7th | Yuvati | Spouse, partnerships, public, trade | Similar to Western 7th |
+| 8th | Randhra | Death, transformation, secrets, inheritance, the occult | Similar; stronger longevity emphasis |
+| 9th | Dharma | Father, fate, religion, long travel, guru | Stronger emphasis on father and Dharma |
+| 10th | Karma | Career, reputation, action, authority | Similar to Western 10th |
+| 11th | Labha | Gains, friends, wish fulfillment | Greater emphasis on gains and desires |
+| 12th | Vyaya | Loss, liberation, foreign lands, spiritual practice, bed pleasures | Greater emphasis on moksha (liberation) |
 
-**Kendra（角宫）**：1、4、7、10 宫——力量之宫
-**Trikona（三角宫）**：1、5、9 宫——吉祥之宫
-**Dusthana（困难宫）**：6、8、12 宫——挑战之宫
-**Upachaya（增长宫）**：3、6、10、11 宫——随时间改善的宫位
+**Kendra (Angular houses)**: 1, 4, 7, 10 — Houses of Strength
+**Trikona (Trine houses)**: 1, 5, 9 — Houses of Auspiciousness
+**Dusthana (Difficult houses)**: 6, 8, 12 — Houses of Challenge
+**Upachaya (Growth houses)**: 3, 6, 10, 11 — Houses that improve over time

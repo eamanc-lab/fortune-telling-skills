@@ -1,358 +1,358 @@
-# 大阿尔卡纳（Major Arcana）
+# Major Arcana
 
-22 张牌，编号 0~21，代表人生重大主题和灵性旅程（愚者之旅）。
+22 cards, numbered 0–21, representing the great themes of human experience and the spiritual journey known as the Fool's Journey.
 
-## 目录
+## Table of Contents
 
-- [0 - 愚者 The Fool](#0---愚者-the-fool)
-- [I - 魔术师 The Magician](#i---魔术师-the-magician)
-- [II - 女祭司 The High Priestess](#ii---女祭司-the-high-priestess)
-- [III - 女皇 The Empress](#iii---女皇-the-empress)
-- [IV - 皇帝 The Emperor](#iv---皇帝-the-emperor)
-- [V - 教皇 The Hierophant](#v---教皇-the-hierophant)
-- [VI - 恋人 The Lovers](#vi---恋人-the-lovers)
-- [VII - 战车 The Chariot](#vii---战车-the-chariot)
-- [VIII - 力量 Strength](#viii---力量-strength)
-- [IX - 隐士 The Hermit](#ix---隐士-the-hermit)
-- [X - 命运之轮 Wheel of Fortune](#x---命运之轮-wheel-of-fortune)
-- [XI - 正义 Justice](#xi---正义-justice)
-- [XII - 倒吊人 The Hanged Man](#xii---倒吊人-the-hanged-man)
-- [XIII - 死神 Death](#xiii---死神-death)
-- [XIV - 节制 Temperance](#xiv---节制-temperance)
-- [XV - 恶魔 The Devil](#xv---恶魔-the-devil)
-- [XVI - 塔 The Tower](#xvi---塔-the-tower)
-- [XVII - 星星 The Star](#xvii---星星-the-star)
-- [XVIII - 月亮 The Moon](#xviii---月亮-the-moon)
-- [XIX - 太阳 The Sun](#xix---太阳-the-sun)
-- [XX - 审判 Judgement](#xx---审判-judgement)
-- [XXI - 世界 The World](#xxi---世界-the-world)
-
----
-
-## 0 - 愚者 The Fool
-
-**元素**：风 | **卡巴拉对应**：Aleph（牛）
-
-**正位关键词**：天真、新开始、自由精神、冒险、无限可能
-**逆位关键词**：鲁莽、被利用、欠考虑、恐惧冒险
-
-**正位深层含义**：
-愚者代表纯真的勇气和无畏的起步。他站在悬崖边，不是因为无知，而是因为对生命的信任超越了对未知的恐惧。这张牌出现时，意味着一个全新的开始正在召唤——放下旧有的负担，像第一次体验世界那样踏上旅程。带着小包袱上路，轻装前行，才能真正接纳命运给予的一切可能。
-
-**逆位深层含义**：
-愚者逆位暗示冒险变成了鲁莽，天真变成了幼稚。可能是在没有准备的情况下贸然行事，或者恰恰相反——对新开始过度恐惧而裹足不前。也可能是在不该信任的人身上投入了过多，或者拒绝从过往的轻率中汲取教训。审视一下：你是在逃避，还是在真正的跃进？
+- [0 - The Fool](#0---the-fool)
+- [I - The Magician](#i---the-magician)
+- [II - The High Priestess](#ii---the-high-priestess)
+- [III - The Empress](#iii---the-empress)
+- [IV - The Emperor](#iv---the-emperor)
+- [V - The Hierophant](#v---the-hierophant)
+- [VI - The Lovers](#vi---the-lovers)
+- [VII - The Chariot](#vii---the-chariot)
+- [VIII - Strength](#viii---strength)
+- [IX - The Hermit](#ix---the-hermit)
+- [X - Wheel of Fortune](#x---wheel-of-fortune)
+- [XI - Justice](#xi---justice)
+- [XII - The Hanged Man](#xii---the-hanged-man)
+- [XIII - Death](#xiii---death)
+- [XIV - Temperance](#xiv---temperance)
+- [XV - The Devil](#xv---the-devil)
+- [XVI - The Tower](#xvi---the-tower)
+- [XVII - The Star](#xvii---the-star)
+- [XVIII - The Moon](#xviii---the-moon)
+- [XIX - The Sun](#xix---the-sun)
+- [XX - Judgement](#xx---judgement)
+- [XXI - The World](#xxi---the-world)
 
 ---
 
-## I - 魔术师 The Magician
+## 0 - The Fool
 
-**元素**：水星 | **卡巴拉对应**：Beth（房屋）
+**Element**: Air | **Kabbalistic Attribution**: Aleph (Ox)
 
-**正位关键词**：意志力、创造、显化、技巧、自信
-**逆位关键词**：诡计、幻象、脱离现实、操控
+**Upright Keywords**: innocence, new beginnings, free spirit, adventure, unlimited potential
+**Reversed Keywords**: recklessness, naivety, being taken advantage of, fear of taking the leap
 
-**正位深层含义**：
-魔术师站在桌前，四种花色的工具一字排开——他掌握了一切必要的资源。这张牌出现时，提醒你：你已拥有实现目标所需的一切，缺少的只是将内在意愿转化为外在行动的决心。手指向天、指向地，是"如上，亦如下"的体现——将更高的灵感带落到现实中。
+**Upright — Deeper Meaning**:
+The Fool embodies pure courage and fearless beginnings. He stands at the cliff's edge — not out of ignorance, but because his trust in life runs deeper than his fear of the unknown. When this card appears, a brand-new beginning is calling to you. Set down the weight of the past, step onto the road as if experiencing the world for the very first time, and travel light. Only by releasing what you no longer need can you fully receive whatever the journey is ready to give.
 
-**逆位深层含义**：
-魔术师逆位时，那双擅长创造的手可能转向了操控与欺骗。技巧被用于误导，才华被浪费在歪道上。也可能是自我怀疑使得明明拥有能力的人原地踏步，潜力被压制在内心深处。检视动机——你在用力量服务真正的目标，还是在用它填补内心的不安全感？
-
----
-
-## II - 女祭司 The High Priestess
-
-**元素**：月亮 | **卡巴拉对应**：Gimel（骆驼）
-
-**正位关键词**：直觉、潜意识、内在声音、神秘、智慧
-**逆位关键词**：失去中心、压抑感受、忽略直觉
-
-**正位深层含义**：
-女祭司静坐于两根柱子之间，守护着神殿的帷幕。她是连接显意识与潜意识的桥梁，提醒你此刻需要的答案并不在外部，而在你内心深处那片静默的水面之下。这是一张要求你停下、倾听、等待的牌——不是所有事都需要立刻行动，有些真相只在安静中才能浮现。
-
-**逆位深层含义**：
-女祭司逆位时，内在的智慧被噪声淹没了。可能是外界的喧嚣太强，也可能是主动压制了自己的感受和预感。或者是秘密被不当地压藏，拒绝承认已经知道的真相。重新找回与自身的联结，停止向外寻找那些只有向内才能找到的答案。
+**Reversed — Deeper Meaning**:
+In reversal, The Fool's bold leap tips into recklessness, and open-hearted innocence becomes naivety. You may be charging ahead without adequate preparation — or, just as likely, freezing in place out of an overwhelming fear of starting something new. Perhaps you've trusted someone who didn't deserve it, or you keep repeating a careless pattern without learning from it. Ask honestly: are you escaping, or are you genuinely ready to leap?
 
 ---
 
-## III - 女皇 The Empress
+## I - The Magician
 
-**元素**：金星 | **卡巴拉对应**：Daleth（门）
+**Element**: Mercury | **Kabbalistic Attribution**: Beth (House)
 
-**正位关键词**：母性、丰饶、自然、创造力、感官享受
-**逆位关键词**：依赖、窒息、空虚、创造力阻塞
+**Upright Keywords**: willpower, creation, manifestation, skill, confidence
+**Reversed Keywords**: trickery, illusion, disconnection from reality, manipulation
 
-**正位深层含义**：
-女皇端坐在丰盛的自然之中，代表着大地母亲的慷慨与丰沛。这是一张关于创造、滋养和感官喜悦的牌——无论是孕育新生命、创作艺术、还是建立一个充满爱的空间。她提醒你：美丽和富足不是奢侈，而是人类天生的权利。让自己充分体验生活的丰盛，不要吝惜对自己的滋养。
+**Upright — Deeper Meaning**:
+The Magician stands before his altar, all four suits arrayed before him — he has every tool he could possibly need. When this card appears, it's a reminder: everything required to reach your goal is already within your reach. What's missing is simply the resolve to translate inner intention into outer action. One hand points to the sky, the other to the earth — "as above, so below" — a call to bring inspired vision down into tangible reality.
 
-**逆位深层含义**：
-女皇逆位时，滋养变成了窒息，慷慨变成了过度依赖。可能是创造力受阻，无法让内在的丰盛流出；也可能是在关系中过度给予或过度接受，失去了健康的边界。对自我的忽视也是常见的逆位表现——当你不断给予他人却忘记滋养自己时，大地母亲的能量会枯竭。
-
----
-
-## IV - 皇帝 The Emperor
-
-**元素**：白羊 | **卡巴拉对应**：He（窗户）
-
-**正位关键词**：权威、结构、控制、父性、稳定
-**逆位关键词**：暴政、僵化、冷漠、过度控制
-
-**正位深层含义**：
-皇帝坐在坚硬的石制宝座上，代表通过意志力建立的秩序与稳定。这是父性能量的体现——不是控制，而是保护与方向。当这张牌出现时，提示你需要建立清晰的边界、做出有力的决策、或者为自己或他人提供坚实的结构。有时候，最有爱的事就是设立规则。
-
-**逆位深层含义**：
-皇帝逆位时，权威变成了独裁，稳定变成了僵化。可能是对控制的执着已经压制了创造力和情感，也可能是在面对权威时过度顺从或反叛。对于建立秩序的恐惧，或者对父性能量的创伤反应，都可能在逆位时浮现。检视你与"规则"和"权力"之间的关系。
+**Reversed — Deeper Meaning**:
+When The Magician reverses, those gifted hands may turn toward manipulation and deception. Skill becomes misdirection; talent gets wasted on the wrong ends. It may also speak to self-doubt — someone who possesses genuine ability but has talked themselves out of using it, leaving potential locked away inside. Examine your motivations honestly: are you putting your power in service of something real, or using it to paper over a deeper insecurity?
 
 ---
 
-## V - 教皇 The Hierophant
+## II - The High Priestess
 
-**元素**：金牛 | **卡巴拉对应**：Vau（钩）
+**Element**: Moon | **Kabbalistic Attribution**: Gimel (Camel)
 
-**正位关键词**：传统、道德、信仰、导师、制度
-**逆位关键词**：反叛、颠覆、新方法、教条束缚
+**Upright Keywords**: intuition, the subconscious, inner voice, mystery, wisdom
+**Reversed Keywords**: loss of center, suppressed feelings, ignoring intuition
 
-**正位深层含义**：
-教皇坐于两根柱子之间，脚边跪着两名学生。他代表通过传统和制度传递的集体智慧。这张牌出现时，可能提示与传统价值观保持联结的重要性，或者是在人生某个阶段需要寻找一位导师或精神指引。集体信念与仪式感有时是个人成长最坚实的支撑。
+**Upright — Deeper Meaning**:
+The High Priestess sits in stillness between two pillars, guardian of the temple veil. She is the bridge between the conscious and the subconscious, and she reminds you that the answers you're seeking are not out there — they live in the quiet depths beneath the surface of your own awareness. This is a card that asks you to pause, to listen, to wait. Not everything needs immediate action; some truths reveal themselves only in silence.
 
-**逆位深层含义**：
-教皇逆位时，传统变成了束缚，制度变成了牢笼。可能是时候打破旧有的思维框架，选择一条非常规的道路。也可能是在盲目遵从权威时失去了自我判断。有时教条对个体来说是有害的，逆位的教皇邀请你质疑"理所当然"，寻找更符合自身真相的道路。
-
----
-
-## VI - 恋人 The Lovers
-
-**元素**：双子 | **卡巴拉对应**：Zayin（剑）
-
-**正位关键词**：伙伴关系、结合、选择、和谐、价值观
-**逆位关键词**：失衡、片面、不和谐、错误选择
-
-**正位深层含义**：
-恋人牌的核心不仅是爱情，更是深层的选择——一次关乎灵魂方向的决定。当两个人走到一起，或当你面临人生的重要分叉路时，这张牌出现了。它代表你与自己内在价值观的统一，也代表在关系中真正看见彼此的那一刻。最重要的选择永远是：你愿意成为谁？
-
-**逆位深层含义**：
-恋人逆位时，内在的分裂浮出水面。可能是价值观上的不一致导致了关系的失衡，也可能是被错误的理由吸引而做出了与内心相悖的选择。两极之间的张力变得令人痛苦，沟通破裂，或者一段关系中有一方承担了过多。是时候重新审视：这段关系是否真正反映了你的核心价值？
+**Reversed — Deeper Meaning**:
+In reversal, the High Priestess's inner wisdom has been drowned out by noise. Outside voices have grown too loud, or you've been actively suppressing your own feelings and instincts. Perhaps something is being kept secret in a way that isn't serving you, or you're refusing to acknowledge what you already, quietly know. Return to yourself. Stop searching outward for the answers that can only be found by looking within.
 
 ---
 
-## VII - 战车 The Chariot
+## III - The Empress
 
-**元素**：巨蟹 | **卡巴拉对应**：Chet（围栏）
+**Element**: Venus | **Kabbalistic Attribution**: Daleth (Door)
 
-**正位关键词**：方向、控制、意志力、胜利、决心
-**逆位关键词**：失控、缺乏方向、攻击性、内在冲突
+**Upright Keywords**: motherhood, abundance, nature, creativity, sensual pleasure
+**Reversed Keywords**: dependence, smothering, emptiness, creative blockage
 
-**正位深层含义**：
-战车手驾驭着两匹颜色相反的狮身人面兽，代表通过意志力控制内在的矛盾与冲动。这是一张关于征服、专注和推进的牌。当你已经明确方向，需要排除一切干扰、全力冲刺时，战车出现了。意志力是你最强大的武器，勇往直前，胜利属于那些不退缩的人。
+**Upright — Deeper Meaning**:
+The Empress sits amid lush, thriving nature — she is the embodiment of the Great Mother's generosity and fullness. This is a card of creation, nourishment, and sensory delight — whether you are nurturing new life, making art, or cultivating a space filled with love. She reminds you that beauty and abundance are not luxuries; they are your birthright. Let yourself receive the richness life is offering, and be as generous with yourself as the earth is with its seasons.
 
-**逆位深层含义**：
-战车逆位时，两匹方向相反的兽各自拉扯，车辆失去控制。内在的冲突让行动力瘫痪，或者相反——野蛮的冲劲缺少方向，横冲直撞伤人伤己。此时可能需要暂停前进，先整合内在不同的声音，找到真正统一的意志，再重新出发。
-
----
-
-## VIII - 力量 Strength
-
-**元素**：狮子 | **卡巴拉对应**：Tet（蛇）
-
-**正位关键词**：内在力量、勇气、慈悲、耐心、影响力
-**逆位关键词**：自我怀疑、软弱、不安全感、暴力
-
-**正位深层含义**：
-力量牌描绘的不是蛮力，而是一位女性用温柔的双手制服雄狮。真正的力量来自内心，而非肌肉。这张牌出现时，提醒你：面对恐惧不需要征服它，而是温柔地与它共处；影响他人不需要强迫，而是通过耐心和慈悲。你内在的力量比你以为的更深厚。
-
-**逆位深层含义**：
-力量逆位时，内心的狮子要么被过度压制，要么失控暴走。可能是长期的自我怀疑侵蚀了行动力，让明明有能力的你觉得无力；也可能是压抑已久的愤怒以破坏性的方式爆发。重新找回与自身力量的和平关系——不是征服它，而是与它对话。
+**Reversed — Deeper Meaning**:
+In reversal, nurturing tips into smothering and generosity into unhealthy dependency. Creative energy may feel blocked, unable to flow outward. In relationships, there may be an imbalance — too much giving, or too much taking — with boundaries eroded or lost. Self-neglect is another common reversal theme: when you pour endlessly into others and forget to replenish yourself, the Great Mother's energy eventually runs dry.
 
 ---
 
-## IX - 隐士 The Hermit
+## IV - The Emperor
 
-**元素**：处女 | **卡巴拉对应**：Yod（闭拳）
+**Element**: Aries | **Kabbalistic Attribution**: He (Window)
 
-**正位关键词**：沉思、寻找真理、内在指引、智慧、独处
-**逆位关键词**：孤独、迷失方向、孤立、拒绝帮助
+**Upright Keywords**: authority, structure, control, fatherhood, stability
+**Reversed Keywords**: tyranny, rigidity, coldness, excessive control
 
-**正位深层含义**：
-隐士孤身站在雪山之巅，手提一盏灯，照亮脚下的路。他不是在逃离，而是在主动选择独处以寻找内在的答案。这张牌出现时，邀请你向内转，进行深度的自我审视。也许是时候暂时退出喧嚣，在安静中找到属于自己的真相和方向。智慧只在沉默中生长。
+**Upright — Deeper Meaning**:
+The Emperor sits on his stone throne, representing the order and stability built through sheer force of will. This is the energy of the father — not domination, but protection and direction. When this card appears, it may be asking you to establish clear boundaries, make bold decisions, or provide a reliable structure — for yourself or for others. Sometimes the most loving thing you can do is set a rule and hold it.
 
-**逆位深层含义**：
-隐士逆位时，独处变成了孤立，内省变成了闭关自守。可能是过度沉浸在内心世界而与现实脱节，也可能是用孤独来回避关系中的脆弱。有时候逆位的隐士也暗示终于走出自我封闭，愿意重新向他人敞开。审视一下：你是在独处中成长，还是在孤立中萎缩？
-
----
-
-## X - 命运之轮 Wheel of Fortune
-
-**元素**：木星 | **卡巴拉对应**：Kaph（张开的手）
-
-**正位关键词**：变化、循环、命运、转折、机遇
-**逆位关键词**：抗拒改变、执着控制、厄运、停滞
-
-**正位深层含义**：
-命运之轮永不停转，代表生命中不可避免的循环与变化。这张牌出现时，可能预示着命运之轮正在转向有利的方向——一个好机会、一次重要的转折即将到来。接受变化是这张牌的核心教导：有些事情超出我们的控制，而顺应循环、把握时机，往往比强行抵抗更有智慧。
-
-**逆位深层含义**：
-命运之轮逆位时，轮子卡住了，或者正在向不利的方向转动。可能是在经历运气不佳的时期，或者因为执着于控制一切而错失了自然的流动。过于沉溺在厄运感中，会让人变得被动和无力。记住：轮子终究会再次转动，低潮期本身就已经包含了转机的种子。
+**Reversed — Deeper Meaning**:
+In reversal, authority curdles into authoritarianism and stability hardens into rigidity. The drive to control may be crushing creativity and emotion, or you may be over-submitting — or over-rebelling — in the face of authority. Fear of building structure, or unprocessed wounds around fatherly energy, can surface here. Take a close look at your relationship with "rules" and "power."
 
 ---
 
-## XI - 正义 Justice
+## V - The Hierophant
 
-**元素**：天秤 | **卡巴拉对应**：Lamed（赶牛棒）
+**Element**: Taurus | **Kabbalistic Attribution**: Vau (Nail)
 
-**正位关键词**：因果、清晰、真相、公平、责任
-**逆位关键词**：不诚实、不负责任、不公平、偏见
+**Upright Keywords**: tradition, morality, faith, mentor, institutions
+**Reversed Keywords**: rebellion, subversion, new approaches, dogmatic constraint
 
-**正位深层含义**：
-正义手持天平与宝剑，代表宇宙的公平法则：因果循环，种什么因得什么果。这张牌出现时，提示你需要对自己的行为负责，或者某个公平的结果即将到来。它也代表清晰的判断和诚实的自我审视——在做决定时，排除情绪干扰，以真相为准绳。
+**Upright — Deeper Meaning**:
+The Hierophant sits between two pillars, two students kneeling at his feet. He represents the collective wisdom passed down through tradition and institution. When this card appears, it may be highlighting the value of staying connected to traditional wisdom, or pointing to a season of life when seeking a mentor or spiritual guide would serve you. Shared belief and ritual can sometimes be the most solid ground an individual's growth stands on.
 
-**逆位深层含义**：
-正义逆位时，天平失衡了。可能是处境中存在明显的不公平，或者你（或他人）在逃避应承担的责任。自欺欺人、选择性地看待真相，以及不愿面对自己行为的后果，都是逆位正义的表现。宇宙的因果法则不会消失，只是被暂时掩盖——总有一刻，账单会来。
-
----
-
-## XII - 倒吊人 The Hanged Man
-
-**元素**：水 | **卡巴拉对应**：Mem（水）
-
-**正位关键词**：牺牲、放下、新视角、顿悟、等待
-**逆位关键词**：拖延、不必要的牺牲、固执、抗拒
-
-**正位深层含义**：
-倒吊人自愿悬挂，面色平静，甚至有一丝光环环绕。这种倒置改变了他看世界的方式。这张牌代表主动选择的暂停——有时候为了获得更高的理解，我们需要放弃某些东西，或者允许自己处于悬置状态。强迫前行只会徒劳，这段等待和放下是必要的顿悟时期。
-
-**逆位深层含义**：
-倒吊人逆位时，那种自愿的等待变成了被迫的停滞。可能是在不必要的事情上消耗自己——以受害者的身份感受牺牲，却没有换来任何成长或洞见。也可能是固执地抗拒人生中必要的暂停，强行推进，反而陷得更深。审视你的"牺牲"：它是有意义的奉献，还是无谓的消耗？
+**Reversed — Deeper Meaning**:
+In reversal, tradition becomes a cage and institution becomes a prison. It may be time to step outside conventional frameworks and walk a less traveled road. You may be following authority blindly, at the cost of your own discernment. Sometimes the dogma that works for the collective is genuinely harmful to the individual — the reversed Hierophant invites you to question what you've been told to take for granted, and find a path that rings true to your own experience.
 
 ---
 
-## XIII - 死神 Death
+## VI - The Lovers
 
-**元素**：天蝎 | **卡巴拉对应**：Nun（鱼）
+**Element**: Gemini | **Kabbalistic Attribution**: Zayin (Sword)
 
-**正位关键词**：结束旧循环、蜕变、新开始、释放、重生
-**逆位关键词**：恐惧改变、执着过去、停滞、抵抗
+**Upright Keywords**: partnership, union, choice, harmony, values alignment
+**Reversed Keywords**: imbalance, one-sidedness, disharmony, wrong choice
 
-**正位深层含义**：
-死神骑着白马缓缓前行，贵族和贫民同样无法阻挡他。但他不是终结，而是过渡——旧的必须死去，新的才能诞生。这张牌出现时，意味着一个阶段已经走到了尽头，执着于它只是延长痛苦。蝴蝶的诞生需要毛毛虫的死亡，蜕变的代价是你愿意彻底放下不再适合你的那一切。
+**Upright — Deeper Meaning**:
+The Lovers card is not simply about romance — at its heart it is about a profound choice, a decision that defines the direction of your soul. When two people come together, or when you stand at a major crossroads in life, this card appears. It represents alignment between who you are and what you value — and the moment in a relationship when you truly see each other. The most important question The Lovers ever asks is: who do you choose to become?
 
-**逆位深层含义**：
-死神逆位时，那个必要的结束被拖延了。对改变的恐惧让人紧抓着早已枯萎的事物，宁可在痛苦中维持熟悉，也不愿踏入未知的重生。这种抗拒不会阻止变化，只会让过渡更加痛苦漫长。勇气不是不感到恐惧，而是即便恐惧，依然愿意放手。
-
----
-
-## XIV - 节制 Temperance
-
-**元素**：射手 | **卡巴拉对应**：Samech（支柱）
-
-**正位关键词**：中道、耐心、平衡、治愈、和谐
-**逆位关键词**：极端、过度、失衡、缺乏耐心
-
-**正位深层含义**：
-天使站在水边，将水在两个杯子间轻柔地来回倾倒，足尖轻触水面。节制是炼金术的艺术——将对立的力量混合，找到那条微妙的中道。这张牌出现时，提示你避免极端，以耐心和平衡来处理当下的状况。治愈不是激烈的，而是在持续的、温和的流动中悄然发生的。
-
-**逆位深层含义**：
-节制逆位时，那个精妙的平衡被打破了。过度放纵或极端的禁欲，暴饮暴食或戒断过猛，冲动行事或无尽拖延——任何走向两端的极端都可能是逆位节制的信号。也可能是内在的不耐烦正在推着你做出尚未成熟的决定。慢下来，让事情有时间自然熟成。
+**Reversed — Deeper Meaning**:
+In reversal, an internal split rises to the surface. Misaligned values may be creating friction in a relationship, or you may be drawn to something for the wrong reasons, making a choice that contradicts what you know in your heart to be true. The tension between two poles becomes painful — communication breaks down, or one person carries far more than their share. It's time to ask honestly: does this relationship truly reflect your core values?
 
 ---
 
-## XV - 恶魔 The Devil
+## VII - The Chariot
 
-**元素**：摩羯 | **卡巴拉对应**：Ayin（眼睛）
+**Element**: Cancer | **Kabbalistic Attribution**: Chet (Fence)
 
-**正位关键词**：束缚、物质主义、诱惑、觉察阴影
-**逆位关键词**：解放、释放、恢复控制、打破束缚
+**Upright Keywords**: direction, control, willpower, victory, determination
+**Reversed Keywords**: loss of control, lack of direction, aggression, inner conflict
 
-**正位深层含义**：
-恶魔高坐于上，脚边的两个人物被松散的链条拴着——若他们愿意，随时可以离开，但他们选择了留在原地。这张牌代表那些令我们上瘾、执着或受困的事物。它的出现是一个邀请：看清那些让你感到被束缚的信念、模式或行为，不加评判地觉察它们。意识本身就是解放的开始。
+**Upright — Deeper Meaning**:
+The charioteer drives two sphinxes pulling in opposite directions, holding them on course through sheer force of will — representing the power to harness internal contradictions and drive them forward together. This is a card of conquest, focus, and momentum. When you have your direction and need to eliminate every distraction to reach the finish line, The Chariot appears. Willpower is your greatest weapon. Press forward — victory belongs to those who refuse to turn back.
 
-**逆位深层含义**：
-恶魔逆位时，链条松动了。这是一张充满希望的逆位——长期的执着或成瘾模式开始松动，你正在找回对自己生命的掌控感。解放的旅程可能还在开始，或者一段让人受困的关系终于走向了终结。认清真相之后，那些看似坚不可摧的枷锁，其实比想象中更容易放下。
-
----
-
-## XVI - 塔 The Tower
-
-**元素**：火星 | **卡巴拉对应**：Phe（嘴）
-
-**正位关键词**：突变、旧结构瓦解、启示、解放
-**逆位关键词**：灾难避免、延迟变革、恐惧痛苦
-
-**正位深层含义**：
-闪电击中高塔，人们从窗口坠落，王冠被击落塔顶。这是最令人恐惧的牌之一，但它的信息其实是解放的。只有建立在虚假基础上的结构才会在闪电下崩塌——如果地基是真实的，就不会被摧毁。塔的瓦解是痛苦的，但它清除了那些不再为你服务的幻象，为真正稳固的东西腾出了空间。
-
-**逆位深层含义**：
-塔逆位时，变革的冲击被软化了，或者被延迟了。可能是你选择了回避那场必要的地震，在摇摇欲坠的结构中继续撑着；也可能是灾难来临时的影响比预期要小，有时间和空间去主动重建。无论如何，那个需要改变的地基仍然存在，早主动晚被动——逆位的塔在提醒你不要一拖再拖。
+**Reversed — Deeper Meaning**:
+In reversal, the two sphinxes pull apart and the chariot loses its course. Inner conflict paralyzes action — or, at the other extreme, raw momentum with no direction causes damage in all directions. This may be a moment to pause, to integrate the competing voices within, to find genuine unified will before setting out again.
 
 ---
 
-## XVII - 星星 The Star
+## VIII - Strength
 
-**元素**：水瓶 | **卡巴拉对应**：Tzaddi（钩）
+**Element**: Leo | **Kabbalistic Attribution**: Tet (Serpent)
 
-**正位关键词**：希望、信念、重生、灵感、平静
-**逆位关键词**：无信心、灰心、不安全感、绝望
+**Upright Keywords**: inner strength, courage, compassion, patience, influence
+**Reversed Keywords**: self-doubt, weakness, insecurity, violence
 
-**正位深层含义**：
-经历了塔的崩塌之后，星星带来了宁静的希望。一位女子跪在水边，将水倒回大地和河流，在夜空中大星领群星而闪烁。这是疗愈的时刻，是在经历黑暗之后重新看见光的时刻。这张牌出现时，提醒你保持信念——宇宙是慷慨的，你的星星没有消失，只需仰望它。
+**Upright — Deeper Meaning**:
+The Strength card does not depict brute force — it shows a figure gently closing a lion's jaws with bare hands. True strength comes from within, not from muscle. When this card appears, it's a reminder that you don't need to conquer fear — you need to sit with it gently; that you don't need force to influence others — patience and compassion go further. The strength living inside you runs deeper than you currently believe.
 
-**逆位深层含义**：
-星星逆位时，那盏指引的灯在风中摇曳。长期的失望或打击让信念开始动摇，曾经的梦想变得遥不可及，对未来的不安全感笼罩着当下。这种时刻是真实的——悲伤和绝望有其正当的理由。但星星的光芒不会因为你不相信而消失，它只是在等待你再次愿意仰望的那一刻。
-
----
-
-## XVIII - 月亮 The Moon
-
-**元素**：双鱼 | **卡巴拉对应**：Quoph（后脑勺）
-
-**正位关键词**：潜意识、幻象、直觉、恐惧、未知
-**逆位关键词**：困惑消散、面对恐惧、清晰浮现
-
-**正位深层含义**：
-月亮映照在水面上，两条路延伸向远方，狗与狼对月嗥叫，龙虾从水中爬出。一切都在幽暗中闪烁，真实与幻象难以分辨。这张牌出现时，提示你正处于一段迷雾笼罩的时期，直觉在说话，但恐惧也在说话，难以辨清哪个是真相。这段时期需要耐心——雾终将散去，但现在需要与不确定性共处。
-
-**逆位深层含义**：
-月亮逆位时，迷雾开始消散。长期困扰你的困惑、欺骗或自我欺骗正在浮出水面，让你可以直视它。曾经压制在潜意识中的恐惧被带到了光明之下，可以正式被面对和处理了。如果月亮正位代表困惑的高峰，逆位则往往意味着清晰开始降临——即使那清晰揭露的真相需要一些勇气去承受。
+**Reversed — Deeper Meaning**:
+In reversal, the inner lion is either over-suppressed or running completely wild. Long-standing self-doubt may have eroded your ability to act — making you feel powerless when you are anything but. Or, equally, long-suppressed anger finds a destructive outlet. The path forward is not to win the fight against your own strength, but to open a conversation with it.
 
 ---
 
-## XIX - 太阳 The Sun
+## IX - The Hermit
 
-**元素**：太阳 | **卡巴拉对应**：Resh（脸）
+**Element**: Virgo | **Kabbalistic Attribution**: Yod (Closed Hand)
 
-**正位关键词**：喜悦、成功、积极、活力、光明
-**逆位关键词**：消极、暂时挫折、缺乏热情
+**Upright Keywords**: contemplation, seeking truth, inner guidance, wisdom, solitude
+**Reversed Keywords**: loneliness, losing your way, isolation, refusing help
 
-**正位深层含义**：
-太阳高照，孩子骑着白马张臂奔跑，背后是盛开的向日葵。这是整副牌中能量最纯粹、最正面的牌之一。它代表一种无需理由的喜悦，是走过了漫长旅程之后到达光明的感受。这张牌出现时，无论在哪个领域——你正在经历一段美好的时光，或者这样的时光即将到来。尽情庆祝，尽情享受。
+**Upright — Deeper Meaning**:
+The Hermit stands alone on a snowy peak, lantern in hand, lighting only the ground directly ahead. He has not retreated from the world — he has chosen solitude in order to find his own answers. When this card appears, it invites you to turn inward and engage in honest, deep self-examination. Perhaps it's time to step back from the noise, and let the quiet reveal the truth and direction that only belong to you. Wisdom grows in silence.
 
-**逆位深层含义**：
-太阳逆位时，阳光暂时被云遮住了。可能是在一段原本充满活力的时期里，遭遇了暂时的挫折或情绪低落；也可能是乐观主义走向了不切实际，过度自信掩盖了真正需要注意的问题。好消息是：太阳永远存在，短暂的遮蔽不会改变那个本质。这只是一段暂时的调整期。
-
----
-
-## XX - 审判 Judgement
-
-**元素**：冥王星 | **卡巴拉对应**：Shin（牙齿）
-
-**正位关键词**：反省、清算、觉醒、召唤、重生
-**逆位关键词**：缺乏自我觉察、怀疑、自我厌恶
-
-**正位深层含义**：
-天使吹响号角，棺木中的人们纷纷起身，迎接召唤。审判代表一次深刻的内在清算——回顾走过的路，以诚实和慈悲评估自己的行为与选择，然后在这个基础上重生。这不是外部的审判，而是灵魂对自身的召唤：你已经学到了足够多的教训，现在是时候站起来，以更新的面貌迈向下一阶段。
-
-**逆位深层含义**：
-审判逆位时，那个内在的觉醒被阻塞了。可能是过度的自我批判让人无法从过去中解脱，也可能是相反——拒绝真正的自我审视，以浅表的辩解回避内心的召唤。无法原谅自己，或者对生命的更高目的感到怀疑，都是逆位审判的常见表现。宽恕——首先是对自己的宽恕——是这张牌逆位时最重要的功课。
+**Reversed — Deeper Meaning**:
+In reversal, chosen solitude becomes isolation, and inward reflection becomes complete withdrawal from the world. You may be so immersed in your inner life that you've lost touch with reality — or using loneliness to avoid the vulnerability that real connection requires. Sometimes the reversed Hermit also signals the end of that self-imposed retreat: a readiness to re-emerge and open yourself to others again. Ask yourself: are you growing through this solitude, or shrinking within it?
 
 ---
 
-## XXI - 世界 The World
+## X - Wheel of Fortune
 
-**元素**：土星 | **卡巴拉对应**：Tav（记号）
+**Element**: Jupiter | **Kabbalistic Attribution**: Kaph (Open Hand)
 
-**正位关键词**：圆满、和谐、完成、整合、成就
-**逆位关键词**：未完成、缺少闭合、延迟满足
+**Upright Keywords**: change, cycles, destiny, turning point, opportunity
+**Reversed Keywords**: resisting change, clinging to control, bad luck, stagnation
 
-**正位深层含义**：
-一位舞者被月桂花环环绕，四角有四种神圣生物守护，她手持两根魔杖，在世界中央自由起舞。这是愚者之旅的终点，也是下一次旅程开始前的圆满时刻。所有的努力、学习和考验都走到了圆满。这张牌出现时，值得停下来真正感受这份完成的喜悦——在奔向下一个目标之前，允许自己充分庆祝已经到达的这里。
+**Upright — Deeper Meaning**:
+The Wheel of Fortune turns without ceasing, representing the inevitable cycles and changes woven into every life. When this card appears, the wheel may be turning in a favorable direction — a meaningful opportunity or significant turning point is approaching. The core teaching of this card is acceptance: some things are beyond our control, and meeting the cycle with grace and good timing is often far wiser than fighting it.
 
-**逆位深层含义**：
-世界逆位时，那个圆满的终点还未真正抵达。可能是某件事快要完成却在最后关头拖延，或者成就感中隐藏着空虚——外在看来功德圆满，内在却感觉缺少了某个重要的闭环。也可能是在这段旅程中有什么东西没有被真正整合，需要回头看看被遗落在路上的那个部分。
+**Reversed — Deeper Meaning**:
+In reversal, the wheel has stalled or is turning against you. You may be in a stretch of poor fortune, or your own grip on control is blocking the natural flow of things. Dwelling too deeply in a sense of bad luck can make you passive and helpless. Remember: the wheel always turns again. The low point itself contains the seed of the next reversal — the turning is already in motion.
+
+---
+
+## XI - Justice
+
+**Element**: Libra | **Kabbalistic Attribution**: Lamed (Ox Goad)
+
+**Upright Keywords**: cause and effect, clarity, truth, fairness, accountability
+**Reversed Keywords**: dishonesty, irresponsibility, unfairness, bias
+
+**Upright — Deeper Meaning**:
+Justice holds both scale and sword, representing the universe's principle of balance: every action carries consequences, every cause produces its effect. When this card appears, it calls you to take ownership of your choices, or signals that a fair outcome is on its way. It also represents clear-eyed judgment and honest self-examination — making decisions by stripping away emotion and using truth as the only measure.
+
+**Reversed — Deeper Meaning**:
+In reversal, the scales are tipped. There may be obvious unfairness in your situation, or someone — perhaps you — is avoiding the accountability that's due. Self-deception, selective perception, and a refusal to face the consequences of your actions are all reversed Justice signatures. The universe's law of cause and effect doesn't disappear just because it's been buried — eventually, the bill arrives.
+
+---
+
+## XII - The Hanged Man
+
+**Element**: Water | **Kabbalistic Attribution**: Mem (Water)
+
+**Upright Keywords**: surrender, letting go, new perspective, revelation, waiting
+**Reversed Keywords**: stalling, unnecessary sacrifice, stubbornness, resistance
+
+**Upright — Deeper Meaning**:
+The Hanged Man has suspended himself willingly — his face is serene, almost lit with a halo. This inverted vantage point has transformed how he sees the world. The card represents a deliberate pause — sometimes, in order to reach a higher understanding, we must release something, or simply allow ourselves to remain in suspension for a time. Forcing forward motion now will only exhaust you. This period of waiting and release is a necessary prelude to revelation.
+
+**Reversed — Deeper Meaning**:
+In reversal, that willing pause becomes forced standstill. You may be expending yourself on things that do not require your sacrifice — feeling like a martyr without gaining any growth or insight in return. Or you may be stubbornly resisting a necessary pause in your life, pushing ahead and sinking deeper. Look honestly at your "sacrifice": is it a meaningful offering, or is it simply draining you with nothing to show for it?
+
+---
+
+## XIII - Death
+
+**Element**: Scorpio | **Kabbalistic Attribution**: Nun (Fish)
+
+**Upright Keywords**: ending an old cycle, transformation, new beginnings, release, rebirth
+**Reversed Keywords**: fear of change, clinging to the past, stagnation, resistance
+
+**Upright — Deeper Meaning**:
+Death rides a white horse at a measured pace — neither noble nor commoner can stand in his way. But he is not an ending; he is a transition. The old must die so the new can be born. When this card appears, one chapter has run its course, and clinging to it only prolongs the pain. The butterfly's emergence requires the caterpillar's dissolution. Transformation asks one price: your willingness to fully release what no longer serves you.
+
+**Reversed — Deeper Meaning**:
+In reversal, that necessary ending is being delayed. Fear of change has you holding tight to something that has long since withered — preferring the pain of the familiar over the terror of the unknown. This resistance doesn't prevent the change; it only makes the passage more drawn-out and difficult. Courage isn't the absence of fear. It's being afraid and choosing to let go anyway.
+
+---
+
+## XIV - Temperance
+
+**Element**: Sagittarius | **Kabbalistic Attribution**: Samech (Prop)
+
+**Upright Keywords**: the middle path, patience, balance, healing, harmony
+**Reversed Keywords**: extremes, excess, imbalance, impatience
+
+**Upright — Deeper Meaning**:
+The angel stands at the water's edge, pouring liquid gently between two cups, one foot barely touching the surface. Temperance is the art of alchemy — blending opposing forces to find the subtle, sustainable middle. This card asks you to resist extremes, to meet your situation with patience and balance. Healing doesn't happen through dramatic intervention; it happens in the quiet, consistent flow of things finding their way back to harmony.
+
+**Reversed — Deeper Meaning**:
+In reversal, that elegant balance has been disrupted. Overindulgence or extreme restriction, impulsive decisions or endless deferral — any swing toward the extremes can signal reversed Temperance. An inner restlessness may be pressuring you toward decisions that haven't yet had time to ripen. Slow down. Let things come to fullness in their own season.
+
+---
+
+## XV - The Devil
+
+**Element**: Capricorn | **Kabbalistic Attribution**: Ayin (Eye)
+
+**Upright Keywords**: bondage, materialism, temptation, recognizing your shadow
+**Reversed Keywords**: liberation, release, reclaiming control, breaking free
+
+**Upright — Deeper Meaning**:
+The Devil sits enthroned above two figures loosely chained at his feet — chains they could slip off at any moment, if they chose. This card represents the things that keep us addicted, obsessed, or trapped. Its appearance is an invitation: look clearly at the beliefs, patterns, or behaviors that make you feel bound — without judgment, without shame. Awareness itself is where liberation begins.
+
+**Reversed — Deeper Meaning**:
+In reversal, the chains are beginning to loosen. This is an encouraging reversal — a long-held addiction or obsessive pattern is starting to lose its grip, and you are reclaiming agency over your own life. The journey toward freedom may just be beginning, or a relationship that once felt inescapable may finally be reaching its end. Once you can see the truth, the chains that felt unbreakable turn out to be easier to slip than you imagined.
+
+---
+
+## XVI - The Tower
+
+**Element**: Mars | **Kabbalistic Attribution**: Phe (Mouth)
+
+**Upright Keywords**: sudden upheaval, collapse of old structures, revelation, liberation
+**Reversed Keywords**: disaster averted, delayed change, fear of disruption
+
+**Upright — Deeper Meaning**:
+Lightning strikes the Tower. Figures fall from the windows. The crown is blasted from the top. This is one of the most feared cards in the deck — and yet its message is one of liberation. Only what was built on a false foundation collapses in the lightning. What was built on truth will still be standing. The Tower's fall is painful, but it clears away every illusion that was no longer serving you, and makes real, solid ground available at last.
+
+**Reversed — Deeper Meaning**:
+In reversal, the force of disruption has been softened or delayed. You may be choosing to avoid the earthquake that needs to happen, staying in a structure that's already compromised. Or the impact turned out to be smaller than feared, leaving you time and space to rebuild proactively. Either way, the foundation that needs changing is still there. The Tower reversed is a quiet warning: don't keep postponing what the lightning has already marked.
+
+---
+
+## XVII - The Star
+
+**Element**: Aquarius | **Kabbalistic Attribution**: Tzaddi (Hook)
+
+**Upright Keywords**: hope, faith, renewal, inspiration, calm
+**Reversed Keywords**: lack of faith, discouragement, insecurity, despair
+
+**Upright — Deeper Meaning**:
+After the Tower's collapse, The Star arrives with a quiet, steady hope. A figure kneels at the water's edge, pouring water back into the earth and the stream, as the great star shines above a field of smaller lights. This is the moment of healing — the first sight of light after a long stretch of darkness. This card is a reminder to hold your faith. The universe is generous. Your star hasn't gone out; it has simply been waiting for you to look up.
+
+**Reversed — Deeper Meaning**:
+In reversal, the guiding light is flickering in the wind. A long season of disappointment or loss has begun to shake your belief — the dreams that once felt within reach now seem impossibly far away, and uncertainty about the future has settled like a weight on the present. That experience is real, and the grief is legitimate. But the star's light doesn't disappear because you stop believing in it. It simply waits for the moment you're ready to look up again.
+
+---
+
+## XVIII - The Moon
+
+**Element**: Pisces | **Kabbalistic Attribution**: Quoph (Back of Head)
+
+**Upright Keywords**: the subconscious, illusion, intuition, fear, the unknown
+**Reversed Keywords**: confusion lifting, facing fear, clarity emerging
+
+**Upright — Deeper Meaning**:
+The Moon shimmers on the water. Two paths wind into the distance. A dog and a wolf howl at the light. A crayfish crawls up from the deep. Everything glimmers in the half-dark, and the real and the illusory are nearly impossible to tell apart. This card signals a time of fog — your intuition is speaking, but so is your fear, and it's hard to know which voice is true. Patience is what this period asks of you. The fog will clear, but for now you must learn to sit with uncertainty.
+
+**Reversed — Deeper Meaning**:
+In reversal, the fog begins to lift. The confusion, deception, or self-deception that has been troubling you is finally breaking the surface — you can look at it directly now. Fears that were suppressed in the subconscious are being drawn into the light, where they can at last be faced and worked through. If the Moon upright represents the peak of confusion, reversed often marks the beginning of clarity — even when that clarity requires some courage to receive.
+
+---
+
+## XIX - The Sun
+
+**Element**: Sun | **Kabbalistic Attribution**: Resh (Face)
+
+**Upright Keywords**: joy, success, positivity, vitality, radiance
+**Reversed Keywords**: negativity, temporary setback, lack of enthusiasm
+
+**Upright — Deeper Meaning**:
+The Sun blazes overhead. A child rides a white horse with arms flung open, sunflowers blooming at their back. This is one of the purest, most joyful cards in the entire deck — a joy that needs no justification, the feeling of arriving in the light after a long journey. When this card appears, in whatever area of your life it speaks to, you are either in a time of genuine beauty or one is just ahead. Celebrate. Receive. This is what you worked for.
+
+**Reversed — Deeper Meaning**:
+In reversal, clouds have moved temporarily across the sun. A stretch of vitality may have hit a bump — a short-lived setback or an emotional dip is dimming the glow. It's also possible that optimism has drifted into unrealism, and an excess of confidence is masking something that deserves more careful attention. The good news: the sun is always there. A passing shadow doesn't change its nature. This is only a brief adjustment.
+
+---
+
+## XX - Judgement
+
+**Element**: Pluto | **Kabbalistic Attribution**: Shin (Tooth)
+
+**Upright Keywords**: reflection, reckoning, awakening, calling, rebirth
+**Reversed Keywords**: lack of self-awareness, self-doubt, self-loathing
+
+**Upright — Deeper Meaning**:
+The angel sounds the trumpet. Figures rise from their coffins, arms lifted toward the call. Judgement represents a profound inner reckoning — a looking back over the road traveled, an honest and compassionate accounting of your choices and actions, and a rebirth that grows from that foundation. This is not an external verdict; it is the soul's own summons. You have gathered enough wisdom. It is time to rise, renewed, and step into the next phase.
+
+**Reversed — Deeper Meaning**:
+In reversal, that inner awakening is blocked. Excessive self-criticism may be trapping you in the past, unable to move forward. Or the opposite — you're deflecting genuine self-examination with surface-level justifications, avoiding the call of your own depths. Being unable to forgive yourself, or feeling adrift from any sense of larger purpose, are both common reversed Judgement experiences. The most important lesson this card carries in reversal is forgiveness — starting with yourself.
+
+---
+
+## XXI - The World
+
+**Element**: Saturn | **Kabbalistic Attribution**: Tav (Cross)
+
+**Upright Keywords**: completion, wholeness, fulfillment, integration, achievement
+**Reversed Keywords**: incompleteness, lack of closure, delayed fulfillment
+
+**Upright — Deeper Meaning**:
+A dancer is encircled by a laurel wreath, four sacred creatures guarding the corners, two wands in hand as she moves freely at the center of all things. This is the final destination of the Fool's Journey — the moment of wholeness before the next adventure begins. Every effort, every lesson, every test has arrived at completion. When this card appears, pause long enough to truly feel this. Before rushing toward the next goal, allow yourself to fully celebrate having arrived here.
+
+**Reversed — Deeper Meaning**:
+In reversal, that moment of completion hasn't quite been reached. Something is almost done but stalling at the very end, or a sense of achievement coexists with a nagging emptiness — things look finished on the outside, but some essential loop hasn't closed on the inside. It's also possible that something from this journey hasn't been fully integrated, and that part needs to be retrieved before you can genuinely move on.

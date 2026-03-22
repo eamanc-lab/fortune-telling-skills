@@ -4,14 +4,14 @@ clawhub-slug: horoscope-daily
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  基于西方占星学体系生成十二星座运势预测，适合用户询问星座相关运势时触发。
-  支持任意日期（今天、明天、指定日期）和任意周期（日/周/月），
-  涵盖综合运势、爱情、事业、财运、健康五大维度，含幸运指数和开运建议，
-  可结合用户生日做个性化区间解读。纯 LLM 生成，无外部 API 依赖。
-  触发词：星座运势、今日运势、horoscope、每日星座、白羊座运势、
-  星座预测、zodiac forecast、今天运气怎么样、本周运势、本月运势。
-  不适用于：八字命理、紫微斗数、塔罗牌占卜、数字命理、风水分析等非星座领域，
-  这些场景建议使用 fortune-hub 路由或对应领域 Skill。
+  Generates personalized horoscope readings for all twelve zodiac signs based on Western astrology.
+  Supports any date (today, tomorrow, a specific date) and any time period (daily/weekly/monthly),
+  covering five dimensions — Overall, Love, Career, Finance, and Health — with a Lucky Guide and Daily Tip.
+  Can deliver personalized readings based on the user's birthday. Pure LLM generation, no external API required.
+  Trigger words: horoscope, daily horoscope, zodiac forecast, what's my horoscope today,
+  weekly horoscope, monthly horoscope, star sign reading, astrology forecast, what's my sign today.
+  Not intended for: Ba Zi (Four Pillars), Zi Wei Dou Shu, Tarot, Numerology, or Feng Shui —
+  use fortune-hub to find the right skill for those domains.
 license: MIT
 compatibility:
   platforms:
@@ -21,356 +21,356 @@ compatibility:
 metadata:
   author: eamanc
   version: "2.0.0"
-  tags: ["horoscope", "zodiac", "astrology", "星座", "运势"]
+  tags: ["horoscope", "zodiac", "astrology", "daily horoscope", "star sign"]
 ---
 
-# 星座运势生成器
+# Daily Horoscope Generator
 
-基于十二星座特质知识库，为用户生成任意日期、任意周期的个性化星座运势预测。
+Draws from a rich knowledge base of zodiac sign traits to deliver personalized horoscope readings for any date and any time period.
 
-## 快速开始
+## Quick Start
 
-用户说出星座名（或生日），即可获取运势：
+Just say your sign (or birthday) and get your reading:
 
 ```
-"白羊座今天运势"
-"3月25日天蝎座运势"
-"我是1995年6月15日出生的，今天运势怎么样"
-"帮我生成今天12星座运势"
-"双子座本周运势"
-"射手座三月运势"
+"Aries horoscope today"
+"Scorpio reading for March 25th"
+"I was born June 15, 1995 — what's my horoscope today?"
+"Generate today's horoscope for all 12 signs"
+"Gemini weekly horoscope"
+"Sagittarius horoscope for March"
 ```
 
-**完整示例**：
+**Full Example**:
 
-输入：`双子座明天运势`
+Input: `Gemini horoscope for tomorrow`
 
-输出：
-> # ♊ 双子座明日运势 (2026-03-19 周四)
+Output:
+> # ♊ Gemini Horoscope — Tomorrow (2026-03-19, Thursday)
 >
-> ## 综合运势 ⭐⭐⭐⭐ (4/5)
-> 水星的活跃能量让你的思维格外敏捷，适合处理需要沟通和协调的事务。下午可能收到一条意料之外的消息，保持开放心态会有惊喜。
+> ## Overall ⭐⭐⭐⭐ (4/5)
+> Mercury's lively energy sharpens your mind and quickens your wit — perfect for anything that calls for communication and coordination. An unexpected message may arrive in the afternoon; stay open to it and you might be pleasantly surprised.
 >
-> ## 爱情运 ⭐⭐⭐ (3/5)
-> 感情中话题不断但容易停留在表面，试着放下手机，和伴侣来一次深度对话。单身的你可能在社交场合遇到有趣的灵魂。
+> ## Love ⭐⭐⭐ (3/5)
+> Conversation flows easily today, but things could stay a little surface-level. Try putting the phone down and having a real, unhurried talk with your partner. If you're single, a social gathering could bring a genuinely interesting connection.
 >
-> ## 事业运 ⭐⭐⭐⭐⭐ (5/5)
-> 周四的推进能量叠加你天生的多任务处理能力，适合同时推进多个项目。团队协作中你的创意会成为亮点。
+> ## Career ⭐⭐⭐⭐⭐ (5/5)
+> Thursday's forward-moving energy pairs beautifully with your natural talent for multitasking — push several projects ahead at once. In team settings, your ideas are the spark that gets everyone excited.
 >
-> ## 财运 ⭐⭐⭐ (3/5)
-> 收入平稳但可能被一个"看起来很划算"的消费念头诱惑，先加购物车冷静一天再决定。
+> ## Finance ⭐⭐⭐ (3/5)
+> Income stays steady, but a "too good to pass up" purchase may be tempting. Add it to your cart and sit on it for a day before you commit.
 >
-> ## 健康运 ⭐⭐⭐⭐ (4/5)
-> 精力充沛但要注意用眼疲劳，每工作一小时起来活动五分钟。春季早晚温差大，注意及时增减衣物。
+> ## Health ⭐⭐⭐⭐ (4/5)
+> Your energy is high, but watch out for eye strain. Step away from the screen for five minutes every hour. Spring's temperature swings mean you'll want to layer up in the morning and evening.
 >
-> ## 幸运指南
-> - 🎨 幸运颜色：薄荷绿
-> - 🔢 幸运数字：5、14
-> - ⏰ 幸运时段：14:00-16:00
-> - 💑 速配星座：天秤座
+> ## Lucky Guide
+> - 🎨 Lucky Color: Mint Green
+> - 🔢 Lucky Numbers: 5, 14
+> - ⏰ Lucky Hours: 2:00 PM – 4:00 PM
+> - 💑 Best Match Today: Libra
 >
-> ## 今日开运建议
-> > 午后找一位久未联系的朋友聊聊天，一次轻松的对话可能带来意想不到的灵感。
+> ## Daily Tip
+> > Reach out to a friend you haven't spoken to in a while this afternoon — a light, easy conversation could spark an idea you weren't expecting.
 
 ## User Context
 
-本 Skill 的运势生成可基于用户生日做个性化解读。
+This Skill can deliver more personalized readings when it knows your birthday.
 
-**读取**：执行前依次检查：
-1. 本目录 `MEMORY.md` — 优先使用
-2. 同仓库 `fortune-hub/MEMORY.md`（如果存在）— 补充缺失的基础档案字段
+**Reading**: Before generating, check in this order:
+1. This directory's `MEMORY.md` — use first
+2. `fortune-hub/MEMORY.md` (if it exists) — fill in any missing profile fields
 
-如有可用数据，直接使用，不再询问。
+If data is available, use it directly without asking again.
 
-**写入**：如果用户主动提供生日信息，写入**本目录的** `MEMORY.md`：
-
-```markdown
-# 用户信息
-
-## 基础档案
-- 公历生日：YYYY-MM-DD
-- 太阳星座：XX座
-- 星座区间：前段/中段/后段
-```
-
-| 字段 | 是否必须 | 说明 |
-|------|---------|------|
-| 公历生日 | 否（可直接指定星座） | 有生日可做个性化解读 |
-
-**更新**：用户要求修改时更新。
-
-## 工作流程
-
-### Step 1: 解析用户意图
-
-从用户输入中提取以下参数：
-
-| 参数 | 解析规则 | 默认值 |
-|------|---------|--------|
-| **星座** | 直接说出星座名 或 从生日推算 | 必填（不确定时询问） |
-| **日期** | "今天/明天/后天" 或 具体日期如"3月25日" | 今天 |
-| **周期** | 日/周/月 | 日 |
-| **维度** | 用户是否只关注某个维度（如"爱情运"） | 全维度 |
-| **模式** | 单星座 或 12星座批量 | 单星座 |
-
-**星座符号与日期范围对照表**：
-
-| 符号 | 星座 | 日期范围 | 符号 | 星座 | 日期范围 |
-|------|------|---------|------|------|---------|
-| ♈ | 白羊座 | 3/21-4/19 | ♎ | 天秤座 | 9/23-10/22 |
-| ♉ | 金牛座 | 4/20-5/20 | ♏ | 天蝎座 | 10/23-11/21 |
-| ♊ | 双子座 | 5/21-6/20 | ♐ | 射手座 | 11/22-12/21 |
-| ♋ | 巨蟹座 | 6/21-7/22 | ♑ | 摩羯座 | 12/22-1/19 |
-| ♌ | 狮子座 | 7/23-8/22 | ♒ | 水瓶座 | 1/20-2/18 |
-| ♍ | 处女座 | 8/23-9/22 | ♓ | 双鱼座 | 2/19-3/20 |
-
-### Step 2: 加载星座知识
-
-按需加载**对应星座**的特质文件（不要加载全部12个）：
-
-| 星座 | 文件路径 |
-|------|---------|
-| 白羊座 | [references/signs/aries.md](references/signs/aries.md) |
-| 金牛座 | [references/signs/taurus.md](references/signs/taurus.md) |
-| 双子座 | [references/signs/gemini.md](references/signs/gemini.md) |
-| 巨蟹座 | [references/signs/cancer.md](references/signs/cancer.md) |
-| 狮子座 | [references/signs/leo.md](references/signs/leo.md) |
-| 处女座 | [references/signs/virgo.md](references/signs/virgo.md) |
-| 天秤座 | [references/signs/libra.md](references/signs/libra.md) |
-| 天蝎座 | [references/signs/scorpio.md](references/signs/scorpio.md) |
-| 射手座 | [references/signs/sagittarius.md](references/signs/sagittarius.md) |
-| 摩羯座 | [references/signs/capricorn.md](references/signs/capricorn.md) |
-| 水瓶座 | [references/signs/aquarius.md](references/signs/aquarius.md) |
-| 双鱼座 | [references/signs/pisces.md](references/signs/pisces.md) |
-
-元素与模式速查表见 [references/zodiac-index.md](references/zodiac-index.md)（仅在需要跨星座对比或批量生成时加载）。
-
-### Step 3: 生成运势
-
-基于星座特质 + 日期上下文，按以下规则生成运势预测。
-
-#### 输出格式（日运势）
+**Writing**: If the user shares their birthday, write it to **this directory's** `MEMORY.md`:
 
 ```markdown
-# {符号} {星座}今日运势 ({YYYY-MM-DD} 周{X})
+# User Profile
 
-## 综合运势 {星星} ({N}/5)
-[2-3句综合描述，结合星座特质与日期能量]
-
-## 爱情运 {星星} ({N}/5)
-[1-2句，区分有伴/单身视角]
-
-## 事业运 {星星} ({N}/5)
-[1-2句，结合星期特征]
-
-## 财运 {星星} ({N}/5)
-[1-2句，结合月份节奏]
-
-## 健康运 {星星} ({N}/5)
-[1-2句，结合季节特点]
-
-## 幸运指南
-- 🎨 幸运颜色：[具体颜色名]
-- 🔢 幸运数字：[2个数字]
-- ⏰幸运时段：[HH:MM-HH:MM]
-- 💑 速配星座：[星座名]
-
-## 今日开运建议
-> [一句具体、可执行的行动建议]
+## Basic Info
+- Birthday (Gregorian): YYYY-MM-DD
+- Sun Sign: [Sign Name]
+- Sign Period: Early / Middle / Late
 ```
 
-#### 输出格式（周运势）
+| Field | Required | Notes |
+|-------|----------|-------|
+| Birthday (Gregorian) | No (sign can be specified directly) | Enables personalized readings |
+
+**Updating**: Update `MEMORY.md` when the user asks to change their info.
+
+## Workflow
+
+### Step 1: Parse the User's Intent
+
+Extract the following parameters from the user's input:
+
+| Parameter | Parsing Rule | Default |
+|-----------|-------------|---------|
+| **Sign** | Stated directly, or inferred from birthday | Required (ask if unclear) |
+| **Date** | "today/tomorrow/the day after" or a specific date like "March 25th" | Today |
+| **Period** | Daily / Weekly / Monthly | Daily |
+| **Dimension** | Is the user asking about just one area (e.g., "love life")? | All dimensions |
+| **Mode** | Single sign or all 12 signs | Single sign |
+
+**Zodiac Signs Reference Table**:
+
+| Symbol | Sign | Date Range | Symbol | Sign | Date Range |
+|--------|------|-----------|--------|------|-----------|
+| ♈ | Aries | 3/21-4/19 | ♎ | Libra | 9/23-10/22 |
+| ♉ | Taurus | 4/20-5/20 | ♏ | Scorpio | 10/23-11/21 |
+| ♊ | Gemini | 5/21-6/20 | ♐ | Sagittarius | 11/22-12/21 |
+| ♋ | Cancer | 6/21-7/22 | ♑ | Capricorn | 12/22-1/19 |
+| ♌ | Leo | 7/23-8/22 | ♒ | Aquarius | 1/20-2/18 |
+| ♍ | Virgo | 8/23-9/22 | ♓ | Pisces | 2/19-3/20 |
+
+### Step 2: Load Sign Knowledge
+
+Load **only the relevant sign's** trait file (do not load all 12):
+
+| Sign | File Path |
+|------|-----------|
+| Aries | [references/signs/aries.md](references/signs/aries.md) |
+| Taurus | [references/signs/taurus.md](references/signs/taurus.md) |
+| Gemini | [references/signs/gemini.md](references/signs/gemini.md) |
+| Cancer | [references/signs/cancer.md](references/signs/cancer.md) |
+| Leo | [references/signs/leo.md](references/signs/leo.md) |
+| Virgo | [references/signs/virgo.md](references/signs/virgo.md) |
+| Libra | [references/signs/libra.md](references/signs/libra.md) |
+| Scorpio | [references/signs/scorpio.md](references/signs/scorpio.md) |
+| Sagittarius | [references/signs/sagittarius.md](references/signs/sagittarius.md) |
+| Capricorn | [references/signs/capricorn.md](references/signs/capricorn.md) |
+| Aquarius | [references/signs/aquarius.md](references/signs/aquarius.md) |
+| Pisces | [references/signs/pisces.md](references/signs/pisces.md) |
+
+The element and modality quick-reference table is in [references/zodiac-index.md](references/zodiac-index.md) — load it only when cross-sign comparisons or batch generation is needed.
+
+### Step 3: Generate the Reading
+
+Use the sign's traits combined with the date context to generate the horoscope, following the rules below.
+
+#### Output Format (Daily)
 
 ```markdown
-# {符号} {星座}本周运势 ({起始日期} ~ {结束日期})
+# {Symbol} {Sign} Daily Horoscope ({YYYY-MM-DD}, {Day of Week})
 
-## 本周关键词：[3个关键词]
+## Overall {Stars} ({N}/5)
+[2-3 sentences of overall energy, weaving in the sign's core traits and the day's energy]
 
-## 综合概述
-[3-4句整体走向]
+## Love {Stars} ({N}/5)
+[1-2 sentences, offering perspective for both partnered and single readers]
 
-## 各维度详解
+## Career {Stars} ({N}/5)
+[1-2 sentences, connecting to the day-of-week energy]
 
-### 爱情运 {星星} ({N}/5)
-[2-3句，含本周关键节点提示]
+## Finance {Stars} ({N}/5)
+[1-2 sentences, tuned to the rhythm of the month]
 
-### 事业运 {星星} ({N}/5)
-[2-3句，含具体行动建议]
+## Health {Stars} ({N}/5)
+[1-2 sentences, grounded in the current season]
 
-### 财运 {星星} ({N}/5)
-[2-3句，含收支提醒]
+## Lucky Guide
+- 🎨 Lucky Color: [specific color name]
+- 🔢 Lucky Numbers: [2 numbers]
+- ⏰ Lucky Hours: [HH:MM – HH:MM]
+- 💑 Best Match Today: [sign name]
 
-### 健康运 {星星} ({N}/5)
-[1-2句]
-
-## 本周重点日
-- 周{X}：[该日特别提示]
-- 周{X}：[该日特别提示]
-
-## 本周开运建议
-> [一句行动建议]
+## Daily Tip
+> [One specific, actionable piece of guidance]
 ```
 
-#### 输出格式（月运势）
+#### Output Format (Weekly)
 
 ```markdown
-# {符号} {星座}{X}月运势 ({YYYY}年{M}月)
+# {Symbol} {Sign} Weekly Horoscope ({Start Date} – {End Date})
 
-## 本月关键词：[3个关键词]
-## 月度综合评分：{星星} ({N}/5)
+## This Week's Theme: [3 keywords]
 
-## 整体走向
-[4-5句宏观描述，含上旬/中旬/下旬节奏]
+## Overview
+[3-4 sentences covering the week's overall arc]
 
-## 各维度详解
+## Dimension Breakdown
 
-### 爱情运 {星星} ({N}/5)
-[3-4句，含月度转折点]
+### Love {Stars} ({N}/5)
+[2-3 sentences, with a highlight for key days this week]
 
-### 事业运 {星星} ({N}/5)
-[3-4句，含关键时间窗口]
+### Career {Stars} ({N}/5)
+[2-3 sentences, with specific action guidance]
 
-### 财运 {星星} ({N}/5)
-[2-3句，含理财建议]
+### Finance {Stars} ({N}/5)
+[2-3 sentences, with income/spending reminders]
 
-### 健康运 {星星} ({N}/5)
-[2-3句，含季节性提醒]
+### Health {Stars} ({N}/5)
+[1-2 sentences]
 
-## 重点日期
-- {M}/{D}：[提示]
-- {M}/{D}：[提示]
-- {M}/{D}：[提示]
+## Power Days This Week
+- {Day}: [special note for this day]
+- {Day}: [special note for this day]
 
-## 本月开运建议
-> [一句行动建议]
+## Weekly Tip
+> [One actionable suggestion for the week]
 ```
 
-#### 生成规则
+#### Output Format (Monthly)
 
-**内容质量**：
-1. 评分合理分布——5个维度的评分总和控制在 14-19 之间（均值 2.8-3.8），避免全高或全低
-2. 运势描述必须与该星座核心特质呼应（如白羊体现行动力、金牛体现稳定感、双子体现沟通力）
-3. 同一天不同星座必须有明显差异——禁止换个星座名就能通用的描述
-4. 具体可感——❌"今天运气不错" ✅"下午一个临时会议可能让你展现组织才能"
+```markdown
+# {Symbol} {Sign} Horoscope — {Month} {YYYY}
 
-**表达风格**：
+## This Month's Theme: [3 keywords]
+## Monthly Overall Rating: {Stars} ({N}/5)
 
-默认使用**温暖导师型**（类 Susan Miller + Cafe Astrology 混合风格）：
+## Big Picture
+[4-5 sentences covering the month's arc, including early/mid/late month pacing]
 
-- 先天象后人事，用自然隐喻引入
-- 先给好消息，负面信息裹上建设性建议再说出口
-- 每个维度落地到具体可执行的行动建议
-- 语气像友善专业的占星师在聊天，不是算命先生在恐吓
+## Dimension Breakdown
 
-**禁用表达清单**：
+### Love {Stars} ({N}/5)
+[3-4 sentences, noting monthly turning points]
 
-| 禁止使用 | 替换为 |
-|---------|-------|
-| ❌ "你命中注定..." | ✅ "你的星盘显示...的倾向" |
-| ❌ "大凶/血光之灾" | ✅ "这个时期需要格外留意安全" |
-| ❌ "你永远不会..." | ✅ "这个领域需要更多耐心和策略调整" |
-| ❌ "必须化解否则..." | ✅ "以下是可以参考的调整方向" |
-| ❌ 无条件的绝对好话 | ✅ 正面为主但诚实标注挑战领域 |
-| ❌ "一定会"、"注定"、"必然发生" | ✅ "趋势指向"、"可能会"、"星盘显示" |
+### Career {Stars} ({N}/5)
+[3-4 sentences, highlighting key windows of opportunity]
 
-绝对禁止涉及：疾病诊断、死亡暗示、灾难预测、恐惧性语言。
+### Finance {Stars} ({N}/5)
+[2-3 sentences, with money management advice]
 
-**占星学知识增强**：
+### Health {Stars} ({N}/5)
+[2-3 sentences, with seasonal reminders]
 
-生成运势时，将以下占星元素自然融入描述，而非机械堆砌：
+## Key Dates
+- {M}/{D}: [note]
+- {M}/{D}: [note]
+- {M}/{D}: [note]
 
-- **元素特质（火/土/风/水）**：影响运势基调
-  - 火象（白羊、狮子、射手）：运势侧重行动力、热情、创造冲劲
-  - 土象（金牛、处女、摩羯）：运势侧重稳定性、务实、长期积累
-  - 风象（双子、天秤、水瓶）：运势侧重沟通力、社交、思维灵活度
-  - 水象（巨蟹、天蝎、双鱼）：运势侧重直觉力、情感深度、内在洞察
-
-- **模式特质（开创/固定/变动）**：影响运势节奏
-  - 开创星座（白羊、巨蟹、天秤、摩羯）：描述中强调启动新事物的能量
-  - 固定星座（金牛、狮子、天蝎、水瓶）：描述中强调坚守与深化的能量
-  - 变动星座（双子、处女、射手、双鱼）：描述中强调适应与转化的能量
-
-- **守护星能量**：守护星的象征特征融入运势描述（如水星主沟通、金星主爱与美、火星主行动、木星主扩展、土星主责任）
-
-- **季节与元素共振**：当前所处季节与星座元素相合时（如夏季与火象同处），在健康运和综合运势中体现这种共鸣；相克时（如冬季火象）提示补充元素能量的实用建议
-
-**日期差异化**：
-
-| 日期特征 | 影响维度 | 评分偏移与内容倾向 |
-|----------|---------|-------------------|
-| 周一 | 事业运 | +1 偏向，侧重新计划启动、本周目标设定 |
-| 周二~周四 | 事业运 | 常规，侧重执行和推进 |
-| 周五 | 爱情/社交 | +1 偏向，侧重社交活动和关系维护 |
-| 周六 | 健康运 | +1 偏向，侧重休息放松和户外活动 |
-| 周日 | 综合运势 | 侧重内省、充电、为下周做准备 |
-| 月初 1-5号 | 财运 | 侧重规划和预算制定 |
-| 月中 13-17号 | 事业运 | 侧重阶段性成果和调整 |
-| 月末 25-31号 | 财运 | 侧重总结、复盘和收获 |
-| 春季 3-5月 | 健康运 | 关注过敏、温差、作息调整 |
-| 夏季 6-8月 | 健康运 | 关注防暑、饮食、运动 |
-| 秋季 9-11月 | 健康运 | 关注干燥、呼吸道、情绪低落 |
-| 冬季 12-2月 | 健康运 | 关注保暖、免疫力、室内运动 |
-
-**个性化规则**（当用户提供完整生日时）：
-- 生日在星座日期范围前1/3 → 融入上一个星座的过渡特质
-- 生日在后1/3 → 融入下一个星座的前瞻特质
-- 查询日期在用户生日前后3天内 → 提及"生日能量加持"，综合运势 +1
-
-### Step 4: 输出与保存
-
-**单星座查询**：直接输出到对话中。
-
-**12星座批量生成**：
-1. 按顺序（♈白羊 → ♓双鱼）逐一生成
-2. 每个星座的日运势控制在 150-200 字
-3. 保存为 markdown 文件到当前工作目录
-4. 文件命名：`{YYYY-MM-DD}-daily-horoscope.md`
-5. 周运势命名：`{YYYY-MM-DD}-weekly-horoscope.md`
-6. 月运势命名：`{YYYY-MM}-monthly-horoscope.md`
-
-## 错误处理
-
-| 场景 | 处理方式 |
-|------|---------|
-| 用户未指定星座 | 询问："请告诉我你的星座，或者告诉我你的生日，我来帮你推算 🌟" |
-| 用户给出无效日期 | 提示："日期没能识别，可以试试：'明天'、'下周一'、'3月25日'、或 '2026-03-25'" |
-| 生日在星座交界（如 1/19 或 1/20） | 说明两个可能的星座，让用户确认 |
-| 用户问八字/紫微/塔罗等非星座内容 | 引导："建议使用 fortune-hub 选择对应领域 Skill，那里有专门的八字和塔罗模块" |
-| 用户质疑星座科学性 | 礼貌回应："星座运势是一种有趣的文化传统，适合作为生活中的小调味品。重大决策建议基于理性分析和专业咨询 😊" |
-
-## 不适用场景
-
-以下情况请**不要**调用本 Skill：
-- **八字/四柱命理/紫微斗数/风水/奇门遁甲** → 建议使用 fortune-hub 选择对应领域 Skill
-- **塔罗牌占卜** → 建议使用 fortune-hub 选择对应领域 Skill
-- **吠陀占星 (Vedic)** → 建议使用 fortune-hub 选择对应领域 Skill
-- **精确天文星盘计算** → 需要 Kerykeion 等天文引擎，本 skill 不做天文计算
-- **心理咨询/医疗建议** → 本 skill 仅供娱乐，不替代专业服务
-
-## 每日自动推送（进阶用法）
-
-可配合定时任务实现每日星座运势自动推送。设置步骤：
-
-1. **记录用户信息**：首次使用时，将用户的星座（或生日）保存到 memory，以便后续自动调用无需重复询问
-2. **创建定时任务**：通过 Claude Code 的 cron 能力，设置每日定时触发（如每天早上 8:00）
-3. **自动生成 + 推送**：定时任务触发后，自动读取用户星座信息 → 调用本 skill 生成当日运势 → 通过飞书/钉钉等渠道推送
-
-**示例定时任务配置**：
-
-```
-每天早上 8:00，读取我的星座信息，生成今日运势，发送到飞书群
+## Monthly Tip
+> [One actionable suggestion for the month]
 ```
 
-**前置条件**：
-- 用户已告知星座或生日（保存在 memory 中）
-- 已配置消息推送渠道（如 feishu-lark skill 的 webhook）
+#### Generation Rules
 
-> 提示：首次使用时可以对用户说——"要不要我记住你的星座？以后可以设置每天自动推送运势给你。"
+**Content Quality**:
+1. Keep scores balanced — the sum of all five dimension scores should land between 14 and 19 (average 2.8–3.8 per dimension). Avoid all-high or all-low spreads.
+2. Every reading must echo the sign's core traits (Aries = drive and initiative, Taurus = groundedness, Gemini = communication, etc.).
+3. Each sign's reading on the same day must be clearly distinct — no copy-paste-and-swap-the-name content.
+4. Be specific and vivid — ❌ "Things look good today" ✅ "An impromptu afternoon meeting could be your moment to shine as an organizer"
 
-## 原子化设计
+**Writing Style**:
 
-本 Skill 仅负责「西方星座运势生成」这一个原子化能力。不包含八字、塔罗、数字命理、紫微斗数等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
+Default to the **warm mentor** voice (think Susan Miller meets Cafe Astrology):
 
-## 免责声明
+- Lead with the cosmic weather, then bring it down to earth with a natural metaphor
+- Good news first; wrap any challenging energy in constructive, forward-looking guidance
+- Land each dimension with a concrete, actionable takeaway
+- Sound like a knowledgeable, friendly astrologer having a conversation — not a fortune-teller issuing decrees
 
-生成的运势内容基于星座文化传统，仅供娱乐参考。不构成任何医疗、法律、财务等专业建议。重大人生决策请基于理性判断和专业咨询。
+**Banned Phrases**:
+
+| Don't Use | Use Instead |
+|-----------|-------------|
+| ❌ "You are destined to..." | ✅ "Your chart suggests a tendency toward..." |
+| ❌ "Disaster / catastrophe / danger" | ✅ "This period calls for extra care in [area]" |
+| ❌ "You will never..." | ✅ "This area may need more patience and a fresh approach" |
+| ❌ "You must remedy this or else..." | ✅ "Here are some directions worth exploring" |
+| ❌ Unconditional praise with no nuance | ✅ Mostly positive, but honestly flag challenging areas |
+| ❌ "Will definitely," "fated," "will certainly happen" | ✅ "The energy points toward," "may," "your chart indicates" |
+
+Absolutely off-limits: disease diagnosis, death references, disaster predictions, or any fear-based language.
+
+**Astrological Depth**:
+
+Weave the following elements naturally into readings — don't just list them mechanically:
+
+- **Element (Fire / Earth / Air / Water)**: Sets the tone of the reading
+  - Fire signs (Aries, Leo, Sagittarius): Focus on drive, passion, creative momentum
+  - Earth signs (Taurus, Virgo, Capricorn): Focus on stability, pragmatism, long-term building
+  - Air signs (Gemini, Libra, Aquarius): Focus on communication, social life, mental agility
+  - Water signs (Cancer, Scorpio, Pisces): Focus on intuition, emotional depth, inner insight
+
+- **Modality (Cardinal / Fixed / Mutable)**: Shapes the rhythm of the reading
+  - Cardinal (Aries, Cancer, Libra, Capricorn): Emphasize initiating and launching new things
+  - Fixed (Taurus, Leo, Scorpio, Aquarius): Emphasize commitment and deepening what's already in motion
+  - Mutable (Gemini, Virgo, Sagittarius, Pisces): Emphasize adapting and transitioning
+
+- **Ruling Planet Energy**: Weave in the symbolic qualities of the ruling planet (Mercury = communication, Venus = love and beauty, Mars = action, Jupiter = expansion, Saturn = responsibility, etc.)
+
+- **Season Resonance**: When the current season aligns with the sign's element (e.g., summer and a Fire sign), note this resonance in the Health and Overall sections. When they clash (e.g., winter and a Fire sign), offer practical tips for balancing the elemental energy.
+
+**Date-Based Differentiation**:
+
+| Date Feature | Dimension Affected | Score Shift & Content Direction |
+|-------------|-------------------|--------------------------------|
+| Monday | Career | +1 lean; focus on new plans and setting the week's intentions |
+| Tuesday–Thursday | Career | Baseline; focus on execution and momentum |
+| Friday | Love / Social | +1 lean; focus on social plans and relationship nurturing |
+| Saturday | Health | +1 lean; focus on rest, relaxation, and outdoor activity |
+| Sunday | Overall | Lean toward reflection, recharging, and preparing for the week ahead |
+| Early month (1st–5th) | Finance | Focus on budgeting and planning |
+| Mid-month (13th–17th) | Career | Focus on mid-point check-ins and course corrections |
+| Late month (25th–31st) | Finance | Focus on reviewing, wrapping up, and celebrating wins |
+| Spring (Mar–May) | Health | Watch for allergies, temperature swings, and sleep schedule shifts |
+| Summer (Jun–Aug) | Health | Watch for heat, hydration, diet, and exercise balance |
+| Fall (Sep–Nov) | Health | Watch for dryness, respiratory health, and seasonal mood dips |
+| Winter (Dec–Feb) | Health | Watch for staying warm, immunity, and indoor movement |
+
+**Personalization Rules** (when a full birthday is provided):
+- Birthday falls in the first 1/3 of the sign's date range → weave in transitional qualities from the previous sign
+- Birthday falls in the final 1/3 → weave in anticipatory qualities from the next sign
+- Reading date is within 3 days of the user's birthday → mention "birthday energy boost"; Overall score gets +1
+
+### Step 4: Output and Saving
+
+**Single sign query**: Output directly in the conversation.
+
+**All 12 signs (batch)**:
+1. Generate in order (♈ Aries → ♓ Pisces)
+2. Keep each daily reading to 150–200 words
+3. Save as a Markdown file in the current working directory
+4. File naming — daily: `{YYYY-MM-DD}-daily-horoscope.md`
+5. Weekly: `{YYYY-MM-DD}-weekly-horoscope.md`
+6. Monthly: `{YYYY-MM}-monthly-horoscope.md`
+
+## Error Handling
+
+| Scenario | Response |
+|----------|----------|
+| Sign not specified | Ask: "What's your sign? Or share your birthday and I'll figure it out for you 🌟" |
+| Invalid date given | Prompt: "I couldn't quite parse that date — try something like: 'tomorrow,' 'next Monday,' 'March 25th,' or '2026-03-25'" |
+| Birthday on a cusp (e.g., Jan 19 or 20) | Explain both possible signs and ask the user to confirm |
+| User asks about Ba Zi, Tarot, or other non-zodiac topics | Redirect: "For that, I'd suggest using fortune-hub to find the right skill — there are dedicated modules for Ba Zi and Tarot" |
+| User questions whether astrology is scientific | Respond warmly: "Horoscopes are a rich cultural tradition — think of them as a fun lens for reflection. For big life decisions, I'd always recommend grounding things in rational thinking and professional advice 😊" |
+
+## Not Intended For
+
+Please **do not** invoke this Skill for:
+- **Ba Zi / Four Pillars / Zi Wei Dou Shu / Feng Shui / Qi Men Dun Jia** → Use fortune-hub to find the right skill
+- **Tarot** → Use fortune-hub to find the right skill
+- **Vedic Astrology** → Use fortune-hub to find the right skill
+- **Precise astronomical chart calculation** → Requires an astronomical engine like Kerykeion; this skill does not perform astronomical computation
+- **Psychological counseling / medical advice** → This skill is for entertainment only and does not replace professional services
+
+## Automated Daily Delivery (Advanced)
+
+Pair this skill with a scheduled task to get your horoscope delivered automatically every day:
+
+1. **Save your info**: On first use, store your sign (or birthday) in memory so future runs don't need to ask again
+2. **Create a scheduled task**: Use Claude Code's cron capability to set a daily trigger (e.g., every morning at 8:00 AM)
+3. **Auto-generate + deliver**: When the task fires, it reads your sign from memory → runs this skill → sends the reading via your chosen channel (Feishu, DingTalk, etc.)
+
+**Example scheduled task setup**:
+
+```
+Every morning at 8:00 AM, read my sign from memory, generate today's horoscope, and send it to my Feishu group
+```
+
+**Prerequisites**:
+- Your sign or birthday has been saved in memory
+- A message delivery channel has been configured (e.g., a feishu-lark skill webhook)
+
+> Tip: On a user's first visit, you might say — "Want me to remember your sign? I can set it up to send you a daily horoscope automatically."
+
+## Atomic Design
+
+This Skill handles one thing: **Western zodiac horoscope generation**. It does not include Ba Zi, Tarot, Numerology, Zi Wei Dou Shu, or any other fortune-telling system. For other domains, combine the relevant Skills from this repository or route through fortune-hub.
+
+## Disclaimer
+
+Horoscope readings are rooted in cultural and symbolic tradition and are intended for entertainment and reflection only. They do not constitute medical, legal, financial, or any other form of professional advice. For important life decisions, please rely on sound reasoning and qualified professional guidance.

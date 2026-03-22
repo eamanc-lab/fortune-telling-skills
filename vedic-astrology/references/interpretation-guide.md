@@ -1,164 +1,173 @@
-# 吠陀占星解读指南
+# Vedic Astrology Interpretation Guide
 
-## 目录
+## Table of Contents
 
-- [九曜行星特征](#九曜行星特征)
-- [27 Nakshatras 简要特征速查](#27-nakshatras-简要特征速查)
-- [Dasha 大运期间各行星的影响倾向](#dasha-大运期间各行星的影响倾向)
-- [表达风格指南](#表达风格指南)
-- [禁用表达清单](#禁用表达清单)
-- [特殊情境处理](#特殊情境处理)
-
----
-
-## 九曜行星特征
-
-### ☀️ 太阳（Sun / Surya）
-太阳代表灵魂的核心本质与自我认同，是一个人权威感和生命力的来源。强势的太阳带来领导力、自信与清晰的目标感，但也可能表现为以自我为中心的固执。太阳所在的星座与宫位揭示你在哪个领域寻求认可，以及你与父亲/权威人物的关系模式。太阳与月亮的相位关系（尤其是是否形成 Yoga）是解读一个人核心动力的关键。
-
-### 🌙 月亮（Moon / Chandra）
-月亮是吠陀占星中最受重视的行星，代表心智（Manas）、情感反应与内在世界。月亮所在的 Nakshatra 是确定出生 Dasha 的基础，也是最能描述一个人情感本能和直觉模式的因素。月亮强势（尤其在摩羯座弱，在金牛座旺）时情感稳定；月亮受苦（与罗睺、土星合相或相对）时内心容易焦虑不安。月亮周期与一个人的心情涨落密切相关。
-
-### ♂ 火星（Mars / Mangala）
-火星代表行动力、勇气、竞争与保护本能，是能量与意志的象征。火星强势的人行动迅速、有韧劲，但容易急躁冲动。火星落在第1、4、7、8宫（传统定义的"Mangal Dosha"位置）时，需要在关系中有意识地管理冲突模式。火星也主管技术、工程与运动类才能。
-
-### ☿ 水星（Mercury / Budha）
-水星代表智识、分析能力、语言与沟通，是商业和学习的象征。水星与太阳接近时（"燃烧"状态）可能导致逻辑过度以自我为中心；水星强势时擅长写作、分析和多任务处理。水星的影响在双子座（恒星黄道）和处女座尤为显著，在这两个星座中它都处于有利位置。
-
-### ♃ 木星（Jupiter / Guru）
-木星被称为 Guru，是所有行星中最吉祥的行星，代表智慧、扩展、宗教信仰与好运。木星所在的宫位往往是一个人一生中被保护和祝福的领域。木星在巨蟹座（旺位）能量最强，在摩羯座（弱位）则保守不足。木星大运（16年）通常是一生中扩展与丰盛的重要阶段。
-
-### ♀ 金星（Venus / Shukra）
-金星代表爱、美、艺术、奢华与物质享受，是关系与创造力的象征。金星在摩羯、双鱼（旺位）表现出色；在处女座（弱位）时在关系中容易过度分析。金星大运（20年）往往伴随感情、财富与艺术机遇的显著变化。金星与月亮的关系揭示一个人在亲密关系中的情感需求模式。
-
-### ♄ 土星（Saturn / Shani）
-土星代表纪律、业力课题、延迟与长期积累，是时间与边界的主宰者。土星所在的宫位往往是一个人需要付出最多努力的领域，但也是最终获得深厚成果的地方。土星大运（19年）是一段要求纪律和耐心的时期，前半段可能感觉重压，后半段开始收获。土星在天秤座（旺位）时能将纪律与公正结合，发挥最佳能量。
-
-### ☊ 罗睺（Rahu / 北交点）
-罗睺代表世俗欲望、未知疆域与今生需要探索的方向，它的能量如同烟雾——放大、模糊、充满渴望。罗睺所在的星座和宫位是今生"执着"与"渴望"的核心区域，也是灵魂向往突破的方向。罗睺大运（18年）往往带来剧烈的物质世界变动和外部机遇，但也可能伴随迷失感。罗睺永远与计都相对，两者共同揭示今生与过去世的轴线。
-
-### ☋ 计都（Ketu / 南交点）
-计都代表灵性倾向、过去世的业力积累与解脱的渴望，其能量如同火焰——净化、剥离、超越。计都所在的宫位往往是一个人"已经足够精通因而不再执着"的领域，有时表现为对该宫位事务的淡漠。计都大运（7年）是一段内向深省、精神探索的时期，外部物质收获可能减少，但内在洞察力增强。
+- [Navagraha Planetary Profiles](#navagraha-planetary-profiles)
+- [27 Nakshatras — Quick Reference](#27-nakshatras--quick-reference)
+- [Mahadasha Influence by Planet](#mahadasha-influence-by-planet)
+- [Style Guide for Interpretation](#style-guide-for-interpretation)
+- [Prohibited Expressions](#prohibited-expressions)
+- [Handling Special Situations](#handling-special-situations)
 
 ---
 
-## 27 Nakshatras 简要特征速查
+## Navagraha Planetary Profiles
 
-| 序号 | Nakshatra | 关键词 | 核心特征（1-2句） |
-|------|-----------|--------|----------------|
-| 1 | Ashwini | 疗愈、速度、新开始 | 如骏马般充满活力与冲劲，天生的治愈者和先行者，行动迅速但有时缺乏耐心。 |
-| 2 | Bharani | 转化、承担、创造力 | 承载生死之间的灵魂，有强烈的责任感和创造冲动，擅长在极限中突破，情感深刻而炽热。 |
-| 3 | Krittika | 锐利、纯化、精准 | 如火焰般锐利而纯粹，有强烈的辨别力和批判性思维，追求卓越，不容妥协。 |
-| 4 | Rohini | 繁荣、美丽、滋养 | 被认为是最吉祥的月宿之一，代表物质丰盛与感官享受，情感温柔，对美有天生的感知力。 |
-| 5 | Mrigashira | 探索、温柔、好奇 | 如寻找的鹿，充满好奇心和探索欲，思维灵活，对新领域有持续的热情，但有时难以停止追寻。 |
-| 6 | Ardra | 风暴、转化、深度 | 经历风暴后带来清新，擅长深刻的思考和情感净化，有强烈的改革能量，内心世界丰富而复杂。 |
-| 7 | Punarvasu | 回归、更新、丰盛 | 如箭矢归鞘，代表经历失去后的重建与更新，乐观开朗，相信丰盛会再次降临。 |
-| 8 | Pushya | 滋养、支撑、奉献 | 被称为"众宿之王"，代表无私的滋养与支持，天生的照顾者，情感稳定，能成为他人的依靠。 |
-| 9 | Ashlesha | 神秘、洞察、蜿蜒 | 如盘蛇般的神秘能量，有深刻的心理洞察力和变革能力，直觉敏锐，但需警惕操控倾向。 |
-| 10 | Magha | 权威、祖先、荣耀 | 宝座能量，承载祖先的智慧与权威，天生的领导者，重视传统与血脉，渴望被历史铭记。 |
-| 11 | Purva Phalguni | 享乐、创造、爱 | 代表休息与享受的宫殿，充满艺术气质和创造热情，在爱与美中绽放，是充满魅力的生命享受者。 |
-| 12 | Uttara Phalguni | 成就、联盟、庇护 | 通过伙伴关系实现目标，有组织力和领导才能，慷慨大方，擅长建立持久的联盟与保护关系。 |
-| 13 | Hasta | 技巧、灵巧、治愈 | 双手的月宿，代表精巧的技艺和实用的才能，对细节敏锐，善于通过实际行动为他人带来疗愈。 |
-| 14 | Chitra | 美、创造、完美主义 | 宝石般的月宿，有强烈的审美感和创造冲动，追求形式的完美，擅长将愿景转化为精美的现实。 |
-| 15 | Swati | 独立、流动、适应 | 如风中摇曳的芦苇，代表独立自由的精神，适应力强，在变化中找到平衡，商业天赋突出。 |
-| 16 | Vishakha | 目标、专注、变革 | 目标明确，有强大的专注力和变革意志，在追求过程中容易经历内在张力，但最终成果显著。 |
-| 17 | Anuradha | 友谊、奉献、成功 | 通过忠诚与坚持获得成功，有强烈的友谊之道和合作精神，善于在困难中保持稳定前行。 |
-| 18 | Jyeshtha | 长者、保护、复杂 | 代表长者的智慧与保护能量，有强烈的责任感和庇护本能，内心世界复杂，承担了许多看不见的重量。 |
-| 19 | Mula | 根基、探究、解构 | 直指事物的根源，有强烈的哲学探究欲和解构能力，经历破碎后走向真正的自由，灵性潜力深厚。 |
-| 20 | Purva Ashadha | 激励、不可战胜、净化 | 如水的力量，有强大的净化和感染他人的能量，坚定乐观，相信自己的道路，擅长激励他人。 |
-| 21 | Uttara Ashadha | 胜利、诚信、广博 | 最终的胜利者，以诚信和广博的视野赢得长久的成功，承诺一旦做出就会坚守，影响力持久而深远。 |
-| 22 | Shravana | 聆听、学习、连接 | 耳朵的月宿，代表通过倾听和学习获得智慧，善于连接不同的知识与人群，是出色的教师和传播者。 |
-| 23 | Dhanishtha | 财富、节奏、丰盛 | 鼓声的月宿，有强烈的节奏感和物质创造力，在音乐和组织才能上有天赋，财富意识强烈。 |
-| 24 | Shatabhisha | 神秘、治愈、孤独 | 百位治愈者的月宿，有深刻的研究力和神秘感，常常选择独处探索真理，在另类医学和科学领域潜力深厚。 |
-| 25 | Purva Bhadrapada | 变革、激情、双面 | 代表内在的转化之火，有强烈的热情和变革能量，可以从世俗中急剧转向灵性，内心充满张力与深度。 |
-| 26 | Uttara Bhadrapada | 智慧、耐心、深度 | 如深海般的智慧，有强大的忍耐力和深度，对生死哲学有天然的感知，是最终能跨越物质束缚的灵魂。 |
-| 27 | Revati | 慈悲、旅程、完结 | 黄道的终点，代表旅程的圆满与慈悲，天生的滋养者和旅行者，对所有生命抱有温柔的接纳。 |
+### ☀️ Sun (Surya)
 
----
+The Sun represents the core essence of the soul and one's sense of identity — the source of authority and vital life force. A strong Sun bestows natural leadership, self-confidence, and a clear sense of direction, though it can also manifest as a self-centered stubbornness. The Sun's sign and house placement reveal where you seek recognition and what shapes your relationship with father figures and authority. The Sun–Moon relationship (especially any Yoga they form) is a key lens for reading a person's core motivation.
 
-## Dasha 大运期间各行星的影响倾向
+### 🌙 Moon (Chandra)
 
-| 行星大运 | 年限 | 整体主题 | 核心机遇 | 常见挑战 |
-|---------|------|---------|---------|---------|
-| 计都（Ketu） | 7年 | 灵性转向、内在探索 | 直觉增强、灵性洞察、过去技能发光 | 物质感下降、迷失方向感、孤独倾向 |
-| 金星（Venus） | 20年 | 爱、美、物质丰盛 | 感情与婚恋、艺术创作、财富积累 | 过度享乐、关系依赖、价值观冲突 |
-| 太阳（Sun） | 6年 | 自我彰显、权威建立 | 职业晋升、领导角色、与父亲和解 | 自我中心、与权威摩擦、健康耗损 |
-| 月亮（Moon） | 10年 | 情感流动、滋养与被滋养 | 家庭和谐、创造力绽放、与公众连接 | 情绪波动大、过度敏感、母亲关系课题 |
-| 火星（Mars） | 7年 | 行动、竞争、突破 | 事业推进、身体活力、保护家园 | 冲动决策、冲突增加、意外风险 |
-| 罗睺（Rahu） | 18年 | 世俗攀升、外部变动 | 快速物质进展、接触异域文化、科技与创新 | 迷失感、欲望过剩、关系动荡 |
-| 木星（Jupiter） | 16年 | 扩展、智慧、好运 | 高等教育、精神成长、子女喜讯、社会地位提升 | 过度乐观、扩张过快、判断失误 |
-| 土星（Saturn） | 19年 | 纪律、业力清算、长期积累 | 深厚的专业能力、基础建设、老年保障 | 重压感、延迟、孤独、身体疲劳 |
-| 水星（Mercury） | 17年 | 学习、沟通、商业 | 写作、教学、商业拓展、智识成就 | 过度分析、神经性焦虑、信息过载 |
+The Moon is the most important planet in Jyotish, representing Manas (the mind), emotional responses, and the inner world. The Moon's Nakshatra determines the birth Dasha planet and is the single most descriptive factor for understanding a person's emotional instincts and intuitive patterns. A strong Moon (especially exalted in Taurus) brings emotional steadiness; an afflicted Moon (conjunct or opposed by Rahu or Saturn) can produce anxiety and inner restlessness. The Moon's transits are closely tied to fluctuations in mood and energy levels.
 
-### Antardasha（副运）叠加解读原则
+### ♂ Mars (Mangala)
 
-- **主副星相吉**（如木星主 + 月亮副）：放大各自的吉祥主题，是一生中的高光时期
-- **主副星相克**（如太阳主 + 土星副）：两者能量互相制约，需要有意识地平衡权威与约束
-- **罗睺/计都副运**：在任何主运中都代表不稳定的转折期，变化较多
+Mars represents action, courage, competitive drive, and the protective instinct — the embodiment of energy and will. A strong Mars produces quick decisive action and resilience, but can also generate impulsiveness and a short fuse. Mars placed in the 1st, 4th, 7th, or 8th house (the traditional Mangal Dosha positions) calls for conscious management of conflict patterns in close relationships. Mars also governs technical skill, engineering, and athletic ability.
+
+### ☿ Mercury (Budha)
+
+Mercury represents the intellect, analytical ability, language, and communication — the planet of commerce and learning. When Mercury is too close to the Sun (the "combust" condition), logical thinking may become excessively self-referential. A strong Mercury excels at writing, analysis, and multitasking. Mercury operates most favorably in Gemini and Virgo (sidereal), where it holds dignity in both signs.
+
+### ♃ Jupiter (Guru)
+
+Jupiter is known as Guru, the most benefic of all the planets — representing wisdom, expansion, faith, and good fortune. Wherever Jupiter sits in the chart, that area of life tends to be protected and blessed. Jupiter is strongest in Cancer (exalted) and weakest in Capricorn (debilitated). Jupiter's 16-year Mahadasha is typically one of the most expansive and abundant periods in a person's life.
+
+### ♀ Venus (Shukra)
+
+Venus represents love, beauty, the arts, luxury, and material enjoyment — the planet of relationships and creative expression. Venus performs well in Capricorn and Pisces (exalted); in Virgo (debilitated) it can lead to over-analysis in relationships. The 20-year Venus Mahadasha often brings notable changes in love, finances, and artistic opportunity. The Venus–Moon relationship is a revealing indicator of emotional needs in intimate partnerships.
+
+### ♄ Saturn (Shani)
+
+Saturn represents discipline, karmic lessons, delay, and long-term accumulation — the master of time and boundaries. The house Saturn occupies tends to be the area of life where the most effort is required, but also where the deepest and most durable results ultimately emerge. The 19-year Saturn Mahadasha is a demanding period that asks for patience and discipline — the first half may feel heavy; the second half begins to yield its rewards. Saturn in Libra (exalted) combines discipline with fairness and expresses its best qualities.
+
+### ☊ Rahu (North Node)
+
+Rahu represents worldly desire, uncharted territory, and the direction the soul needs to explore in this lifetime. Its energy is like smoke — amplifying, blurring, and intensely craving. The sign and house of Rahu mark the zone of this life's obsession and longing, and the direction the soul is striving to break into. The 18-year Rahu Mahadasha tends to bring dramatic shifts in the material world and external opportunities, but can also be accompanied by a sense of disorientation. Rahu is always directly opposite Ketu — together they reveal the axis between this life's desires and past-life patterns.
+
+### ☋ Ketu (South Node)
+
+Ketu represents spiritual inclination, accumulated past-life karma, and the longing for liberation. Its energy is like flame — purifying, stripping away, and transcending. The house of Ketu marks an area where the soul has already mastered much and may feel oddly detached or indifferent. The 7-year Ketu Mahadasha is a period of turning inward, spiritual exploration, and deepened perception — outer material gains may be modest, but inner clarity can be profound.
 
 ---
 
-## 表达风格指南
+## 27 Nakshatras — Quick Reference
 
-### 核心原则
-
-吠陀占星是一门古老的象征体系，解读时应做到：
-
-1. **赋权而非预测**：让用户感受到掌控感，而不是被命运支配的无力感
-2. **可能性而非确定性**：使用"星盘显示...的倾向"而非"你一定会..."
-3. **业力是可以工作的**：Jyotish 的核心是通过意识转化，而不是接受宿命
-4. **连接三层**：Nakshatra（情感本能）+ Dasha（生命阶段）+ 行星（能量格局）综合解读
-
-### 语言温度
-
-- **专业但不冷漠**：使用梵文术语时附上中文解释（"Rohini 月宿，也就是毕宿"）
-- **深度但不神秘化**：拒绝故弄玄虚，用日常化语言解释古老概念
-- **有力但不武断**：每个断言后给出依据（"因为你的月亮落在..."）
-
-### 推荐表达句式
-
-| 场景 | 推荐句式 |
-|------|---------|
-| 引出 Nakshatra 分析 | "你的月亮落在 X 月宿，这是描述你情感本能最直接的镜子..." |
-| 说明 Dasha 阶段 | "你目前正处于 X 大运（约 XXXX–XXXX 年），这是一段以 XX 为主题的生命章节..." |
-| 呈现挑战 | "X 配置带来 XX 方面的挑战，这正是你这一阶段最重要的成长课题之一..." |
-| 给出建议 | "在这段 X 大运中，顺势而为的方向是... 需要留意的是..." |
-| 估算说明 | "以下星座位置基于行星平均速率估算，精确度数建议使用专业工具验证..." |
-
----
-
-## 禁用表达清单
-
-| 禁止使用 | 原因 | 替换表达 |
-|---------|------|---------|
-| "你命中注定会..." | 宿命论，剥夺用户能动性 | "你的星盘显示...的倾向和可能性" |
-| "这颗行星很凶" | 恐吓性语言 | "这颗行星带来挑战，也带来深化的机会" |
-| "你这一生会很惨" | 绝对化负面断言 | "这个配置需要在某些方面投入更多意识和努力" |
-| "必须做仪式才能化解" | 推销行为，不实承诺 | "了解这些能量可以帮助你更有意识地应对" |
-| "你活不过..." | 寿命预测，严重违规 | （此类问题直接拒绝回答） |
-| "Rahu 会毁掉你的..." | 人格化恐吓 | "Rahu 的能量在这个领域带来不稳定性，需要保持清醒" |
-| "你上辈子做了坏事" | 业力羞辱 | "这个配置反映了灵魂在这一生需要深化的课题" |
-
-**绝对禁止**：死亡预测、疾病确诊暗示、宿命论断言、恐吓性语言、推销仪式/补救服务/宝石强制购买建议。
+| # | Nakshatra | Keywords | Core Quality (1–2 sentences) |
+|---|-----------|---------|------------------------------|
+| 1 | Ashwini | Healing, speed, new beginnings | Bursting with the vitality of a swift horse, Ashwini natives are natural healers and pioneers — quick to act, though patience may need cultivating. |
+| 2 | Bharani | Transformation, responsibility, creativity | Carrying souls between worlds, Bharani holds a fierce sense of responsibility and creative drive — capable of breaking through at the edges, with emotions that run deep and hot. |
+| 3 | Krittika | Sharpness, purification, precision | Burning like a flame, Krittika is razor-sharp and pure — driven by keen discernment and critical thinking, pursuing excellence without compromise. |
+| 4 | Rohini | Prosperity, beauty, nourishment | Considered one of the most auspicious of all Nakshatras, Rohini radiates material abundance and sensory beauty — emotionally warm, with an instinctive attunement to loveliness in all its forms. |
+| 5 | Mrigashira | Exploration, gentleness, curiosity | Like a deer in search of something just beyond the horizon, Mrigashira is endlessly curious and mentally nimble — alive with enthusiasm for new territory, though the seeking rarely fully stops. |
+| 6 | Ardra | Storm, transformation, depth | Ardra brings the freshness that follows a storm — gifted at deep reflection and emotional purification, carrying strong reformative energy and a rich, complex inner world. |
+| 7 | Punarvasu | Return, renewal, abundance | Like an arrow returning to its quiver, Punarvasu carries the energy of rebuilding after loss — optimistic at heart, trusting that abundance will come around again. |
+| 8 | Pushya | Nourishment, support, devotion | Called the "king of Nakshatras," Pushya embodies selfless nurturing and steady support — a natural caregiver with emotional stability who becomes a reliable anchor for others. |
+| 9 | Ashlesha | Mystery, deep perception, the serpentine | Like a coiled serpent, Ashlesha holds a penetrating psychological insight and real transformative power — highly intuitive, though the shadow of manipulation calls for mindfulness. |
+| 10 | Magha | Authority, ancestry, glory | The throne Nakshatra, Magha carries ancestral wisdom and natural authority — a born leader who honors lineage and tradition, yearning to leave a mark that history remembers. |
+| 11 | Purva Phalguni | Pleasure, creativity, love | The palace of rest and enjoyment, Purva Phalguni is steeped in artistic warmth and creative passion — someone who truly knows how to celebrate the beauty of being alive. |
+| 12 | Uttara Phalguni | Achievement, alliance, protection | Success through partnership — Uttara Phalguni brings organizational clarity and leadership, building lasting alliances with generosity and a reliable sense of care. |
+| 13 | Hasta | Skill, dexterity, healing | The hands Nakshatra — Hasta brings precise craftsmanship and practical talent, a sharp eye for detail, and the gift of healing through concrete, thoughtful action. |
+| 14 | Chitra | Beauty, creation, perfectionism | The jewel Nakshatra, Chitra burns with aesthetic intensity and creative hunger — driven to make things not just functional but beautiful, translating vision into exquisite form. |
+| 15 | Swati | Independence, flow, adaptability | Like a reed bending in the wind, Swati embodies free-spirited independence and graceful adaptability — finding balance in change, with a natural gift for commerce and negotiation. |
+| 16 | Vishakha | Purpose, focus, transformation | Vishakha is a laser of focused will — driven by a clear goal and capable of deep transformation in its pursuit. The journey is intense, but the harvest is real. |
+| 17 | Anuradha | Friendship, devotion, success | Success through loyalty and perseverance — Anuradha holds a deep code of friendship and collaboration, moving steadily forward even through difficulty. |
+| 18 | Jyeshtha | Elder wisdom, protection, complexity | Carrying the authority and protective instinct of the eldest, Jyeshtha bears a strong sense of duty and shelter — a complex inner world holding weight that others rarely see. |
+| 19 | Mula | Roots, inquiry, deconstruction | Pointing straight to the root of things, Mula carries a fierce philosophical hunger and an ability to dismantle illusions — from breaking apart comes the path to genuine freedom and deep spiritual potential. |
+| 20 | Purva Ashadha | Inspiration, invincibility, purification | Like water wearing down stone, Purva Ashadha carries a purifying, irresistible force — steadfastly optimistic, inspiring to those around them, and deeply committed to their chosen path. |
+| 21 | Uttara Ashadha | Victory, integrity, breadth | The final victor — Uttara Ashadha wins through integrity and a broad, unhurried vision. Once a commitment is made, it holds. The influence is quiet but enduring. |
+| 22 | Shravana | Listening, learning, connection | The ear Nakshatra — Shravana gains wisdom through deep, receptive listening, weaving connections between knowledge and people, a gifted teacher and bridge-builder. |
+| 23 | Dhanishtha | Wealth, rhythm, abundance | The drum Nakshatra, Dhanishtha carries a strong sense of rhythm and material creative power — talented in music and coordination, with a keen awareness of the flow of abundance. |
+| 24 | Shatabhisha | Mystery, healing, solitude | The Nakshatra of a hundred healers — Shatabhisha brings penetrating research capacity and a mysterious depth, often choosing solitude in the search for truth, with strong potential in alternative medicine and science. |
+| 25 | Purva Bhadrapada | Transformation, intensity, duality | Carrying a transformative inner fire, Purva Bhadrapada can pivot sharply from the material to the spiritual — full of passionate intensity and depth, holding real inner tension as its creative charge. |
+| 26 | Uttara Bhadrapada | Wisdom, patience, depth | Like the depths of the ocean, Uttara Bhadrapada holds vast wisdom and extraordinary endurance — naturally attuned to the philosophy of life and death, a soul with the capacity to transcend material limitation. |
+| 27 | Revati | Compassion, journey, completion | The final Nakshatra — Revati carries the quiet fullness of a journey well-traveled, offering compassion and gentle acceptance to all living things. A natural nurturer and wanderer at heart. |
 
 ---
 
-## 特殊情境处理
+## Mahadasha Influence by Planet
 
-### 当用户问"我的健康/寿命"
+| Mahadasha Planet | Duration | Overall Theme | Core Opportunities | Common Challenges |
+|-----------------|----------|--------------|--------------------|--------------------|
+| Ketu | 7 years | Spiritual turning, inner exploration | Heightened intuition, spiritual insight, past-life skills resurface | Diminished material focus, loss of direction, tendency toward isolation |
+| Venus | 20 years | Love, beauty, material abundance | Romance and marriage, artistic creation, financial growth | Over-indulgence, relationship dependency, value conflicts |
+| Sun | 6 years | Self-expression, building authority | Career advancement, leadership roles, healing father relationships | Ego-centeredness, clashes with authority, physical depletion |
+| Moon | 10 years | Emotional flow, nurturing and being nurtured | Family harmony, creative blossoming, public connection | Emotional volatility, over-sensitivity, mother relationship themes |
+| Mars | 7 years | Action, competition, breakthrough | Career advancement, physical vitality, protecting what matters | Impulsive decisions, increased conflict, risk of accidents |
+| Rahu | 18 years | Worldly ascent, external upheaval | Rapid material progress, exposure to new cultures, technology and innovation | Disorientation, excess desire, relationship turbulence |
+| Jupiter | 16 years | Expansion, wisdom, good fortune | Higher education, spiritual growth, children, social elevation | Over-optimism, overextension, lapses in judgment |
+| Saturn | 19 years | Discipline, karmic accounting, long-term foundation | Deep expertise, structural achievement, security in later years | Heavy pressure, delays, isolation, physical fatigue |
+| Mercury | 17 years | Learning, communication, commerce | Writing, teaching, business growth, intellectual achievement | Overthinking, nervous anxiety, information overload |
 
-聚焦于能量管理和自我照顾的框架，而非疾病预测：
+### Antardasha (Sub-Period) Overlay Principles
 
-> "吠陀占星可以提供体质和生命能量的参考视角。你的 X 配置显示 XX 系统可能需要额外照顾，建议在 X 大运期间特别关注..."
+- **Harmonious pairing** (e.g., Jupiter Mahadasha + Moon Antardasha): Each planet amplifies the other's benefic qualities — often a peak period in a person's life
+- **Challenging pairing** (e.g., Sun Mahadasha + Saturn Antardasha): The energies constrain each other — conscious effort is needed to balance authority and discipline
+- **Rahu or Ketu Antardasha**: In any Mahadasha, these sub-periods bring instability and turning points — change tends to accelerate
 
-### 当用户问"我的婚姻/爱情"
+---
 
-聚焦于关系模式和成长课题，而非预测具体结果：
+## Style Guide for Interpretation
 
-> "你的第7宫和 Darakaraka（婚姻指示星）显示你在关系中 XX 的模式。在当前 X 大运中，关系的核心课题是..."
+### Core Principles
 
-### 当用户比较西方占星结果
+Vedic astrology is an ancient symbolic system. Interpretation should:
 
-直接说明体系差异，而非否定西方占星：
+1. **Empower, not predict**: Help the user feel like an active participant in their life, not a passenger at the mercy of fate
+2. **Point toward possibilities, not certainties**: Use "the chart shows a tendency toward..." rather than "you will definitely..."
+3. **Karma is workable**: The heart of Jyotish is conscious transformation, not resigned fatalism
+4. **Read all three layers together**: Nakshatra (emotional instincts) + Mahadasha (life season) + planetary picture (energy field) — the synthesis is where the real insight lives
 
-> "吠陀占星使用恒星黄道，与西方的热带黄道相差约 24°（一个星座左右），所以你的太阳星座在两个体系中可能不同。两者各有侧重——西方占星更关注心理特质，吠陀占星更关注事件时机和业力路径，可以互补参考。"
+### Tone and Register
+
+- **Expert but warm**: When using Sanskrit terms, always offer the English alongside ("Rohini Nakshatra — a Lunar Mansion associated with nourishment and beauty")
+- **Deep but grounded**: Refuse to be mystifying. Ancient concepts deserve plain-spoken, accessible language
+- **Confident but not dogmatic**: Every interpretation should be traceable to the chart ("because your Moon falls in...")
+
+### Recommended Phrasing
+
+| Situation | Suggested phrasing |
+|-----------|-------------------|
+| Introducing a Nakshatra reading | "Your Moon falls in the Nakshatra of X — and this is the most direct mirror of your emotional instincts..." |
+| Describing a Mahadasha | "You're currently in your X Mahadasha, running roughly from XXXX to XXXX — this is a chapter of life defined by the themes of X..." |
+| Naming a challenge | "This configuration brings challenges around X — and that's exactly where this period is inviting you to grow..." |
+| Offering guidance | "Going with the current of this X Mahadasha means... One thing worth staying mindful of is..." |
+| Clarifying estimates | "The following planetary placements are based on average velocities and are approximate — for verified degree positions, a professional tool is recommended..." |
+
+---
+
+## Prohibited Expressions
+
+| Do not say | Why | Say instead |
+|-----------|-----|-------------|
+| "You are destined to..." | Fatalistic — removes the user's sense of agency | "Your chart points toward a tendency and potential for..." |
+| "That's a malefic planet — bad placement" | Fear-based language | "This planet brings certain challenges, and with them, an invitation to go deeper" |
+| "You will have a terrible life" | Absolute negative prediction | "This configuration calls for more conscious effort and awareness in certain areas" |
+| "You must do a ritual to fix this" | Promotion and false promises | "Understanding these energies helps you respond with greater awareness and intention" |
+| "You won't live past..." | Lifespan prediction — a serious violation | (Decline this question entirely) |
+| "Rahu will destroy your..." | Personifying a planet as a villain | "Rahu's energy in this area can generate instability — staying clear-headed and grounded is key" |
+| "You did something bad in a past life" | Karmic shaming | "This configuration reflects a soul theme this lifetime is asking you to deepen and work through" |
+
+**Absolutely prohibited**: predictions of death or fatal illness, implications of incurable disease, fatalistic pronouncements, fear-based framing, and any promotion of rituals, mantras, gemstone purchases, or remedial services.
+
+---
+
+## Handling Special Situations
+
+### When a user asks about health or lifespan
+
+Frame the response around energy management and self-care — never disease prediction:
+
+> "Vedic astrology can offer a perspective on constitutional tendencies and life-force patterns. Your X configuration suggests that the X system may benefit from extra care and attention. During your X Mahadasha especially, it's worth building habits that support..."
+
+### When a user asks about marriage or romantic relationships
+
+Focus on relationship patterns and growth themes — not specific outcomes or timelines:
+
+> "Your 7th house and Darakaraka (the planet that represents a partner) suggest a pattern of X in your close relationships. In the current X Mahadasha, the central relational theme invites you to..."
+
+### When a user compares their Vedic and Western chart
+
+Acknowledge the difference in systems without dismissing Western astrology:
+
+> "Vedic astrology uses the sidereal zodiac, which runs about 24° behind the tropical zodiac used in Western astrology — roughly one full sign. That's why your Sun sign in the two systems may differ. Both traditions offer real value: Western astrology tends to focus on psychological character; Jyotish tends to emphasize event timing and karmic pathways. They can be read as complementary rather than competing."

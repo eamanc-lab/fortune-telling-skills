@@ -1,55 +1,55 @@
-# ♋ 巨蟹座 Cancer (6/21-7/22)
+# ♋ Cancer (6/21-7/22)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 水 Water |
-| 模式 | 开创 Cardinal |
-| 极性 | 阴 Negative |
-| 守护星 | 月亮 Moon ☽ |
-| 宫位 | 第四宫 |
-| 象征 | 螃蟹 Crab 🦀 |
-| 诞生石 | 红宝石 Ruby |
-| 幸运颜色 | 白色 |
-| 幸运数字 | 2、3、15、20 |
-| 幸运日 | 星期一、星期四 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Water |
+| Modality | Cardinal |
+| Polarity | Negative |
+| Ruling Planet | Moon ☽ |
+| House | 4th House |
+| Symbol | Crab 🦀 |
+| Birthstone | Ruby |
+| Lucky Color | White |
+| Lucky Numbers | 2, 3, 15, 20 |
+| Lucky Days | Monday, Thursday |
 
-## 性格特征
+## Personality
 
-**核心特质**：有养育心(Nurturing)、保护欲强(Protective)、直觉敏锐(Intuitive)、情感丰富(Emotional)、坚韧(Tenacious)、重情(Sentimental)
+**Core Traits**: Nurturing, Protective, Intuitive, Emotional, Tenacious, Sentimental
 
-**优点**：
-- 忠诚 Loyal
-- 情感细腻 Emotional
-- 富有同情心 Sympathetic
-- 保护欲强 Protective
-- 直觉敏锐 Intuitive
+**Strengths**:
+- Loyal
+- Emotionally attuned
+- Sympathetic
+- Protective
+- Highly intuitive
 
-**缺点**：
-- 情绪化 Moody
-- 过度情绪化 Overemotional
-- 多疑 Suspicious
-- 操控性 Manipulative
-- 缺乏安全感 Insecure
+**Weaknesses**:
+- Moody
+- Overly emotional
+- Suspicious
+- Manipulative
+- Insecure
 
-## 爱情倾向
+## Love Tendencies
 
-极为情感化，感受在关系中最为重要。寻求能通过非语言交流理解自己的伴侣，一旦信任建立便会表现出极大的忠诚与热情，将家庭和伴侣视为生命核心。
+Cancer is one of the most feeling-driven signs in the zodiac — their emotional world is their primary reality. They seek a partner who can understand them beyond words, through quiet attunement and unspoken knowing. Once trust is established, their loyalty and warmth are extraordinary, and home and partnership become the center of their world.
 
-## 事业倾向
+## Career Tendencies
 
-工作踏实可靠，一旦接下任务就会尽力完成。适合护理、园艺、政治和家居装饰等职业，独立工作时表现最佳，重视工作中的情感联结。
+Steady, dependable, and caring — once Cancer takes on a responsibility, they follow through. Nursing, gardening, politics, and interior design suit their nurturing instincts. They tend to do their best work independently and thrive when their work feels personally meaningful.
 
-## 财运倾向
+## Finance Tendencies
 
-安全感与金钱对巨蟹座意义重大。容易赚钱且善于节俭，目标是储蓄、投资并观察资产稳步增长，财务上偏保守稳健。
+Security and money are deeply linked for Cancer. They're natural savers with a good instinct for earning, and their financial goal is simple: build a cushion, invest wisely, and watch their stability grow. Their approach is conservative and steady by design.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 天蝎座、双鱼座、巨蟹座、金牛座 |
-| 良好匹配 | 处女座、摩羯座 |
-| 有挑战 | 白羊座、天秤座 |
-| 困难匹配 | 水瓶座、狮子座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Scorpio, Pisces, Cancer, Taurus |
+| Good Match | Virgo, Capricorn |
+| Challenging | Aries, Libra |
+| Difficult Match | Aquarius, Leo |

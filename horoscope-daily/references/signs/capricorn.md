@@ -1,55 +1,55 @@
-# ♑ 摩羯座 Capricorn (12/22-1/19)
+# ♑ Capricorn (12/22-1/19)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 土 Earth |
-| 模式 | 开创 Cardinal |
-| 极性 | 阴 Negative |
-| 守护星 | 土星 Saturn ♄ |
-| 宫位 | 第十宫 |
-| 象征 | 山羊 Sea-Goat 🐐 |
-| 诞生石 | 石榴石 Garnet |
-| 幸运颜色 | 棕色、深灰色 |
-| 幸运数字 | 4、8、13、22 |
-| 幸运日 | 星期六 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Earth |
+| Modality | Cardinal |
+| Polarity | Negative |
+| Ruling Planet | Saturn ♄ |
+| House | 10th House |
+| Symbol | Sea-Goat 🐐 |
+| Birthstone | Garnet |
+| Lucky Colors | Brown, Dark Gray |
+| Lucky Numbers | 4, 8, 13, 22 |
+| Lucky Day | Saturday |
 
-## 性格特征
+## Personality
 
-**核心特质**：有责任感(Responsible)、自律(Disciplined)、自控力强(Self-controlled)、管理能力好(Managerial)、务实(Pragmatic)、稳重(Steady)
+**Core Traits**: Responsible, Disciplined, Self-controlled, Managerial, Pragmatic, Steady
 
-**优点**：
-- 有责任感 Responsible
-- 自律 Disciplined
-- 自控力强 Self-controlled
-- 务实 Practical
-- 管理能力好 Managerial
+**Strengths**:
+- Responsible
+- Disciplined
+- Self-controlled
+- Practical
+- Managerial
 
-**缺点**：
-- 自以为是 Know-it-all
-- 不通情理 Unforgiving
-- 高高在上 Condescending
-- 悲观 Pessimistic
-- 工作狂 Workaholic
+**Weaknesses**:
+- Know-it-all
+- Unforgiving
+- Condescending
+- Pessimistic
+- Workaholic
 
-## 爱情倾向
+## Love Tendencies
 
-对感情严肃认真，不轻易开始也不轻易结束。需要时间证明对方的可靠性，一旦确认便全力投入。在关系中扮演保护者和支柱角色。
+Capricorn takes love as seriously as they take everything else — they don't rush in, and they don't walk away easily. They need time to verify that a partner is truly reliable before committing. Once they're in, they're fully in, stepping into the role of protector and steady anchor in the relationship.
 
-## 事业倾向
+## Career Tendencies
 
-天生的管理者和组织者，适合行政、金融、工程等需要系统性思维的工作。有强烈的上进心和职业规划，追求社会地位和成就。
+A natural manager and systems thinker, Capricorn thrives in administration, finance, and engineering — anywhere that rewards methodical thinking and long-term planning. They have an intense drive for advancement and a clear-eyed vision of where they want to be.
 
-## 财运倾向
+## Finance Tendencies
 
-最擅长长期财务规划的星座。投资偏保守，注重稳定回报。善于延迟满足，年轻时的节俭往往在中年后获得丰厚回报。
+Capricorn is arguably the best long-term financial planner in the zodiac. They favor conservative investments with stable returns and have a rare talent for delayed gratification. The careful saving habits of their younger years tend to pay off richly by middle age.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 金牛座、处女座、摩羯座、天蝎座 |
-| 良好匹配 | 双鱼座、巨蟹座 |
-| 有挑战 | 白羊座、天秤座 |
-| 困难匹配 | 双子座、狮子座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Taurus, Virgo, Capricorn, Scorpio |
+| Good Match | Pisces, Cancer |
+| Challenging | Aries, Libra |
+| Difficult Match | Gemini, Leo |

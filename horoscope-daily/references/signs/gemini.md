@@ -1,55 +1,55 @@
-# ♊ 双子座 Gemini (5/21-6/20)
+# ♊ Gemini (5/21-6/20)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 风 Air |
-| 模式 | 变动 Mutable |
-| 极性 | 阳 Positive |
-| 守护星 | 水星 Mercury ☿ |
-| 宫位 | 第三宫 |
-| 象征 | 双胞胎 Twins 👯 |
-| 诞生石 | 珍珠 Pearl |
-| 幸运颜色 | 浅绿色、黄色 |
-| 幸运数字 | 5、7、14、23 |
-| 幸运日 | 星期三 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Air |
+| Modality | Mutable |
+| Polarity | Positive |
+| Ruling Planet | Mercury ☿ |
+| House | 3rd House |
+| Symbol | Twins 👯 |
+| Birthstone | Pearl |
+| Lucky Colors | Light Green, Yellow |
+| Lucky Numbers | 5, 7, 14, 23 |
+| Lucky Day | Wednesday |
 
-## 性格特征
+## Personality
 
-**核心特质**：多才多艺(Versatile)、好奇(Curious)、善于沟通(Communicative)、机智(Witty)、适应力强(Adaptable)、智识性(Intellectual)
+**Core Traits**: Versatile, Curious, Communicative, Witty, Adaptable, Intellectual
 
-**优点**：
-- 适应力强 Adaptable
-- 开朗外向 Outgoing
-- 聪明 Intelligent
-- 口才好 Eloquent
-- 好奇心旺盛 Curious
+**Strengths**:
+- Adaptable
+- Outgoing
+- Intelligent
+- Eloquent
+- Wildly curious
 
-**缺点**：
-- 善变 Inconsistent
-- 焦虑 Nervous
-- 优柔寡断 Indecisive
-- 流于表面 Superficial
-- 坐立不安 Restless
+**Weaknesses**:
+- Inconsistent
+- Nervous
+- Indecisive
+- Superficial
+- Restless
 
-## 爱情倾向
+## Love Tendencies
 
-通过交流和言语互动建立亲密感，认为智识交流与身体接触同等重要。需要兴奋感、多样性和激情，一旦找到能匹配其智力与能量的伴侣，便会变得专一忠诚。
+For Gemini, intimacy lives in conversation and mental connection — intellectual exchange matters just as much as physical closeness. They need excitement, variety, and a genuine spark to stay engaged. Once they find a partner who can keep up with their energy and match their curiosity, their loyalty runs surprisingly deep.
 
-## 事业倾向
+## Career Tendencies
 
-需要持续的智力刺激，擅长多任务处理和解决问题。适合交易员、发明家、作家、演说家、律师等职业，需要动态环境和充分的社交机会。
+Gemini needs constant mental stimulation and excels at multitasking and problem-solving. Careers as traders, inventors, writers, public speakers, or lawyers suit them perfectly — anywhere dynamic, social, and ever-changing.
 
-## 财运倾向
+## Finance Tendencies
 
-对金钱态度随意，认为金钱只是必要之恶，不会花太多时间规划财务。需要外部约束和强有力的财务管理来维持安全感。
+Money is a necessary means to an end for Gemini, not something they spend much energy thinking about. Their relationship with finances tends to be casual, which means external structure and a solid budgeting system go a long way toward keeping things stable.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 天秤座、水瓶座、双子座、白羊座 |
-| 良好匹配 | 狮子座、射手座 |
-| 有挑战 | 处女座、双鱼座 |
-| 困难匹配 | 天蝎座、摩羯座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Libra, Aquarius, Gemini, Aries |
+| Good Match | Leo, Sagittarius |
+| Challenging | Virgo, Pisces |
+| Difficult Match | Scorpio, Capricorn |

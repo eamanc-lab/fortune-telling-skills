@@ -1,55 +1,55 @@
-# ♏ 天蝎座 Scorpio (10/23-11/21)
+# ♏ Scorpio (10/23-11/21)
 
-## 基础属性
+## Core Attributes
 
-| 维度 | 值 |
-|------|-----|
-| 元素 | 水 Water |
-| 模式 | 固定 Fixed |
-| 极性 | 阴 Negative |
-| 守护星 | 冥王星 Pluto ♇（传统：火星 Mars ♂） |
-| 宫位 | 第八宫 |
-| 象征 | 蝎子 Scorpion 🦂 |
-| 诞生石 | 黄玉 Topaz |
-| 幸运颜色 | 深红色、暗紫色 |
-| 幸运数字 | 8、11、18、22 |
-| 幸运日 | 星期二 |
+| Dimension | Value |
+|-----------|-------|
+| Element | Water |
+| Modality | Fixed |
+| Polarity | Negative |
+| Ruling Planet | Pluto ♇ (traditional: Mars ♂) |
+| House | 8th House |
+| Symbol | Scorpion 🦂 |
+| Birthstone | Topaz |
+| Lucky Colors | Deep Red, Dark Purple |
+| Lucky Numbers | 8, 11, 18, 22 |
+| Lucky Day | Tuesday |
 
-## 性格特征
+## Personality
 
-**核心特质**：足智多谋(Resourceful)、勇敢(Brave)、热情(Passionate)、洞察力强(Perceptive)、意志坚定(Determined)、神秘(Mysterious)
+**Core Traits**: Resourceful, Brave, Passionate, Perceptive, Determined, Mysterious
 
-**优点**：
-- 足智多谋 Resourceful
-- 勇敢 Brave
-- 热情 Passionate
-- 忠诚 Loyal
-- 洞察力强 Perceptive
+**Strengths**:
+- Resourceful
+- Brave
+- Passionate
+- Loyal
+- Highly perceptive
 
-**缺点**：
-- 不信任 Distrustful
-- 嫉妒 Jealous
-- 控制欲强 Controlling
-- 操控性 Manipulative
-- 报复心强 Vindictive
+**Weaknesses**:
+- Distrustful
+- Jealous
+- Controlling
+- Manipulative
+- Vindictive
 
-## 爱情倾向
+## Love Tendencies
 
-爱得极其深沉而强烈，是十二星座中最有性吸引力的。需要深度的情感连接和绝对的忠诚，一旦背叛很难原谅。在关系中追求灵魂层面的共鸣。
+Scorpio loves with a depth and intensity that few other signs can match — they are arguably the most magnetically compelling sign in the zodiac. They need a profound emotional bond and unshakeable loyalty, and a betrayal is very hard for them to move past. What Scorpio is ultimately seeking in a relationship is a soul-level connection.
 
-## 事业倾向
+## Career Tendencies
 
-适合深度研究和洞察类工作——侦探、心理学家、外科医生、研究员。有极强的毅力和专注度，擅长揭示隐藏的真相。
+Deep investigation and sharp insight define Scorpio's professional strengths — detective work, psychology, surgery, and research are ideal paths. They bring extraordinary focus and determination to anything they take on, with a particular gift for uncovering what's hidden beneath the surface.
 
-## 财运倾向
+## Finance Tendencies
 
-天生的直觉投资者，对金钱有敏锐的嗅觉。善于发现被低估的机会，但需要克制控制欲和贪婪倾向。
+Scorpio has an almost instinctive feel for investments and an acute nose for undervalued opportunities. The key is learning to temper the need for control and curb any tendency toward excess.
 
-## 兼容性
+## Compatibility
 
-| 类别 | 星座 |
-|------|------|
-| 最佳匹配 | 巨蟹座、双鱼座、天蝎座、处女座 |
-| 良好匹配 | 金牛座、摩羯座 |
-| 有挑战 | 狮子座、水瓶座 |
-| 困难匹配 | 白羊座、天秤座 |
+| Category | Signs |
+|----------|-------|
+| Best Match | Cancer, Pisces, Scorpio, Virgo |
+| Good Match | Taurus, Capricorn |
+| Challenging | Leo, Aquarius |
+| Difficult Match | Aries, Libra |

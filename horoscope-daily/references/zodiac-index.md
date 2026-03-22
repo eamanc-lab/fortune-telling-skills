@@ -1,48 +1,48 @@
-# 十二星座索引
+# Zodiac Sign Index
 
-## 元素与模式速查
+## Elements & Modalities Quick Reference
 
-| 元素 | 关键词 | 星座 |
-|------|--------|------|
-| 火 Fire | 热情、行动力、冲动、创造力 | ♈白羊、♌狮子、♐射手 |
-| 土 Earth | 务实、稳定、物质、坚韧 | ♉金牛、♍处女、♑摩羯 |
-| 风 Air | 思维、沟通、社交、理性 | ♊双子、♎天秤、♒水瓶 |
-| 水 Water | 情感、直觉、敏感、深度 | ♋巨蟹、♏天蝎、♓双鱼 |
+| Element | Keywords | Signs |
+|---------|----------|-------|
+| Fire | Passion, Drive, Impulse, Creativity | ♈ Aries, ♌ Leo, ♐ Sagittarius |
+| Earth | Pragmatism, Stability, Material, Tenacity | ♉ Taurus, ♍ Virgo, ♑ Capricorn |
+| Air | Intellect, Communication, Sociability, Reason | ♊ Gemini, ♎ Libra, ♒ Aquarius |
+| Water | Emotion, Intuition, Sensitivity, Depth | ♋ Cancer, ♏ Scorpio, ♓ Pisces |
 
-| 模式 | 关键词 | 星座 |
-|------|--------|------|
-| 开创 Cardinal | 发起、领导、开创、推动 | ♈白羊、♋巨蟹、♎天秤、♑摩羯 |
-| 固定 Fixed | 坚持、稳固、执着、深耕 | ♉金牛、♌狮子、♏天蝎、♒水瓶 |
-| 变动 Mutable | 适应、灵活、多变、过渡 | ♊双子、♍处女、♐射手、♓双鱼 |
+| Modality | Keywords | Signs |
+|----------|----------|-------|
+| Cardinal | Initiative, Leadership, Origination, Drive | ♈ Aries, ♋ Cancer, ♎ Libra, ♑ Capricorn |
+| Fixed | Perseverance, Stability, Commitment, Depth | ♉ Taurus, ♌ Leo, ♏ Scorpio, ♒ Aquarius |
+| Mutable | Adaptability, Flexibility, Versatility, Transition | ♊ Gemini, ♍ Virgo, ♐ Sagittarius, ♓ Pisces |
 
-## 守护星速查
+## Ruling Planets Quick Reference
 
-| 守护星 | 象征 | 掌管星座 | 能量关键词 |
-|--------|------|---------|-----------|
-| 太阳 Sun ☉ | 核心自我、意志、生命力 | ♌狮子座 | 光芒、自信、创造 |
-| 月亮 Moon ☽ | 情感、潜意识、习惯 | ♋巨蟹座 | 滋养、直觉、保护 |
-| 水星 Mercury ☿ | 沟通、思维、学习 | ♊双子座、♍处女座 | 思考、表达、分析 |
-| 金星 Venus ♀ | 爱情、审美、价值观 | ♉金牛座、♎天秤座 | 美感、和谐、享乐 |
-| 火星 Mars ♂ | 行动力、欲望、冲突 | ♈白羊座 | 勇气、竞争、动力 |
-| 木星 Jupiter ♃ | 扩展、幸运、哲学 | ♐射手座 | 成长、乐观、智慧 |
-| 土星 Saturn ♄ | 限制、责任、纪律 | ♑摩羯座 | 结构、耐心、成就 |
-| 天王星 Uranus ♅ | 创新、突变、叛逆 | ♒水瓶座 | 革新、自由、独立 |
-| 海王星 Neptune ♆ | 幻想、灵性、迷惑 | ♓双鱼座 | 灵感、梦幻、超越 |
-| 冥王星 Pluto ♇ | 转化、权力、重生 | ♏天蝎座 | 深度、蜕变、重生 |
+| Planet | Symbolism | Rules | Energy Keywords |
+|--------|-----------|-------|----------------|
+| Sun ☉ | Core self, willpower, vitality | ♌ Leo | Radiance, confidence, creativity |
+| Moon ☽ | Emotion, subconscious, habits | ♋ Cancer | Nurturing, intuition, protection |
+| Mercury ☿ | Communication, thought, learning | ♊ Gemini, ♍ Virgo | Thinking, expression, analysis |
+| Venus ♀ | Love, aesthetics, values | ♉ Taurus, ♎ Libra | Beauty, harmony, pleasure |
+| Mars ♂ | Action, desire, conflict | ♈ Aries | Courage, competition, drive |
+| Jupiter ♃ | Expansion, luck, philosophy | ♐ Sagittarius | Growth, optimism, wisdom |
+| Saturn ♄ | Limits, responsibility, discipline | ♑ Capricorn | Structure, patience, achievement |
+| Uranus ♅ | Innovation, disruption, rebellion | ♒ Aquarius | Reform, freedom, independence |
+| Neptune ♆ | Fantasy, spirituality, illusion | ♓ Pisces | Inspiration, dreams, transcendence |
+| Pluto ♇ | Transformation, power, rebirth | ♏ Scorpio | Depth, metamorphosis, regeneration |
 
-## 星座文件索引
+## Sign File Index
 
-| 符号 | 星座 | 日期范围 | 元素 | 模式 | 守护星 | 文件 |
-|------|------|---------|------|------|--------|------|
-| ♈ | 白羊座 | 3/21-4/19 | 火 | 开创 | 火星 | [signs/aries.md](signs/aries.md) |
-| ♉ | 金牛座 | 4/20-5/20 | 土 | 固定 | 金星 | [signs/taurus.md](signs/taurus.md) |
-| ♊ | 双子座 | 5/21-6/20 | 风 | 变动 | 水星 | [signs/gemini.md](signs/gemini.md) |
-| ♋ | 巨蟹座 | 6/21-7/22 | 水 | 开创 | 月亮 | [signs/cancer.md](signs/cancer.md) |
-| ♌ | 狮子座 | 7/23-8/22 | 火 | 固定 | 太阳 | [signs/leo.md](signs/leo.md) |
-| ♍ | 处女座 | 8/23-9/22 | 土 | 变动 | 水星 | [signs/virgo.md](signs/virgo.md) |
-| ♎ | 天秤座 | 9/23-10/22 | 风 | 开创 | 金星 | [signs/libra.md](signs/libra.md) |
-| ♏ | 天蝎座 | 10/23-11/21 | 水 | 固定 | 冥王星 | [signs/scorpio.md](signs/scorpio.md) |
-| ♐ | 射手座 | 11/22-12/21 | 火 | 变动 | 木星 | [signs/sagittarius.md](signs/sagittarius.md) |
-| ♑ | 摩羯座 | 12/22-1/19 | 土 | 开创 | 土星 | [signs/capricorn.md](signs/capricorn.md) |
-| ♒ | 水瓶座 | 1/20-2/18 | 风 | 固定 | 天王星 | [signs/aquarius.md](signs/aquarius.md) |
-| ♓ | 双鱼座 | 2/19-3/20 | 水 | 变动 | 海王星 | [signs/pisces.md](signs/pisces.md) |
+| Symbol | Sign | Date Range | Element | Modality | Ruling Planet | File |
+|--------|------|-----------|---------|----------|--------------|------|
+| ♈ | Aries | 3/21-4/19 | Fire | Cardinal | Mars | [signs/aries.md](signs/aries.md) |
+| ♉ | Taurus | 4/20-5/20 | Earth | Fixed | Venus | [signs/taurus.md](signs/taurus.md) |
+| ♊ | Gemini | 5/21-6/20 | Air | Mutable | Mercury | [signs/gemini.md](signs/gemini.md) |
+| ♋ | Cancer | 6/21-7/22 | Water | Cardinal | Moon | [signs/cancer.md](signs/cancer.md) |
+| ♌ | Leo | 7/23-8/22 | Fire | Fixed | Sun | [signs/leo.md](signs/leo.md) |
+| ♍ | Virgo | 8/23-9/22 | Earth | Mutable | Mercury | [signs/virgo.md](signs/virgo.md) |
+| ♎ | Libra | 9/23-10/22 | Air | Cardinal | Venus | [signs/libra.md](signs/libra.md) |
+| ♏ | Scorpio | 10/23-11/21 | Water | Fixed | Pluto | [signs/scorpio.md](signs/scorpio.md) |
+| ♐ | Sagittarius | 11/22-12/21 | Fire | Mutable | Jupiter | [signs/sagittarius.md](signs/sagittarius.md) |
+| ♑ | Capricorn | 12/22-1/19 | Earth | Cardinal | Saturn | [signs/capricorn.md](signs/capricorn.md) |
+| ♒ | Aquarius | 1/20-2/18 | Air | Fixed | Uranus | [signs/aquarius.md](signs/aquarius.md) |
+| ♓ | Pisces | 2/19-3/20 | Water | Mutable | Neptune | [signs/pisces.md](signs/pisces.md) |

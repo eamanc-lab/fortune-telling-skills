@@ -4,11 +4,14 @@ clawhub-slug: vedic-astrology
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  吠陀占星（Jyotish）分析器，基于印度吠陀占星体系，使用恒星黄道（Sidereal）计算星盘，
-  涵盖 27 Nakshatras（月宿）、Vimshottari Dasha 大运系统、九曜行星分析。当用户提及
-  「吠陀占星」「Jyotish」「Vedic」「月宿」「Nakshatra」「Dasha」「印度占星」时触发。
-  纯 LLM 推理解读（精确星盘需天文引擎），无外部 API 依赖。
-  不适用于：西方占星星座运势、八字命理、塔罗占卜、紫微斗数等其他领域 → 建议使用 fortune-hub 路由。
+  A Vedic astrology (Jyotish) analyzer based on the Indian Jyotish tradition, using the Sidereal
+  zodiac to read birth charts. Covers 27 Nakshatras (Lunar Mansions), the Vimshottari Dasha
+  (Major Period) system, and the Navagraha (Nine Planets). Triggered when users mention
+  "Vedic astrology," "Jyotish," "Vedic," "Nakshatra," "Dasha," or "Indian astrology."
+  Pure LLM reasoning for interpretation (precise charts require an astronomical engine).
+  No external API required.
+  Not applicable for: Western astrology horoscopes, BaZi, tarot, Zi Wei Dou Shu, or other
+  domains → use the fortune-hub router instead.
 license: MIT
 compatibility:
   platforms:
@@ -21,252 +24,252 @@ metadata:
   tags: ["vedic", "jyotish", "astrology", "吠陀", "月宿", "fortune-telling"]
 ---
 
-# 吠陀占星分析器
+# Vedic Astrology Analyzer
 
-基于印度吠陀占星（Jyotish）体系，通过恒星黄道星盘揭示月宿命主、大运走势与九曜能量格局。
+Grounded in the Indian Jyotish tradition, this Skill reads the sidereal birth chart to reveal your Moon Nakshatra (Lunar Mansion), Dasha (planetary period) trajectory, and the energy patterns of the Navagraha (Nine Planets).
 
-> **重要说明**：本 Skill 提供基于用户输入的吠陀占星知识解读和框架分析。精确度数级别的星盘计算（如精确的 Ascendant 度数、行星度数）建议使用 Kerykeion、Astropy 等专业天文引擎配合使用。本 Skill 的星盘估算基于平均速率，适用于月宿判断和 Dasha 推算，日期边界附近（±1天）可能存在偏差。
+> **Important Note**: This Skill provides Vedic astrology knowledge-based interpretation and framework analysis from the information you provide. Degree-level chart precision (exact Ascendant degree, exact planetary positions) is best verified using a dedicated astronomical engine such as Kerykeion or Astropy. The chart estimates in this Skill are based on average planetary velocities — suitable for Nakshatra determination and Dasha calculation, with a possible margin of error of ±1 day near sign boundaries.
 
-## 快速开始
+## Quick Start
 
 ```
-"帮我做吠陀占星分析，我是1990年6月15日出生的，出生地北京，早上8点"
-"我的月亮落在哪个 Nakshatra？"
-"我现在处于哪个 Dasha 大运？"
-"帮我解读九曜行星对我的影响"
-"吠陀占星说我今年运势如何？"
+"Give me a Vedic astrology reading — I was born June 15, 1990, in Beijing, at 8 AM"
+"Which Nakshatra is my Moon in?"
+"Which Mahadasha am I currently running?"
+"Interpret the Navagraha planetary influences in my chart"
+"What does Vedic astrology say about my year ahead?"
 ```
 
-**完整示例**：
+**Full example**:
 
-输入：`我是1988年3月22日出生，出生地上海，下午2点，帮我做吠陀占星分析`
+Input: `I was born March 22, 1988, in Shanghai, at 2 PM. Please do a Vedic astrology reading.`
 
-输出：
-> # ✨ 吠陀占星报告
+Output:
+> # ✨ Vedic Astrology Report
 >
-> ## 基础星盘（恒星黄道 · Lahiri Ayanamsa）
+> ## Foundation Chart (Sidereal Zodiac · Lahiri Ayanamsa)
 >
-> **月亮 Nakshatra：Bharani（婆罗尼）**
-> 月亮约位于金牛座 13°，落入 Bharani 月宿（13°20'–26°40' 金牛）
-> 主星：金星（Venus）
-> 你的情感本能倾向于承担与转化，内心有强烈的责任感...
+> **Moon Nakshatra: Bharani (Lunar Mansion 2)**
+> Moon is approximately at Taurus 13°, falling in Bharani (13°20'–26°40' Taurus sidereal)
+> Ruling Planet: Venus
+> Your emotional instincts lean toward carrying and transforming — there's a deep sense of responsibility within you...
 >
-> ## Vimshottari Dasha 大运
-> 当前大运：土星（Saturn）Dasha — 2021 至 2040 年
-> 土星大运主题：纪律、边界与长期成果的收获期...
+> ## Vimshottari Dasha (Planetary Periods)
+> Current Mahadasha: Saturn — 2021 to 2040
+> Saturn Mahadasha theme: discipline, boundaries, and the long harvest of patient work...
 >
-> ## 九曜行星格局
-> [各行星星座位置及能量解读]
+> ## Navagraha Planetary Picture
+> [Planetary sign placements and energy interpretations]
 
 ## User Context
 
-本 Skill 需要用户的公历出生日期、出生时间和出生地点来分析星盘。
+This Skill requires the user's birth date, birth time, and birthplace to analyze the chart.
 
-**读取**：执行前依次检查：
-1. 本目录 `MEMORY.md` — 优先使用
-2. 同仓库 `fortune-hub/MEMORY.md`（如果存在）— 补充缺失的基础档案字段
+**Reading**: Before running, check in this order:
+1. This directory's `MEMORY.md` — use first
+2. `fortune-hub/MEMORY.md` in the same repo (if it exists) — fill in any missing base profile fields
 
-如有可用数据，直接使用，不再询问。
+If data is available, use it directly without asking again.
 
-**写入**：收集到用户信息后，写入**本目录的** `MEMORY.md`：
-
-```markdown
-# 用户信息
-
-## 基础档案
-- 公历生日：YYYY-MM-DD
-- 出生时间：HH:MM（24小时制）
-- 出生地点：城市名
-- 出生时区：UTC+X
-
-## 星盘缓存
-- 太阳星座（恒星黄道）：XX座 约XX°
-- 月亮星座（恒星黄道）：XX座 约XX°
-- 月亮 Nakshatra：XX（第X宿）
-- Nakshatra 主星：XX
-- Dasha 起点行星：XX
-- 当前 Dasha：XX 大运（YYYY–YYYY）
-```
-
-| 字段 | 是否必须 | 询问方式 |
-|------|---------|---------|
-| 公历生日 | ✅ | "请告诉我你的出生日期（年月日）" |
-| 出生时间 | ✅ 计算 Ascendant 和精确行星位置需要 | "出生时间是几点？（如不确定可提供大概时间，影响上升星座判断）" |
-| 出生地点 | ✅ 确定时区和地理纬度需要 | "出生在哪个城市或地区？" |
-
-**更新**：用户要求修改时更新 `MEMORY.md`。
-
-## 工作流程
-
-### Step 1：解析用户意图
-
-从用户输入中识别：
-
-| 参数 | 解析规则 | 默认值 |
-|------|---------|--------|
-| **分析类型** | 完整分析 / 单项查询（月宿/Dasha/行星/运势） | 完整分析 |
-| **出生日期** | 直接提供 或 从 MEMORY.md 读取 | 必填 |
-| **出生时间** | 直接提供 或 从 MEMORY.md 读取 | 必填，缺失时提示影响精度 |
-| **出生地点** | 直接提供 或 从 MEMORY.md 读取 | 必填，用于时区换算 |
-
-若出生时间未知，告知用户："出生时间未知时，Ascendant（上升点）无法确定，但月亮 Nakshatra 和 Dasha 大运仍可大致推算。"
-
-### Step 2：估算星盘位置
-
-加载计算规则 [references/calculation-rules.md](references/calculation-rules.md)。
-
-**星盘估算顺序**：
-
-1. **换算 UTC 时间**：出生地时区 → UTC 出生时刻
-2. **计算热带黄道太阳经度**（基于 J2000.0 平均速率）
-3. **减去 Ayanamsa**（Lahiri 体系，当前约 24°）→ 得到恒星黄道经度
-4. **判断太阳、月亮、其他行星的星座**（恒星黄道）
-5. **确定月亮 Nakshatra**（月亮恒星经度 ÷ 13°20' 得宿序号）
-6. **推算 Vimshottari Dasha**：根据月亮在 Nakshatra 内的位置比例，确定出生时的 Dasha 行星和已过比例，向后推算当前大运
-
-> 计算提示：以上为近似估算，精确结果请使用天文引擎验证。
-
-### Step 3：加载解读知识
-
-按需加载对应知识：
-- Nakshatra 特征 → [references/interpretation-guide.md](references/interpretation-guide.md)
-- 行星含义 → [references/interpretation-guide.md](references/interpretation-guide.md)
-- Dasha 解读 → [references/interpretation-guide.md](references/interpretation-guide.md)
-
-### Step 4：生成解读报告
-
-#### 输出格式（完整分析）
+**Writing**: After collecting user info, write it to **this directory's** `MEMORY.md`:
 
 ```markdown
-# ✨ {姓名/你的} 吠陀占星报告
+# User Info
 
-> 出生：{YYYY年M月D日 HH:MM} · {出生地} | 体系：Jyotish · Lahiri Ayanamsa
+## Basic Profile
+- Date of birth: YYYY-MM-DD
+- Birth time: HH:MM (24-hour)
+- Birthplace: City name
+- Birth time zone: UTC+X
 
----
-
-## 一、月亮 Nakshatra 分析
-
-### 月宿：{Nakshatra 名称}（第 {N} 宿）
-📍 月亮约位于{星座} {度数}°，对应 {Nakshatra}（{经度范围}）
-
-**主星**：{行星}
-**核心关键词**：{3-5 个}
-
-[3-4句深度解读：月宿对情感本能、直觉模式、内在驱动力的影响]
-
-**Nakshatra Pada（四分）**：月亮落入第 {N} Pada，{对应元素} 元素，{关键词}
-
----
-
-## 二、Vimshottari Dasha 大运
-
-### 当前 Dasha：{行星} 大运（{起始年}–{结束年}）
-
-⏱ 当前大运剩余约 {X} 年 {X} 月
-
-**{行星} 大运主题**：[3-4句，该行星大运期间的整体生命主题和关注领域]
-
-#### 当前 Antardasha（副运）
-目前处于 {主星} / {副星} 副运（约 {起始} – {结束}）
-[2-3句，副运与主运的叠加影响]
-
-#### 大运时间线
-| 大运行星 | 开始年份 | 结束年份 | 年限 |
-|---------|---------|---------|------|
-| [列出接下来3-4个大运] |
-
----
-
-## 三、九曜行星格局
-
-> 以下为基于出生日期的近似星座位置，精确度数建议使用专业工具验证。
-
-| 行星 | 恒星黄道星座（约） | 关键词 |
-|------|----------------|--------|
-| ☀️ 太阳（Sun） | {星座} | {关键词} |
-| 🌙 月亮（Moon） | {星座} | {关键词} |
-| ♂ 火星（Mars） | {星座} | {关键词} |
-| ☿ 水星（Mercury） | {星座} | {关键词} |
-| ♃ 木星（Jupiter） | {星座} | {关键词} |
-| ♀ 金星（Venus） | {星座} | {关键词} |
-| ♄ 土星（Saturn） | {星座} | {关键词} |
-| ☊ 罗睺（Rahu）| {星座} | {关键词} |
-| ☋ 计都（Ketu）| {星座} | {关键词} |
-
-### 行星重点解读
-
-[选取 2-3 颗星盘中最具特征的行星（如强势、弱势、合相等）进行深度解读，每颗 2-3 句]
-
----
-
-## 四、当下阶段综合洞察
-
-[整合月宿、大运、行星格局，给出 3-4 条具体的当下生命建议，聚焦当前 Dasha 的核心成长主题]
-
----
-
-*吠陀占星（Jyotish）解读仅供参考与自我探索，星盘位置为估算值，精确计算请使用 Kerykeion 等专业工具。*
+## Chart Cache
+- Sun sign (sidereal): Sign, approx. °
+- Moon sign (sidereal): Sign, approx. °
+- Moon Nakshatra: Name (Nakshatra #N)
+- Nakshatra ruling planet: Planet
+- Birth Dasha planet: Planet
+- Current Mahadasha: Planet (YYYY–YYYY)
 ```
 
-#### 输出格式（单项查询）
+| Field | Required | How to ask |
+|-------|---------|------------|
+| Date of birth | ✅ | "Please share your birth date (year, month, day)" |
+| Birth time | ✅ Needed for Ascendant and precise planetary positions | "What time were you born? (If unsure, a rough time of day is fine — it affects the Ascendant calculation)" |
+| Birthplace | ✅ Needed for time zone and geographic latitude | "What city or region were you born in?" |
 
-仅输出用户询问的模块（月宿 / Dasha / 行星 / 今年运势），包含估算过程和解读，不生成完整报告。
+**Updating**: Update `MEMORY.md` when the user requests changes.
 
-### Step 5：保存结果
+## Workflow
 
-首次完整分析后，将星盘估算结果缓存到 `MEMORY.md`，后续单项查询直接使用缓存。
+### Step 1: Parse User Intent
 
-## 生成规则
+Identify from the user's input:
 
-**估算透明度**：
-- 每个星座位置标注"约"，提醒用户这是估算值
-- 说明估算依据（平均速率 + Ayanamsa）
-- 日期边界（如月亮每 2.5 天换星座）附近主动提示可能存在偏差
+| Parameter | Parsing rule | Default |
+|-----------|-------------|---------|
+| **Analysis type** | Full reading / single query (Nakshatra / Dasha / planets / yearly outlook) | Full reading |
+| **Birth date** | Provided directly or read from MEMORY.md | Required |
+| **Birth time** | Provided directly or read from MEMORY.md | Required; note impact on precision if missing |
+| **Birthplace** | Provided directly or read from MEMORY.md | Required for time zone conversion |
 
-**表达风格**：
+If birth time is unknown, inform the user: "Without a birth time, I can't determine your Ascendant (Lagna), but your Moon Nakshatra and Mahadasha can still be estimated."
 
-使用**启发探索型**风格——融合专业知识与灵性启发：
+### Step 2: Estimate Chart Positions
 
-- 呈现估算过程体现知识深度（"月亮约位于恒星金牛 15°，落入 Rohini 月宿"）
-- 用日常化语言解释吠陀术语（"Rohini 月宿的主星是月亮本身，象征滋养与繁荣"）
-- 连接 Nakshatra、Dasha、行星三层进行综合解读
-- 负面因素用建设性方式表达（"土星大运带来约束，但也是累积深厚基础的黄金时期"）
+Load the calculation rules from [references/calculation-rules.md](references/calculation-rules.md).
 
-**禁用表达清单**：
+**Chart estimation sequence**:
 
-| 禁止使用 | 替换为 |
-|---------|-------|
-| ❌ "你命中注定..." | ✅ "你的星盘显示...的倾向" |
-| ❌ "这是凶星/你命不好" | ✅ "这颗行星带来挑战，也带来深化的机会" |
-| ❌ "你这辈子无法..." | ✅ "这个配置需要更多耐心和意识" |
-| ❌ "必须做某事才能化解" | ✅ "了解这些能量可以帮助你更有意识地应对" |
+1. **Convert to UTC**: Apply birth location time zone → UTC birth moment
+2. **Calculate tropical Sun longitude** (using J2000.0 average velocity)
+3. **Subtract Ayanamsa** (Lahiri system, currently ~24°) → sidereal longitude
+4. **Determine sign placements** for Sun, Moon, and other planets (sidereal zodiac)
+5. **Identify Moon Nakshatra** (sidereal Moon longitude ÷ 13°20' = Nakshatra index)
+6. **Calculate Vimshottari Dasha**: Use the Moon's position within its Nakshatra to find the fraction elapsed, determine the birth Dasha planet and remaining years, then project forward to the present
 
-绝对禁止：宿命论断言、恐吓性语言、推销仪式/咒语/补救服务。
+> Calculation note: The above is an approximation. For verified results, use an astronomical engine.
 
-## 错误处理
+### Step 3: Load Interpretation Knowledge
 
-| 场景 | 处理方式 |
-|------|---------|
-| 未提供出生日期 | "请告诉我你的出生日期（年月日），我来推算你的吠陀星盘" |
-| 未提供出生时间 | "出生时间未知时，我将跳过 Ascendant 分析，月宿和 Dasha 可大致估算。你大概是哪个时段出生的？（如凌晨、上午、下午、夜晚）" |
-| 未提供出生地点 | "请告诉我出生城市，我需要换算时区来确定准确的 UTC 出生时间" |
-| 星盘位置边界不确定 | "月亮在这个日期处于星座边界，可能在{A}座或{B}座。建议使用精确工具验证，我将基于{A}座进行解读" |
-| 用户问西方星座/星座运势 | "西方星座运势建议使用 horoscope-daily。吠陀占星使用恒星黄道，你的太阳星座可能与西方体系相差约24°（一个星座左右）" |
-| 用户问八字/塔罗 | "建议使用 fortune-hub 选择对应领域 Skill" |
-| 用户质疑科学性 | "吠陀占星是一种古老的象征体系，它提供的是自我反思的框架而非科学结论。可以把它当作认识自己的一面镜子" |
+Load the relevant reference material as needed:
+- Nakshatra characteristics → [references/interpretation-guide.md](references/interpretation-guide.md)
+- Planetary meanings → [references/interpretation-guide.md](references/interpretation-guide.md)
+- Dasha interpretation → [references/interpretation-guide.md](references/interpretation-guide.md)
 
-## 不适用场景
+### Step 4: Generate the Reading Report
 
-以下情况请**不要**调用本 Skill：
-- **西方星座运势** → horoscope-daily
-- **八字/紫微/塔罗/风水** → 建议使用 fortune-hub 选择对应领域 Skill
-- **精确天文计算** → 需要天文引擎（Kerykeion/Astropy），本 Skill 为知识解读
-- **心理咨询/医疗建议** → 本 Skill 仅供自我探索，不替代专业服务
+#### Output Format (Full Reading)
 
-## 原子化设计
+```markdown
+# ✨ {Name's / Your} Vedic Astrology Report
 
-本 Skill 仅负责「吠陀占星（Jyotish）」这一个原子化能力。不包含西方星座运势、八字命理、紫微斗数、六爻易经、塔罗占卜等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
+> Born: {Month D, YYYY HH:MM} · {Birthplace} | System: Jyotish · Lahiri Ayanamsa
 
-## 免责声明
+---
 
-本 Skill 提供的星盘位置为近似估算（基于行星平均速率），不保证度数级别的精确性。吠陀占星解读仅供娱乐和自我探索参考，不构成任何医疗、法律、财务等专业建议。重大人生决策请基于理性判断和专业咨询。
+## I. Moon Nakshatra Analysis
+
+### Nakshatra: {Nakshatra name} (Lunar Mansion #{N})
+📍 Moon is approximately at {Sign} {degree}°, falling in {Nakshatra} ({longitude range})
+
+**Ruling Planet**: {Planet}
+**Core Keywords**: {3–5 keywords}
+
+[3–4 sentences of deep interpretation: how this Nakshatra shapes emotional instincts, intuitive patterns, and inner drives]
+
+**Nakshatra Pada (Quarter)**: Moon falls in Pada {N}, {element} element, {keywords}
+
+---
+
+## II. Vimshottari Dasha (Planetary Periods)
+
+### Current Mahadasha: {Planet} ({start year}–{end year})
+
+⏱ Approximately {X} years and {X} months remaining in this Mahadasha
+
+**{Planet} Mahadasha Theme**: [3–4 sentences on the overarching life themes and focus areas during this planetary period]
+
+#### Current Antardasha (Sub-Period)
+Currently in {major planet} / {sub-planet} Antardasha (approx. {start} – {end})
+[2–3 sentences on how the sub-period overlays and interacts with the main period]
+
+#### Mahadasha Timeline
+| Mahadasha Planet | Start Year | End Year | Duration |
+|-----------------|-----------|---------|----------|
+| [List the next 3–4 Mahadashas] |
+
+---
+
+## III. Navagraha Planetary Picture
+
+> The following sign placements are approximations based on birth date. For precise degree positions, verify with a professional tool.
+
+| Planet | Sidereal Sign (approx.) | Keywords |
+|--------|------------------------|---------|
+| ☀️ Sun (Surya) | {Sign} | {keywords} |
+| 🌙 Moon (Chandra) | {Sign} | {keywords} |
+| ♂ Mars (Mangala) | {Sign} | {keywords} |
+| ☿ Mercury (Budha) | {Sign} | {keywords} |
+| ♃ Jupiter (Guru) | {Sign} | {keywords} |
+| ♀ Venus (Shukra) | {Sign} | {keywords} |
+| ♄ Saturn (Shani) | {Sign} | {keywords} |
+| ☊ Rahu (North Node) | {Sign} | {keywords} |
+| ☋ Ketu (South Node) | {Sign} | {keywords} |
+
+### Planetary Spotlight
+
+[Select 2–3 planets that stand out in the chart (e.g., strong, debilitated, conjunct) for deeper interpretation — 2–3 sentences each]
+
+---
+
+## IV. Integrated Insights for This Season of Life
+
+[Weave together the Nakshatra, Mahadasha, and planetary picture to offer 3–4 specific, actionable insights centered on the core growth themes of the current Dasha]
+
+---
+
+*Vedic astrology (Jyotish) readings are for personal exploration and reflection. Chart positions are estimated — for precise calculations, use tools like Kerykeion.*
+```
+
+#### Output Format (Single Query)
+
+Output only the module the user asked about (Nakshatra / Dasha / planets / yearly outlook), including the estimation process and interpretation. Do not generate a full report.
+
+### Step 5: Save Results
+
+After the first complete reading, cache the chart estimates to `MEMORY.md`. Subsequent single-module queries can draw from the cache directly.
+
+## Generation Rules
+
+**Estimation transparency**:
+- Label each planetary position with "approximately" to remind the user it's an estimate
+- State the basis for the estimate (average velocity + Ayanamsa correction)
+- Near sign boundaries (e.g., Moon changes signs roughly every 2.5 days), proactively flag the possibility of error
+
+**Expression style**:
+
+Use an **exploratory-inspirational** tone — blending specialist knowledge with spiritual warmth:
+
+- Present the estimation process to demonstrate depth ("Moon is approximately at sidereal Taurus 15°, placing it in Rohini Nakshatra")
+- Explain Vedic terminology in everyday language ("Rohini's ruling planet is the Moon itself, symbolizing nourishment and abundance")
+- Connect all three layers — Nakshatra, Dasha, and planetary picture — in a unified reading
+- Frame challenging placements constructively ("Saturn Mahadasha calls for discipline, but it's also the golden period for building something that truly lasts")
+
+**Prohibited expressions**:
+
+| Do not use | Replace with |
+|-----------|-------------|
+| ❌ "You are destined to..." | ✅ "Your chart shows a tendency toward..." |
+| ❌ "This is a malefic planet / you have a bad chart" | ✅ "This planet brings challenges, and with them, an invitation to deepen" |
+| ❌ "You will never be able to..." | ✅ "This configuration calls for more patience and awareness" |
+| ❌ "You must perform a ritual to fix this" | ✅ "Understanding these energies can help you respond with greater consciousness" |
+
+Absolutely prohibited: predictions of death or illness, fatalistic pronouncements, fear-based language, and promotion of rituals / mantras / remedial services.
+
+## Error Handling
+
+| Scenario | Response |
+|----------|---------|
+| Birth date not provided | "Please share your birth date (year, month, day) so I can begin your Vedic chart reading" |
+| Birth time not provided | "Without a birth time, I'll skip the Ascendant (Lagna) analysis — Moon Nakshatra and Dasha can still be estimated. Do you have a rough sense of when you were born? (e.g., early morning, midday, afternoon, evening)" |
+| Birthplace not provided | "Please share your birth city so I can convert to the correct UTC time" |
+| Sign boundary uncertainty | "The Moon is near a sign boundary on this date — it may be in {A} or {B}. I'd recommend verifying with a precision tool. I'll proceed with {A} for this reading." |
+| User asks about Western horoscope | "For Western zodiac horoscopes, horoscope-daily is the right Skill. Note that Vedic astrology uses the sidereal zodiac, so your Sun sign may differ from the Western system by about 24° — roughly one sign." |
+| User asks about BaZi / tarot | "I'd suggest using fortune-hub to select the right Skill for that" |
+| User questions the science | "Vedic astrology is an ancient symbolic framework — it offers a lens for self-reflection rather than scientific prediction. Think of it as a map for knowing yourself more deeply." |
+
+## When Not to Use This Skill
+
+Do **not** invoke this Skill for:
+- **Western horoscope / zodiac readings** → horoscope-daily
+- **BaZi / Zi Wei Dou Shu / Tarot / Feng Shui** → use fortune-hub to select the right Skill
+- **Precise astronomical calculations** → requires an astronomical engine (Kerykeion / Astropy); this Skill provides knowledge-based interpretation
+- **Psychological counseling / medical advice** → this Skill is for self-exploration only and does not replace professional services
+
+## Atomic Design
+
+This Skill covers one atomic capability: **Vedic astrology (Jyotish) analysis**. It does not include Western horoscopes, BaZi, Zi Wei Dou Shu, I Ching, tarot, or any other divination systems. For other domains, combine with the corresponding Skill in this repo or route through fortune-hub.
+
+## Disclaimer
+
+Chart positions provided by this Skill are approximate estimates based on average planetary velocities and are not guaranteed to be degree-level accurate. Vedic astrology readings are intended for entertainment and personal exploration only and do not constitute medical, legal, financial, or any other professional advice. For major life decisions, rely on rational judgment and professional consultation.
