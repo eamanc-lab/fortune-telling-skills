@@ -4,11 +4,11 @@ clawhub-slug: fengshui-advisor
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  风水分析顾问工具，属于 fortune-telling-skills 运势测算套件。融合八宅风水和玄空飞星两大理气派体系，
-  通过出生年份计算本命卦，结合房屋坐向排布飞星盘，给出吉凶方位和空间布局建议。
+  风水分析顾问，融合八宅风水和玄空飞星两大理气派体系，通过出生年份计算本命卦，
+  结合房屋坐向排布飞星盘，给出吉凶方位和空间布局建议。当用户提及「风水」「八宅」
+  「飞星」「本命卦」「方位布局」「家居风水」「办公室风水」时触发。
   计算为确定性公式 + LLM 综合解读，无外部 API 依赖。
-  触发词：风水、八宅、飞星、方位、布局、风水分析、家居风水、办公室风水。
-  不适用于：八字命理、紫微斗数、塔罗占卜 → 建议使用 fortune-hub。
+  不适用于：八字命理、紫微斗数、塔罗占卜、奇门遁甲等其他领域 → 建议使用 fortune-hub 路由。
 license: MIT
 compatibility:
   platforms:
@@ -261,6 +261,10 @@ metadata:
 - **塔罗占卜** → tarot-reading
 - **医疗/法律/财务决策** → 本 Skill 仅供自我探索，不替代专业服务
 - **建筑结构改造** → 请咨询专业建筑师
+
+## 原子化设计
+
+本 Skill 仅负责「风水分析（八宅 + 玄空飞星）」这一个原子化能力。不包含八字命理、紫微斗数、六爻易经、奇门遁甲、塔罗占卜等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
 
 ## 免责声明
 

@@ -4,11 +4,10 @@ clawhub-slug: qimen-dunjia
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  奇门遁甲排盘与分析工具，属于 fortune-telling-skills 运势测算套件。基于洛书九宫四层盘面体系
-  （天盘九星、地盘三奇六仪、人盘八门、神盘八神），支持时家奇门排盘，用于择时决策和事项预测。
-  排盘为确定性计算 + LLM 综合解读，无外部 API 依赖。
-  触发词：奇门遁甲、奇门、遁甲、排盘、择时、奇门预测。
-  不适用于：梅花易数、六爻易经、风水分析 → 建议使用 fortune-hub。
+  奇门遁甲排盘分析器，基于洛书九宫四层盘面体系（天盘九星、地盘三奇六仪、人盘八门、神盘八神），
+  支持时家奇门排盘，用于择时决策和事项预测。当用户提及「奇门遁甲」「奇门」「遁甲」「择时」
+  「奇门排盘」「奇门预测」时触发。排盘为确定性计算 + LLM 综合解读，无外部 API 依赖。
+  不适用于：梅花易数、六爻易经、风水分析、八字命理、塔罗占卜等其他领域 → 建议使用 fortune-hub 路由。
 license: MIT
 compatibility:
   platforms:
@@ -254,6 +253,10 @@ metadata:
 - **六爻预测** → liuyao-yijing
 - **风水分析** → fengshui-advisor
 - **医疗/法律/财务决策** → 本 Skill 仅供自我探索，不替代专业服务
+
+## 原子化设计
+
+本 Skill 仅负责「奇门遁甲」这一个原子化能力。不包含梅花易数、六爻易经、风水分析、八字命理、紫微斗数等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
 
 ## 免责声明
 

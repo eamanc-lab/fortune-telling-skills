@@ -4,12 +4,14 @@ clawhub-slug: horoscope-daily
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  生成十二星座运势预测，属于 fortune-telling-skills 运势测算套件。支持查询任意日期（今天、明天、指定日期）、任意周期（日/周/月），
-  涵盖综合运势、爱情、事业、财运、健康五大维度，含幸运指数和开运建议。
-  可结合用户生日做个性化解读。纯 LLM 生成，无外部 API 依赖。
+  基于西方占星学体系生成十二星座运势预测，适合用户询问星座相关运势时触发。
+  支持任意日期（今天、明天、指定日期）和任意周期（日/周/月），
+  涵盖综合运势、爱情、事业、财运、健康五大维度，含幸运指数和开运建议，
+  可结合用户生日做个性化区间解读。纯 LLM 生成，无外部 API 依赖。
   触发词：星座运势、今日运势、horoscope、每日星座、白羊座运势、
   星座预测、zodiac forecast、今天运气怎么样、本周运势、本月运势。
-  不适用于：八字命理、紫微斗数、塔罗牌占卜、风水分析 → 建议使用 fortune-hub 选择对应领域 Skill。
+  不适用于：八字命理、紫微斗数、塔罗牌占卜、数字命理、风水分析等非星座领域，
+  这些场景建议使用 fortune-hub 路由或对应领域 Skill。
 license: MIT
 compatibility:
   platforms:
@@ -364,6 +366,10 @@ metadata:
 - 已配置消息推送渠道（如 feishu-lark skill 的 webhook）
 
 > 提示：首次使用时可以对用户说——"要不要我记住你的星座？以后可以设置每天自动推送运势给你。"
+
+## 原子化设计
+
+本 Skill 仅负责「西方星座运势生成」这一个原子化能力。不包含八字、塔罗、数字命理、紫微斗数等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
 
 ## 免责声明
 

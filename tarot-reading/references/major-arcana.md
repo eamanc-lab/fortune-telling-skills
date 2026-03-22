@@ -2,6 +2,31 @@
 
 22 张牌，编号 0~21，代表人生重大主题和灵性旅程（愚者之旅）。
 
+## 目录
+
+- [0 - 愚者 The Fool](#0---愚者-the-fool)
+- [I - 魔术师 The Magician](#i---魔术师-the-magician)
+- [II - 女祭司 The High Priestess](#ii---女祭司-the-high-priestess)
+- [III - 女皇 The Empress](#iii---女皇-the-empress)
+- [IV - 皇帝 The Emperor](#iv---皇帝-the-emperor)
+- [V - 教皇 The Hierophant](#v---教皇-the-hierophant)
+- [VI - 恋人 The Lovers](#vi---恋人-the-lovers)
+- [VII - 战车 The Chariot](#vii---战车-the-chariot)
+- [VIII - 力量 Strength](#viii---力量-strength)
+- [IX - 隐士 The Hermit](#ix---隐士-the-hermit)
+- [X - 命运之轮 Wheel of Fortune](#x---命运之轮-wheel-of-fortune)
+- [XI - 正义 Justice](#xi---正义-justice)
+- [XII - 倒吊人 The Hanged Man](#xii---倒吊人-the-hanged-man)
+- [XIII - 死神 Death](#xiii---死神-death)
+- [XIV - 节制 Temperance](#xiv---节制-temperance)
+- [XV - 恶魔 The Devil](#xv---恶魔-the-devil)
+- [XVI - 塔 The Tower](#xvi---塔-the-tower)
+- [XVII - 星星 The Star](#xvii---星星-the-star)
+- [XVIII - 月亮 The Moon](#xviii---月亮-the-moon)
+- [XIX - 太阳 The Sun](#xix---太阳-the-sun)
+- [XX - 审判 Judgement](#xx---审判-judgement)
+- [XXI - 世界 The World](#xxi---世界-the-world)
+
 ---
 
 ## 0 - 愚者 The Fool

@@ -4,10 +4,12 @@ clawhub-slug: fortune-hub
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  运势测算统一入口。引导用户选择玄学领域（星座、八字、紫微斗数、塔罗、数字命理、梅花易数等），
-  智能收集所需信息，路由到对应专业 Skill。支持跨领域用户档案共享，一次录入多处复用。
+  运势测算的统一导航入口，适合用户知道想算命但尚未确定领域时触发。
+  该 Skill 识别用户意图后，引导选择玄学领域（星座、八字、紫微斗数、塔罗、数字命理、梅花易数等），
+  智能收集各领域所需的出生信息，通过 MEMORY.md 实现跨领域档案共享，一次录入多处复用，
+  最终路由到对应专业 Skill。
   触发词：运势、算命、测算、占卜、fortune、divination、帮我算算、今天运气、命理。
-  不适用于：直接提供某领域的详细测算（请使用对应领域 Skill）。
+  不适用于：用户已明确说出具体领域（如"看星座运势"）时，应直接调用对应领域 Skill，无需经由本 Skill 路由。
 license: MIT
 compatibility:
   platforms:
@@ -183,6 +185,10 @@ metadata:
 | 信息格式错误 | 生日格式不规范、时辰无法识别 | 给出正确格式示例，请用户重新输入 |
 | MEMORY.md 读取失败 | 文件损坏或权限问题 | 提示用户重新提供信息，本次不写入 |
 | 领域开发中 | 选择了尚未上线的 Skill | 友善说明，提供降级方案（基础分析） |
+
+## 原子化设计
+
+本 Skill 仅负责「运势测算入口路由」这一个原子化能力。不包含任何领域的具体测算功能。如需实际测算，请组合使用同仓库的对应 Skill（horoscope-daily、numerology-fortune 等），或直接调用目标领域 Skill。
 
 ## 免责声明
 

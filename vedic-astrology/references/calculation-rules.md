@@ -1,5 +1,17 @@
 # 吠陀占星计算规则
 
+## 目录
+
+- [与西方占星的核心差异](#与西方占星的核心差异)
+- [Ayanamsa 概念与主要体系](#ayanamsa-概念与主要体系)
+- [行星平均速率（用于估算）](#行星平均速率用于估算)
+- [27 Nakshatras 完整列表](#27-nakshatras-完整列表)
+- [Vimshottari Dasha 系统](#vimshottari-dasha-系统)
+- [九曜行星（Nava Graha）](#九曜行星nava-graha)
+- [十二宫位（Bhava）含义](#十二宫位bhava含义)
+
+---
+
 ## 与西方占星的核心差异
 
 | 维度 | 西方占星（Tropical） | 吠陀占星（Vedic/Jyotish） |

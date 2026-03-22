@@ -4,11 +4,10 @@ clawhub-slug: ziwei-fortune
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  紫微斗数命盘分析工具，属于 fortune-telling-skills 运势测算套件。基于紫微斗数经典体系，
-  通过农历出生年月日时推算命盘十二宫、安十四主星、四化飞星，揭示命格特质与人生走向。
-  排盘为确定性算法 + LLM 综合解读，无外部 API 依赖。
-  触发词：紫微斗数、紫微、命盘、十四主星、紫微排盘、斗数分析。
-  不适用于：星座运势、八字命理、塔罗占卜 → 建议使用 fortune-hub。
+  紫微斗数命盘分析器，基于紫微斗数经典体系，通过农历出生年月日时推算命盘十二宫、
+  安十四主星、四化飞星，揭示命格特质与人生走向。当用户提及「紫微斗数」「命盘分析」
+  「紫微排盘」「斗数」「十四主星」时触发。排盘为确定性算法 + LLM 综合解读，无外部 API 依赖。
+  不适用于：星座运势、八字命理、塔罗占卜、数字命理、吠陀占星等其他领域 → 建议使用 fortune-hub 路由。
 license: MIT
 compatibility:
   platforms:
@@ -293,6 +292,10 @@ metadata:
 - **八字命理** → bazi-fortune
 - **精确天文星历** → 本 Skill 不做天文轨道计算
 - **医疗/法律/财务决策** → 本 Skill 仅供自我探索，不替代专业服务
+
+## 原子化设计
+
+本 Skill 仅负责「紫微斗数」这一个原子化能力。不包含八字命理、六爻易经、奇门遁甲、风水分析、吠陀占星等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
 
 ## 免责声明
 

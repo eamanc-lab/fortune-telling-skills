@@ -4,11 +4,10 @@ clawhub-slug: liuyao-yijing
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  六爻易经占卜工具，属于 fortune-telling-skills 运势测算套件。基于京房纳甲体系，
-  模拟铜钱起卦，完成纳甲装卦（天干地支、世应、六亲、六神），通过用神旺衰和生克制化断卦。
-  装卦为确定性计算 + LLM 综合断卦，无外部 API 依赖。
-  触发词：六爻、易经占卜、铜钱起卦、纳甲、装卦、帮我起一卦、六爻预测。
-  不适用于：梅花易数、星座运势、塔罗占卜 → 建议使用 fortune-hub。
+  六爻易经占卜器，基于京房纳甲体系，模拟铜钱起卦，完成纳甲装卦（天干地支、世应、六亲、六神），
+  通过用神旺衰和生克制化断卦。当用户提及「六爻」「易经占卜」「铜钱起卦」「纳甲」「帮我起一卦」
+  「六爻预测」时触发。装卦为确定性计算 + LLM 综合断卦，无外部 API 依赖。
+  不适用于：梅花易数、奇门遁甲、星座运势、塔罗占卜、八字命理等其他领域 → 建议使用 fortune-hub 路由。
 license: MIT
 compatibility:
   platforms:
@@ -308,6 +307,10 @@ metadata:
 - **塔罗占卜** → tarot-reading
 - **数字命理** → numerology-fortune
 - **心理咨询/医疗建议** → 本 Skill 仅供自我探索，不替代专业服务
+
+## 原子化设计
+
+本 Skill 仅负责「六爻易经」这一个原子化能力。不包含梅花易数、奇门遁甲、紫微斗数、八字命理、塔罗占卜等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
 
 ## 免责声明
 

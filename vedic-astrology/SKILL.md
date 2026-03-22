@@ -4,11 +4,11 @@ clawhub-slug: vedic-astrology
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  吠陀占星（Jyotish）分析工具，属于 fortune-telling-skills 运势测算套件。基于印度吠陀占星体系，
-  使用恒星黄道（Sidereal）计算星盘，涵盖 27 Nakshatras（月宿）、Vimshottari Dasha 大运系统、
-  九曜行星分析。纯 LLM 推理解读（精确星盘计算需要天文引擎），无外部 API 依赖。
-  触发词：吠陀占星、Jyotish、Vedic、月宿、Nakshatra、Dasha、印度占星。
-  不适用于：西方占星（星座运势）、八字命理、塔罗 → 建议使用 fortune-hub。
+  吠陀占星（Jyotish）分析器，基于印度吠陀占星体系，使用恒星黄道（Sidereal）计算星盘，
+  涵盖 27 Nakshatras（月宿）、Vimshottari Dasha 大运系统、九曜行星分析。当用户提及
+  「吠陀占星」「Jyotish」「Vedic」「月宿」「Nakshatra」「Dasha」「印度占星」时触发。
+  纯 LLM 推理解读（精确星盘需天文引擎），无外部 API 依赖。
+  不适用于：西方占星星座运势、八字命理、塔罗占卜、紫微斗数等其他领域 → 建议使用 fortune-hub 路由。
 license: MIT
 compatibility:
   platforms:
@@ -262,6 +262,10 @@ metadata:
 - **八字/紫微/塔罗/风水** → 建议使用 fortune-hub 选择对应领域 Skill
 - **精确天文计算** → 需要天文引擎（Kerykeion/Astropy），本 Skill 为知识解读
 - **心理咨询/医疗建议** → 本 Skill 仅供自我探索，不替代专业服务
+
+## 原子化设计
+
+本 Skill 仅负责「吠陀占星（Jyotish）」这一个原子化能力。不包含西方星座运势、八字命理、紫微斗数、六爻易经、塔罗占卜等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
 
 ## 免责声明
 

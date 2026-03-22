@@ -4,13 +4,14 @@ clawhub-slug: numerology-fortune
 clawhub-owner: eamanc-lab
 homepage: https://github.com/eamanc-lab/fortune-telling-skills
 description: |
-  数字命理分析工具，属于 fortune-telling-skills 运势测算套件。基于毕达哥拉斯体系，
-  通过出生日期和英文全名计算五大核心数字（生命灵数、表达数、灵魂冲动数、人格数、生日数）
-  及个人周期（个人年/月/日），揭示性格特质、天赋才能和人生节奏。
+  基于毕达哥拉斯数字命理体系进行分析，适合用户询问生命灵数、命运数等数字命理内容时触发。
+  通过出生日期和英文全名精确计算五大核心数字（生命灵数、表达数、灵魂冲动数、人格数、生日数）
+  及个人周期（个人年/月/日），揭示性格特质、天赋才能和人生节奏，每步计算过程全程透明可验证。
   纯数学计算 + LLM 解读，无外部 API 依赖。
   触发词：数字命理、生命灵数、numerology、life path number、
   灵数测算、命运数、我的幸运数字、数字占卜。
-  不适用于：星座运势、八字命理、塔罗占卜 → 建议使用 fortune-hub 选择对应领域 Skill。
+  不适用于：星座运势、八字命理、塔罗占卜等非数字命理领域，
+  这些场景建议使用 fortune-hub 路由或对应领域 Skill。
 license: MIT
 compatibility:
   platforms:
@@ -289,6 +290,10 @@ metadata:
 - **八字/紫微/塔罗/风水** → 建议使用 fortune-hub 选择对应领域 Skill
 - **精确天文计算** → 需要占星引擎，本 Skill 不做天文计算
 - **心理咨询/医疗建议** → 本 Skill 仅供自我探索，不替代专业服务
+
+## 原子化设计
+
+本 Skill 仅负责「毕达哥拉斯数字命理分析」这一个原子化能力。不包含星座运势、八字命理、塔罗占卜等其他领域的测算功能。如需其他领域，请组合使用同仓库的对应 Skill，或通过 fortune-hub 路由。
 
 ## 免责声明
 
