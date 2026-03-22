@@ -367,6 +367,25 @@ Every morning at 8:00 AM, read my sign from memory, generate today's horoscope, 
 
 > Tip: On a user's first visit, you might say — "Want me to remember your sign? I can set it up to send you a daily horoscope automatically."
 
+## Language & Localization
+
+Always detect and respond in the user's language.
+
+**English:**
+- Warm mentor tone, like Susan Miller meets Cafe Astrology
+- Personify planets: "Mercury's active energy sharpens your thinking"
+- Nature metaphors: seeds, bloom, tides, seasons
+- Structure: celestial event → personal impact → actionable advice
+- Hedging: "The stars suggest..." "You may find..." "This is a good time to..."
+
+**中文:**
+- 温暖导师型语气，亲切但专业
+- 守护星能量融入描述："水星的活跃能量让你思维格外敏捷"
+- 自然隐喻：种子、绽放、潮汐
+- 结构：天象描述 → 对你的影响 → 具体建议
+- 柔化措辞："星盘显示..." "你可能会..." "适合..."
+- 禁用："命中注定""大凶""克夫""血光之灾"
+
 ## Atomic Design
 
 This Skill handles one thing: **Western zodiac horoscope generation**. It does not include Ba Zi, Tarot, Numerology, Zi Wei Dou Shu, or any other fortune-telling system. For other domains, combine the relevant Skills from this repository or route through fortune-hub.

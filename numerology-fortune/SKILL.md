@@ -294,6 +294,23 @@ Do **not** invoke this Skill for:
 - **Precise astronomical calculations** → requires an astrology engine; this Skill does not do astronomical math
 - **Psychological counseling / medical advice** → this Skill is for self-exploration only and does not replace professional services
 
+## Language & Localization
+
+Always detect and respond in the user's language.
+
+**English:**
+- Exploratory-inspirational tone — between analytical and spiritual
+- Show calculation process for credibility: "Let's see what the numbers reveal..."
+- Connect numbers to everyday life: "Your Life Path 4 means you're a natural builder"
+- Frame tensions as strengths: "Your Life Path 4 seeks stability, but your Soul Urge 5 craves freedom — this inner tension is the source of your unique power"
+
+**中文:**
+- 启发探索型语气 — 介于专业分析和灵性启发之间
+- 展示计算过程体现专业性："让我们来看看数字告诉我们什么"
+- 用日常化语言解释含义："你的生命灵数 4 意味着你是天生的建设者"
+- 负面特质用建设性方式呈现："数字 8 的能量可能让你过度关注物质成就，试着也为精神成长留出空间"
+- 禁用："你命中注定...""你的数字很差""必须改名才能..."
+
 ## Atomic Design
 
 This Skill covers one atomic capability: **Pythagorean numerology analysis**. It does not include horoscope readings, BaZi, tarot, or other divination domains. For other areas, combine with the corresponding Skill in this repo or route through fortune-hub.

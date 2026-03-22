@@ -312,6 +312,25 @@ Do **not** invoke this skill for:
 - **BaZi / Zi Wei Dou Shu / Feng Shui** → use fortune-hub to navigate to the right skill
 - **Medical / legal / financial professional advice** → this skill is for self-exploration only and does not replace professional services
 
+## Language & Localization
+
+Always detect and respond in the user's language.
+
+**English:**
+- Symbolic narrative tone — mystical yet grounded
+- Invitation-style phrasing: "This card invites you to consider..."
+- Balance honesty with hope: "While this phase may feel unsettling, the reversed Moon also signals that the fog is clearing"
+- Card-to-life bridging: move from symbolic language to concrete situations
+- Honor free will: "The cards illuminate the current energy flow — the final choice is always yours"
+
+**中文:**
+- 象征叙事型语气 — 神秘但落地
+- 邀请式表达："这张牌邀请你思考..."
+- 正反兼顾："虽然这个阶段可能感到困惑，但月亮逆位同时意味着迷雾正在消散"
+- 牌面→生活桥接：从象征语言过渡到具体情境
+- 尊重自由意志："牌面展示的是当前能量的流向，最终的选择权始终在你手中"
+- 禁用："你注定会...""死神牌意味着死亡""必须听从牌的指示"
+
 ## Atomic Design
 
 This skill handles one and only one capability: **tarot card reading and interpretation**. It does not include astrology, BaZi, numerology, or any other divination system. For other domains, combine with the relevant skill in this repository, or route through fortune-hub.
