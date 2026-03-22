@@ -1,6 +1,8 @@
 <p align="center">
   <h1 align="center">Fortune Telling Skills</h1>
   <p align="center">
+    <strong>10 divination systems in one Claude Code skill suite — from Horoscope to Feng Shui</strong>
+    <br/>
     <strong>覆盖 10 大玄学体系的 Claude Code Skill 套件 — 从星座到风水，一套搞定</strong>
   </p>
 </p>
@@ -14,46 +16,59 @@
 
 ---
 
-中西方主流运势测算体系的 Claude Code Skill 集合。每个 Skill **独立可用**，也可通过 `fortune-hub` 统一入口串联使用。纯 LLM 推理 + 确定性计算，无外部 API 依赖。
+A collection of Claude Code Skills covering major Eastern and Western divination systems. Each skill works **independently** or connects through `fortune-hub` as a unified entry point. Pure LLM reasoning + deterministic calculation, no external API required.
 
-## 亮点
+## Highlights
 
-- **10 大玄学领域**：星座、数字命理、塔罗、八字、紫微、梅花、六爻、吠陀、奇门、风水
-- **即装即用**：每个 Skill 独立运行，无需配置 API Key 或外部服务
-- **智能记忆**：用户信息一次录入，跨 Skill 自动复用（双源 MEMORY.md 机制）
-- **统一入口**：不确定要算什么？`fortune-hub` 引导你选择最合适的领域
-- **安全表达**：全部 Skill 遵循统一的表达伦理——赋权而非预测，禁止恐吓性语言
+- **10 Divination Domains** — Horoscope, Numerology, Tarot, Bazi, Zi Wei, Meihua, Liu Yao, Vedic, Qi Men, Feng Shui
+- **Zero Config** — Each skill runs standalone, no API keys or external services needed
+- **Smart Memory** — Enter your birth info once, all skills auto-share via dual-source `MEMORY.md`
+- **Unified Entry** — Not sure what you need? `fortune-hub` guides you to the right domain
+- **Bilingual** — Western skills (Horoscope, Tarot, Numerology, Vedic) respond in English or Chinese based on user language; Eastern skills (Bazi, Zi Wei, etc.) are Chinese-native
+- **Ethical Expression** — All skills follow unified guidelines: empower, never frighten; suggest, never dictate
 
-## Skills 一览
+## Skills
 
-| Skill | 领域 | 一句话说明 | 所需信息 |
-|-------|------|----------|---------|
-| [fortune-hub](fortune-hub/) | 统一入口 | 引导选择领域 + 收集信息 + 智能路由 | — |
-| [horoscope-daily](horoscope-daily/) | 星座运势 | 日/周/月运势，五大维度评分 + 幸运指南 | 出生日期 |
-| [numerology-fortune](numerology-fortune/) | 数字命理 | 生命灵数等 5 大核心数字 + 个人年周期 | 出生日期 + 英文全名 |
-| [tarot-reading](tarot-reading/) | 塔罗占卜 | 78 张牌义 + 5 种牌阵 + 组合解读 | 具体问题 |
+### Western Systems (English + Chinese)
+
+| Skill | Domain | Description | Input |
+|-------|--------|-------------|-------|
+| [horoscope-daily](horoscope-daily/) | Horoscope | Daily/weekly/monthly forecasts, 5 dimensions + lucky guide | Birthday |
+| [numerology-fortune](numerology-fortune/) | Numerology | Life Path, Expression, Soul Urge & 2 more core numbers | Birthday + full name |
+| [tarot-reading](tarot-reading/) | Tarot | 78-card RWS deck, 5 spreads, elemental interaction rules | Your question |
+| [vedic-astrology](vedic-astrology/) | Vedic / Jyotish | 27 Nakshatras + Vimshottari Dasha system | Birthday + time + birthplace |
+
+### Eastern Systems (Chinese 中文)
+
+| Skill | 领域 | 说明 | 所需信息 |
+|-------|------|------|---------|
 | [bazi-fortune](bazi-fortune/) | 八字四柱 | 四柱排盘 + 十神 + 大运流年 | 出生日期 + 时辰 + 性别 |
-| [meihua-yishu](meihua-yishu/) | 梅花易数 | 时间/数字/文字起卦 + 体用断卦 | 具体问题 |
 | [ziwei-fortune](ziwei-fortune/) | 紫微斗数 | 十四主星排盘 + 十二宫 + 四化 | 农历生日 + 时辰 + 性别 |
+| [meihua-yishu](meihua-yishu/) | 梅花易数 | 时间/数字/文字起卦 + 体用断卦 | 具体问题 |
 | [liuyao-yijing](liuyao-yijing/) | 六爻易经 | 铜钱起卦 + 纳甲装卦 + 六亲断卦 | 具体问题 |
-| [vedic-astrology](vedic-astrology/) | 吠陀占星 | 27 Nakshatras + Dasha 大运 | 出生日期 + 时间 + 出生地 |
 | [qimen-dunjia](qimen-dunjia/) | 奇门遁甲 | 九宫四层盘面 + 格局判断 | 具体问题 |
 | [fengshui-advisor](fengshui-advisor/) | 风水顾问 | 八宅本命卦 + 玄空飞星 | 出生年份 + 性别 |
 
-## 快速开始
+### Hub
 
-### 安装（选一种）
+| Skill | Description |
+|-------|-------------|
+| [fortune-hub](fortune-hub/) | Unified entry point — guides domain selection, collects info, routes to the right skill |
 
-**通过 ClawHub：**
+## Quick Start
+
+### Install
+
+**Via ClawHub (recommended):**
 
 ```bash
 npx clawhub@latest install fortune-hub
 npx clawhub@latest install horoscope-daily
 npx clawhub@latest install tarot-reading
-# ... 按需安装其他 skill
+# install others as needed
 ```
 
-**手动安装：**
+**Manual:**
 
 ```bash
 git clone git@github.com:eamanc-lab/fortune-telling-skills.git
@@ -61,55 +76,54 @@ ln -s $(pwd)/fortune-telling-skills/fortune-hub ~/.claude/skills/fortune-hub
 ln -s $(pwd)/fortune-telling-skills/horoscope-daily ~/.claude/skills/horoscope-daily
 ```
 
-### 使用
+### Usage
 
 ```
-# 不确定要什么？让 fortune-hub 引导
-"帮我看看运势"        →  展示 10 个领域菜单
-"帮我算算"            →  引导选择
+# Not sure what you need? Let fortune-hub guide you
+"Help me check my fortune"     →  shows 10-domain menu
+"What's my luck today?"        →  guided selection
 
-# 直接使用具体 Skill
-"白羊座今日运势"       →  horoscope-daily
-"帮我算生命灵数"       →  numerology-fortune
-"塔罗占卜，问事业"     →  tarot-reading
-"帮我排八字"          →  bazi-fortune
-"起一卦"             →  meihua-yishu
-"紫微斗数排盘"        →  ziwei-fortune
-"六爻占卜"           →  liuyao-yijing
-"吠陀占星分析"        →  vedic-astrology
-"奇门遁甲排盘"        →  qimen-dunjia
-"看看风水"           →  fengshui-advisor
+# Use a specific skill directly
+"Aries horoscope today"        →  horoscope-daily
+"Calculate my life path number" →  numerology-fortune
+"Tarot reading for career"     →  tarot-reading
+"Vedic chart analysis"         →  vedic-astrology
+"帮我排八字"                    →  bazi-fortune
+"起一卦"                       →  meihua-yishu
+"紫微斗数排盘"                  →  ziwei-fortune
+"六爻占卜"                     →  liuyao-yijing
+"奇门遁甲排盘"                  →  qimen-dunjia
+"看看风水"                     →  fengshui-advisor
 ```
 
-## 架构
+## Architecture
 
 ```
 fortune-telling-skills/
-├── fortune-hub/              ← 统一入口（引导 + 信息收集 + 共享记忆）
+├── fortune-hub/              ← Unified entry (routing + info collection + shared memory)
 │
-├── horoscope-daily/          ← 星座运势（12 星座知识库 + 日/周/月格式）
-├── numerology-fortune/       ← 数字命理（毕达哥拉斯体系 + 数字含义库）
-├── tarot-reading/            ← 塔罗占卜（78 牌义 + 5 牌阵 + 解读规则）
+├── horoscope-daily/          ← Horoscope (12-sign knowledge base, daily/weekly/monthly)
+├── numerology-fortune/       ← Numerology (Pythagorean system + number meanings)
+├── tarot-reading/            ← Tarot (78 card meanings + 5 spreads + interpretation rules)
+├── vedic-astrology/          ← Vedic (Nakshatra + Dasha + Navagraha)
 │
-├── bazi-fortune/             ← 八字四柱（排盘 + 十神 + 神煞 + 大运）
-├── meihua-yishu/             ← 梅花易数（起卦 + 64 卦 + 万物类象）
-├── ziwei-fortune/            ← 紫微斗数（安星 + 十四主星 + 四化）
-├── liuyao-yijing/            ← 六爻易经（纳甲 + 八宫 64 卦 + 六亲六神）
-│
-├── vedic-astrology/          ← 吠陀占星（Nakshatra + Dasha + 九曜）
-├── qimen-dunjia/             ← 奇门遁甲（九宫 + 九星八门八神 + 格局）
-└── fengshui-advisor/         ← 风水顾问（八宅 + 飞星 + 三元九运）
+├── bazi-fortune/             ← 八字 (Four Pillars + Ten Gods + Major Cycles)
+├── ziwei-fortune/            ← 紫微 (14 Major Stars + 12 Palaces + Four Transformations)
+├── meihua-yishu/             ← 梅花 (Hexagram casting + Ti-Yong interpretation)
+├── liuyao-yijing/            ← 六爻 (Na-Jia system + Six Relatives + Six Spirits)
+├── qimen-dunjia/             ← 奇门 (Nine Palaces + Stars/Gates/Spirits/Stems)
+└── fengshui-advisor/         ← 风水 (Ba Zhai + Flying Stars + San Yuan Nine Periods)
 ```
 
-### 记忆系统
+### Memory System
 
-每个 Skill 独立存储用户信息（`MEMORY.md`，gitignored），支持**双源读取**：
+Each skill stores user data independently (`MEMORY.md`, gitignored), with **dual-source reading**:
 
-1. **本 Skill 的 `MEMORY.md`** — 最优先，含领域专属数据
-2. **`fortune-hub/MEMORY.md`** — 补充共享字段（生日、时辰、性别等）
+1. **This skill's `MEMORY.md`** — highest priority, includes domain-specific data
+2. **`fortune-hub/MEMORY.md`** — supplements shared fields (birthday, birth time, gender, etc.)
 
-用户只需提供一次出生信息，所有 Skill 自动复用。每个 Skill 也能独立运行——不依赖 fortune-hub。
+Enter your birth info once, every skill reuses it automatically. Each skill also runs fully standalone — no dependency on fortune-hub.
 
-## 许可证
+## License
 
 [MIT](LICENSE)
