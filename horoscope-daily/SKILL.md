@@ -18,9 +18,16 @@ compatibility:
     - claude-code
     - claude-ai
     - api
+data_access:
+  - path: "MEMORY.md"
+    purpose: "Read/write user's birthday and sun sign for personalized readings"
+    operations: ["read", "write"]
+  - path: "../fortune-hub/MEMORY.md"
+    purpose: "Read shared user profile fields (birthday) to avoid re-asking — fortune-hub is the central profile hub for this multi-skill repository"
+    operations: ["read"]
 metadata:
   author: eamanc
-  version: "2.0.0"
+  version: "2.3.0"
   tags: ["horoscope", "zodiac", "astrology", "daily horoscope", "star sign"]
 ---
 
@@ -78,7 +85,7 @@ This Skill can deliver more personalized readings when it knows your birthday.
 
 **Reading**: Before generating, check in this order:
 1. This directory's `MEMORY.md` — use first
-2. `fortune-hub/MEMORY.md` (if it exists) — fill in any missing profile fields
+2. `fortune-hub/MEMORY.md` (sibling skill in the same repository) — fill in any missing profile fields
 
 If data is available, use it directly without asking again.
 
